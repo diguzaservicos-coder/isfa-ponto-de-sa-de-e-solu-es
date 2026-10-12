@@ -157,15 +157,30 @@
     "category": "Equipamentos médicos e hospitalares",
     "brand": "",
     "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
+    "shortDescription": "Balança mecânica de mostrador, com acabamento cromado e plataforma antiderrapante.",
+    "description": "Balança mecânica para adultos com mostrador analógico, acabamento cromado e duas áreas de apoio para os pés em superfície antiderrapante preta. O mostrador indica capacidade de 160 kg e graduação de 1 kg.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "Mecânica, de mostrador"
+      },
+      {
+        "label": "Capacidade indicada no mostrador",
+        "value": "160 kg"
+      },
+      {
+        "label": "Graduação indicada no mostrador",
+        "value": "1 kg"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:balanca",
+    "images": [
+      "builtin:balanca"
+    ],
     "featured": false,
     "order": 9,
     "updatedAt": "2026-10-11T21:00:00.000Z"
@@ -271,15 +286,30 @@
     "category": "Equipamentos laboratoriais",
     "brand": "",
     "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
+    "shortDescription": "Microscópio óptico binocular com corpo branco, platina preta e revólver com várias objetivas.",
+    "description": "Microscópio óptico binocular com corpo branco e platina preta com pinça de fixação da lâmina. Tem cabeça binocular com duas oculares, revólver com várias objetivas, botões de focagem e base com iluminação.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "Óptico, binocular"
+      },
+      {
+        "label": "Cor do corpo",
+        "value": "Branco"
+      },
+      {
+        "label": "Platina",
+        "value": "Preta, com pinça para lâmina"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:microscopio-optico",
+    "images": [
+      "builtin:microscopio-optico"
+    ],
     "featured": false,
     "order": 15,
     "updatedAt": "2026-10-11T21:00:00.000Z"
@@ -289,16 +319,31 @@
     "reference": "",
     "category": "Equipamentos laboratoriais",
     "brand": "",
-    "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
+    "model": "HH-4",
+    "shortDescription": "Banho-maria com termóstato digital e quatro furos com tampas azuis, modelo HH-4.",
+    "description": "Banho-maria laboratorial com a inscrição \"Thermostat Water Bath HH-4\" no painel frontal. Tem tampa superior em aço inox com quatro furos fechados por tampas de silicone azuis, controlador digital de temperatura e interruptor de ligar/desligar.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Modelo indicado no painel",
+        "value": "HH-4"
+      },
+      {
+        "label": "Furos",
+        "value": "4, com tampas azuis"
+      },
+      {
+        "label": "Controlo",
+        "value": "Digital, com interruptor ON/OFF"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:banho-maria",
+    "images": [
+      "builtin:banho-maria"
+    ],
     "featured": false,
     "order": 16,
     "updatedAt": "2026-10-11T21:00:00.000Z"
@@ -358,15 +403,30 @@
     "category": "Mobilidade e reabilitação",
     "brand": "",
     "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
+    "shortDescription": "Cadeira de rodas elétrica com estrutura azul, assento acolchoado cinzento e apoios de pés.",
+    "description": "Cadeira de rodas elétrica com estrutura de cor azul, assento e costas acolchoados em cinzento e preto, apoios de braços e apoios de pés com tira de apoio às pernas. Tem rodas traseiras maiores com sistema motorizado e uma caixa preta junto a elas. A fotografia mostra o assento ainda protegido com plástico.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Cor da estrutura",
+        "value": "Azul"
+      },
+      {
+        "label": "Assento e costas",
+        "value": "Acolchoados, cinzento e preto"
+      },
+      {
+        "label": "Tipo",
+        "value": "Elétrica"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:cadeira-eletrica",
+    "images": [
+      "builtin:cadeira-eletrica"
+    ],
     "featured": false,
     "order": 19,
     "updatedAt": "2026-10-11T21:00:00.000Z"
@@ -377,15 +437,30 @@
     "category": "Mobilidade e reabilitação",
     "brand": "",
     "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
+    "shortDescription": "Par de muletas de antebraço em alumínio, com altura regulável e ponteiras de borracha.",
+    "description": "Par de muletas com tubo em alumínio de altura regulável (furos de ajuste visíveis), apoio de antebraço e punho em cinzento e ponteira de borracha.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Material do tubo",
+        "value": "Alumínio"
+      },
+      {
+        "label": "Altura",
+        "value": "Regulável"
+      },
+      {
+        "label": "Apoio",
+        "value": "De antebraço, com punho"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:muletas",
+    "images": [
+      "builtin:muletas"
+    ],
     "featured": false,
     "order": 20,
     "updatedAt": "2026-10-11T21:00:00.000Z"
