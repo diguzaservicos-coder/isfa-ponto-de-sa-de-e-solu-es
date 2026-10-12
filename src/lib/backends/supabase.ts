@@ -1,6 +1,6 @@
 import { PHOTO_BUCKET, supabase } from "../supabaseClient";
 import { byOrder, Product, slugify } from "../products";
-import { Backend, newProductId, prepareImage, StockMovement } from "./types";
+import { AuthState, Backend, newProductId, prepareImage, StockMovement } from "./types";
 
 // Destino de produção: Supabase (Postgres + Auth + Storage). A segurança está nas políticas RLS de supabase/schema.sql.
 
@@ -98,16 +98,29 @@ export const supabaseBackend: Backend = {
 
   watchAuth(cb) {
     let active = true;
+    const out = (a: AuthState) => active && cb(a);
     const check = async (session: any) => {
-      if (!session) return active && cb({ loading: false, signedIn: false, isAdmin: false, email: null });
-      const { data } = await db().rpc("is_admin");
-      if (active) cb({ loading: false, signedIn: true, isAdmin: data === true, email: session.user?.email ?? null });
+      if (!session) return out({ loading: false, signedIn: false, isAdmin: false, email: null });
+      const email = session.user?.email ?? null;
+      const { data, error } = await db().rpc("is_admin");
+      if (error) {
+        // Falha ao verificar a permissão (rede, função em falta…): não dizer que a conta "não tem permissão".
+        return out({
+          loading: false,
+          signedIn: true,
+          isAdmin: false,
+          email,
+          error: "Não foi possível verificar a permissão de administrador. Confirme que o ficheiro schema.sql foi executado no Supabase.",
+        });
+      }
+      out({ loading: false, signedIn: true, isAdmin: data === true, email });
     };
-    void db()
+    db()
       .auth.getSession()
-      .then(({ data }) => check(data.session));
+      .then(({ data }) => check(data.session))
+      .catch(() => out({ loading: false, signedIn: false, isAdmin: false, email: null }));
     const { data: sub } = db().auth.onAuthStateChange((_event, session) => {
-      setTimeout(() => void check(session), 0);
+      setTimeout(() => void check(session).catch(() => undefined), 0);
     });
     return () => {
       active = false;
@@ -116,8 +129,22 @@ export const supabaseBackend: Backend = {
   },
 
   async signIn(email, password) {
-    const { error } = await db().auth.signInWithPassword({ email: email.trim(), password });
-    if (error) throw new Error("Email ou palavra-passe incorretos.");
+    let res;
+    try {
+      res = await db().auth.signInWithPassword({ email: email.trim(), password });
+    } catch {
+      throw new Error("Não foi possível ligar ao servidor. Verifique a ligação à internet e tente de novo.");
+    }
+    const { error } = res;
+    if (!error) return;
+    const code = (error as any).code as string | undefined;
+    const status = (error as any).status as number | undefined;
+    if (code === "email_not_confirmed") throw new Error("O email ainda não foi confirmado. No Supabase, confirme o utilizador (Auto Confirm User).");
+    if (code === "invalid_credentials" || status === 400) throw new Error("Email ou palavra-passe incorretos.");
+    if (status === 429 || code === "over_request_rate_limit") throw new Error("Demasiadas tentativas. Aguarde alguns minutos e tente de novo.");
+    if (!status || /fetch|network/i.test(error.message)) throw new Error("Não foi possível ligar ao servidor. Verifique a ligação à internet e tente de novo.");
+    if (code === "invalid_api_key" || status === 401) throw new Error("Chave do Supabase inválida. Confirme VITE_SUPABASE_ANON_KEY na Vercel e faça Redeploy.");
+    throw new Error("Não foi possível iniciar sessão (" + (code || status) + ").");
   },
 
   async signOut() {

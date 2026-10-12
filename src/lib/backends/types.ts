@@ -9,7 +9,7 @@ export type StockMovement = {
   at: string;
 };
 
-export type AuthState = { loading: boolean; signedIn: boolean; isAdmin: boolean; email: string | null };
+export type AuthState = { loading: boolean; signedIn: boolean; isAdmin: boolean; email: string | null; error?: string };
 
 /** Contrato comum aos dois destinos de dados: pré-visualização (plataforma) e produção (Supabase). */
 export interface Backend {

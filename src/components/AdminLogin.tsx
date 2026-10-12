@@ -1,7 +1,7 @@
 import { FormEvent, useState } from "react";
 import { signIn, signOut } from "../lib/store";
 
-export default function AdminLogin({ onBack, notAdminEmail, unavailable }: { onBack: () => void; notAdminEmail?: string | null; unavailable?: string }) {
+export default function AdminLogin({ onBack, notAdminEmail, unavailable, authError }: { onBack: () => void; notAdminEmail?: string | null; unavailable?: string; authError?: string }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -28,7 +28,12 @@ export default function AdminLogin({ onBack, notAdminEmail, unavailable }: { onB
       <form onSubmit={submit} className="w-full max-w-sm space-y-4 rounded-2xl bg-white p-6 shadow-sm ring-1 ring-slate-200 sm:p-8">
         <h1 className="text-xl font-extrabold text-isfa-blue-dark">Gestão de produtos</h1>
         <p className="text-sm text-slate-600">Entre com a conta da equipa da ISFA.</p>
-        {notAdminEmail && (
+        {authError && (
+          <p role="alert" className="rounded-lg bg-red-50 px-3 py-2 text-sm text-red-700">
+            {authError}
+          </p>
+        )}
+        {notAdminEmail && !authError && (
           <p role="alert" className="rounded-lg bg-amber-50 px-3 py-2 text-sm text-amber-800">
             A conta {notAdminEmail} não tem permissão de gestão.{" "}
             <button type="button" onClick={() => void signOut()} className="font-semibold underline">

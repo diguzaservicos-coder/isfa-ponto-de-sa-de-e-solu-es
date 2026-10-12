@@ -94,10 +94,13 @@ export default function Home() {
         <AdminLogin
           onBack={goSite}
           notAdminEmail={auth.signedIn ? auth.email : null}
+          authError={auth.error}
           unavailable={
             auth.mode === "supabase"
               ? undefined
-              : "O início de sessão fica ativo no site publicado, depois de ligar o Supabase (ver README). Nesta pré-visualização a gestão abre automaticamente para quem tem permissão de edição."
+              : import.meta.env.PROD && auth.mode === "dev"
+                ? "Este site foi publicado sem as variáveis VITE_SUPABASE_URL e VITE_SUPABASE_ANON_KEY. Na Vercel, abra Settings > Environment Variables, adicione-as e faça Redeploy."
+                : "O início de sessão fica ativo no site publicado, depois de ligar o Supabase (ver README). Nesta pré-visualização a gestão abre automaticamente para quem tem permissão de edição."
           }
         />
       );
