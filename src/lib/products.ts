@@ -6,6 +6,12 @@ import imgBanho from "../assets/banho-maria.webp";
 import imgCadeiraEletrica from "../assets/cadeira-eletrica.webp";
 import imgMuletas from "../assets/muletas.webp";
 import imgBalanca from "../assets/balanca.webp";
+import imgMaleta from "../assets/maleta-medica.webp";
+import imgAspirador from "../assets/aspirador-secrecoes.webp";
+import imgBombaSeringa from "../assets/bomba-seringa.webp";
+import imgCadeira2 from "../assets/cadeira-rodas-2.webp";
+import imgMonitor from "../assets/monitor.webp";
+import imgMuletasAxila from "../assets/muletas-axila.webp";
 import seed from "../data/seed.json";
 import { photoUrl } from "./supabaseClient";
 import { hasPlatform } from "./claude";
@@ -46,6 +52,12 @@ const builtin: Record<string, string> = {
   "cadeira-eletrica": imgCadeiraEletrica,
   "muletas": imgMuletas,
   "balanca": imgBalanca,
+  "maleta-medica": imgMaleta,
+  "aspirador-secrecoes": imgAspirador,
+  "bomba-seringa": imgBombaSeringa,
+  "cadeira-rodas-2": imgCadeira2,
+  "monitor": imgMonitor,
+  "muletas-axila": imgMuletasAxila,
 };
 
 /** Converte a referência guardada (fotografia incluída na página ou id de ficheiro carregado) num endereço. */

@@ -24,15 +24,30 @@
     "category": "Equipamentos médicos e hospitalares",
     "brand": "",
     "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
+    "shortDescription": "Bomba de seringa (\"Syringe Pump\") com ecrã, teclado numérico e botões START, STOP/CLEAR e BOLUS.",
+    "description": "Bomba de injeção identificada como \"Syringe Pump\". Tem ecrã, teclado numérico de 0 a 9, botões START, STOP/CLEAR, BOLUS, ENTER e PAGE, botões ON e OFF, suporte de fixação da seringa e pega lateral.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Inscrição no aparelho",
+        "value": "Syringe Pump"
+      },
+      {
+        "label": "Comandos",
+        "value": "Teclado numérico, START, STOP/CLEAR, BOLUS, ENTER, PAGE"
+      },
+      {
+        "label": "Ligar/desligar",
+        "value": "Botões ON e OFF"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:bomba-seringa",
+    "images": [
+      "builtin:bomba-seringa"
+    ],
     "featured": false,
     "order": 2,
     "updatedAt": "2026-10-11T21:00:00.000Z"
@@ -43,15 +58,30 @@
     "category": "Equipamentos médicos e hospitalares",
     "brand": "",
     "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
+    "shortDescription": "Aspirador de secreções portátil com frasco de recolha graduado, manómetro e regulador.",
+    "description": "Bomba de aspiração de secreções com corpo branco e pega superior. Tem frasco de recolha transparente e graduado, com tampa cinzenta e duas ligações, e painel frontal com botão regulador, manómetro e interruptor.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Corpo",
+        "value": "Branco, com pega superior"
+      },
+      {
+        "label": "Frasco de recolha",
+        "value": "Transparente, graduado"
+      },
+      {
+        "label": "Painel",
+        "value": "Regulador, manómetro e interruptor"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:aspirador-secrecoes",
+    "images": [
+      "builtin:aspirador-secrecoes"
+    ],
     "featured": false,
     "order": 3,
     "updatedAt": "2026-10-11T21:00:00.000Z"
@@ -62,15 +92,26 @@
     "category": "Equipamentos médicos e hospitalares",
     "brand": "",
     "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
+    "shortDescription": "Monitor com ecrã tátil, corpo branco, botões laterais e botão rotativo.",
+    "description": "Monitor multiparamétrico com ecrã de grandes dimensões, corpo branco, teclas de atalho e botão rotativo no lado direito, e entradas para ligação de sensores no lado esquerdo.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Corpo",
+        "value": "Branco"
+      },
+      {
+        "label": "Comandos",
+        "value": "Teclas de atalho e botão rotativo"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:monitor",
+    "images": [
+      "builtin:monitor"
+    ],
     "featured": false,
     "order": 4,
     "updatedAt": "2026-10-11T21:00:00.000Z"
@@ -372,7 +413,8 @@
     "showStock": false,
     "mainImage": "builtin:cadeira-de-rodas",
     "images": [
-      "builtin:cadeira-de-rodas"
+      "builtin:cadeira-de-rodas",
+      "builtin:cadeira-rodas-2"
     ],
     "featured": false,
     "order": 17,
@@ -471,15 +513,30 @@
     "category": "Mobilidade e reabilitação",
     "brand": "",
     "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
+    "shortDescription": "Par de muletas de axila em alumínio, com altura regulável, apoios e punhos laranja e ponteiras amarelas.",
+    "description": "Par de muletas de axila com tubos em alumínio de altura regulável (furos de ajuste visíveis), apoio de axila e punho em cor laranja-clara e ponteiras de borracha amarelas.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Material do tubo",
+        "value": "Alumínio"
+      },
+      {
+        "label": "Altura",
+        "value": "Regulável"
+      },
+      {
+        "label": "Apoio",
+        "value": "De axila, com punho"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:muletas-axila",
+    "images": [
+      "builtin:muletas-axila"
+    ],
     "featured": false,
     "order": 21,
     "updatedAt": "2026-10-11T21:00:00.000Z"
@@ -528,15 +585,30 @@
     "category": "Acessórios e materiais de apoio clínico",
     "brand": "",
     "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
+    "shortDescription": "Maleta em alumínio prateado com símbolo da cruz vermelha, pega superior e dois fechos com chave.",
+    "description": "Maleta médica em alumínio de acabamento prateado texturado, com cantos reforçados, pega superior e dois fechos metálicos com fechadura. Tem o símbolo da cruz vermelha na frente.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Alumínio, acabamento prateado"
+      },
+      {
+        "label": "Fecho",
+        "value": "Dois fechos metálicos com chave"
+      },
+      {
+        "label": "Pega",
+        "value": "Superior"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:maleta-medica",
+    "images": [
+      "builtin:maleta-medica"
+    ],
     "featured": false,
     "order": 24,
     "updatedAt": "2026-10-11T21:00:00.000Z"
