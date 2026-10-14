@@ -14,6 +14,22 @@ import imgMonitor from "../assets/monitor.webp";
 import imgMuletasAxila from "../assets/muletas-axila.webp";
 import imgBombaInfusao from "../assets/bomba-infusao.webp";
 import imgLencoisAzuis from "../assets/lencois-azuis.webp";
+import img_cadeira_cromada from "../assets/cadeira-cromada.webp";
+import img_nebulizador_compressor from "../assets/nebulizador-compressor.webp";
+import img_fluxometro_oxigenio from "../assets/fluxometro-oxigenio.webp";
+import img_tensiometro_digital from "../assets/tensiometro-digital.webp";
+import img_esfigmo_manual from "../assets/esfigmo-manual.webp";
+import img_nebulizador_portatil from "../assets/nebulizador-portatil.webp";
+import img_termometro_infravermelho from "../assets/termometro-infravermelho.webp";
+import img_balanca_pediatrica from "../assets/balanca-pediatrica.webp";
+import img_teste_gravidez from "../assets/teste-gravidez.webp";
+import img_bomba_upalm from "../assets/bomba-upalm.webp";
+import img_teste_hiv from "../assets/teste-hiv.webp";
+import img_kit_100 from "../assets/kit-100.webp";
+import img_kit_bolsa from "../assets/kit-bolsa.webp";
+import img_kit_25 from "../assets/kit-25.webp";
+import img_banho_maria_2 from "../assets/banho-maria-2.webp";
+import img_banho_maria_3 from "../assets/banho-maria-3.webp";
 import seed from "../data/seed.json";
 import { photoUrl } from "./supabaseClient";
 import { hasPlatform } from "./claude";
@@ -62,6 +78,22 @@ const builtin: Record<string, string> = {
   "muletas-axila": imgMuletasAxila,
   "bomba-infusao": imgBombaInfusao,
   "lencois-azuis": imgLencoisAzuis,
+  "cadeira-cromada": img_cadeira_cromada,
+  "nebulizador-compressor": img_nebulizador_compressor,
+  "fluxometro-oxigenio": img_fluxometro_oxigenio,
+  "tensiometro-digital": img_tensiometro_digital,
+  "esfigmo-manual": img_esfigmo_manual,
+  "nebulizador-portatil": img_nebulizador_portatil,
+  "termometro-infravermelho": img_termometro_infravermelho,
+  "balanca-pediatrica": img_balanca_pediatrica,
+  "teste-gravidez": img_teste_gravidez,
+  "bomba-upalm": img_bomba_upalm,
+  "teste-hiv": img_teste_hiv,
+  "kit-100": img_kit_100,
+  "kit-bolsa": img_kit_bolsa,
+  "kit-25": img_kit_25,
+  "banho-maria-2": img_banho_maria_2,
+  "banho-maria-3": img_banho_maria_3,
 };
 
 /** Converte a referência guardada (fotografia incluída na página ou id de ficheiro carregado) num endereço. */

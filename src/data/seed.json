@@ -23,7 +23,8 @@
     "showStock": false,
     "mainImage": "builtin:bomba-infusao",
     "images": [
-      "builtin:bomba-infusao"
+      "builtin:bomba-infusao",
+      "builtin:bomba-upalm"
     ],
     "featured": false,
     "order": 1,
@@ -394,7 +395,9 @@
     "showStock": false,
     "mainImage": "builtin:banho-maria",
     "images": [
-      "builtin:banho-maria"
+      "builtin:banho-maria",
+      "builtin:banho-maria-2",
+      "builtin:banho-maria-3"
     ],
     "featured": false,
     "order": 16,
@@ -425,7 +428,8 @@
     "mainImage": "builtin:cadeira-de-rodas",
     "images": [
       "builtin:cadeira-de-rodas",
-      "builtin:cadeira-rodas-2"
+      "builtin:cadeira-rodas-2",
+      "builtin:cadeira-cromada"
     ],
     "featured": false,
     "order": 17,
@@ -755,5 +759,369 @@
     "featured": false,
     "order": 29,
     "updatedAt": "2026-10-11T21:00:00.000Z"
+  },
+  "nebulizador-de-compressor": {
+    "name": "Nebulizador de compressor",
+    "reference": "",
+    "category": "Equipamentos médicos e hospitalares",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Nebulizador de compressor com corpo branco e tampa azul transparente, com acessórios embalados.",
+    "description": "Nebulizador de compressor com corpo branco e tampa azul transparente. Acompanha acessórios embalados em saco plástico.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "Compressor"
+      },
+      {
+        "label": "Cor",
+        "value": "Branco e azul"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:nebulizador-compressor",
+    "images": [
+      "builtin:nebulizador-compressor"
+    ],
+    "featured": false,
+    "order": 30,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  "fluxometro-de-oxigenio-com-humidificador": {
+    "name": "Fluxómetro de oxigénio com humidificador",
+    "reference": "",
+    "category": "Equipamentos médicos e hospitalares",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Fluxómetro de oxigénio com manómetro e frasco humidificador transparente.",
+    "description": "Fluxómetro de oxigénio com tubo de caudal transparente, válvula azul marcada O2, manómetro de cor verde e frasco humidificador transparente com tampa azul. Vem embalado em saco plástico.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Componentes",
+        "value": "Fluxómetro, manómetro e frasco humidificador"
+      },
+      {
+        "label": "Gás",
+        "value": "O2"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:fluxometro-oxigenio",
+    "images": [
+      "builtin:fluxometro-oxigenio"
+    ],
+    "featured": false,
+    "order": 31,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  "esfigmomanometro-digital-de-braco": {
+    "name": "Esfigmomanómetro digital de braço",
+    "reference": "",
+    "category": "Equipamentos médicos e hospitalares",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Medidor de tensão arterial digital com braçadeira, ecrã e botões MEM, SET e START/STOP.",
+    "description": "Medidor de tensão arterial digital de braço, com ecrã, botões MEM, SET e START/STOP e braçadeira preta.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "Digital, de braço"
+      },
+      {
+        "label": "Botões",
+        "value": "MEM, SET, START/STOP"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:tensiometro-digital",
+    "images": [
+      "builtin:tensiometro-digital"
+    ],
+    "featured": false,
+    "order": 32,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  "esfigmomanometro-manual-com-estetoscopio": {
+    "name": "Esfigmomanómetro manual com estetoscópio",
+    "reference": "",
+    "category": "Equipamentos médicos e hospitalares",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Esfigmomanómetro manual com braçadeira preta, pera de insuflação e estetoscópio.",
+    "description": "Esfigmomanómetro manual com braçadeira preta, pera de insuflação, manómetro e estetoscópio.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "Manual"
+      },
+      {
+        "label": "Inclui",
+        "value": "Braçadeira, pera e estetoscópio"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:esfigmo-manual",
+    "images": [
+      "builtin:esfigmo-manual"
+    ],
+    "featured": false,
+    "order": 33,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  "nebulizador-portatil": {
+    "name": "Nebulizador portátil",
+    "reference": "",
+    "category": "Equipamentos médicos e hospitalares",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Nebulizador portátil de mão, em branco e azul, com máscara transparente.",
+    "description": "Nebulizador portátil de mão, com corpo branco e azul, copo para medicamento e máscara transparente.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "Portátil, de mão"
+      },
+      {
+        "label": "Inclui",
+        "value": "Máscara"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:nebulizador-portatil",
+    "images": [
+      "builtin:nebulizador-portatil"
+    ],
+    "featured": false,
+    "order": 34,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  "termometro-infravermelho": {
+    "name": "Termómetro infravermelho",
+    "reference": "",
+    "category": "Equipamentos médicos e hospitalares",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Termómetro infravermelho de mão com ecrã retroiluminado.",
+    "description": "Termómetro infravermelho de mão, em branco, com ecrã retroiluminado.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "Infravermelho, de mão"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:termometro-infravermelho",
+    "images": [
+      "builtin:termometro-infravermelho"
+    ],
+    "featured": false,
+    "order": 35,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  "balanca-pediatrica": {
+    "name": "Balança pediátrica",
+    "reference": "",
+    "category": "Equipamentos médicos e hospitalares",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Balança pediátrica mecânica com tabuleiro, capacidade de 20 kg e graduação de 100 g.",
+    "description": "Balança pediátrica mecânica com tabuleiro branco. A etiqueta indica capacidade de 20 kg e graduação de 100 g (modelo YRBB-20).\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Capacidade",
+        "value": "20 kg"
+      },
+      {
+        "label": "Graduação",
+        "value": "100 g"
+      },
+      {
+        "label": "Modelo",
+        "value": "YRBB-20"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:balanca-pediatrica",
+    "images": [
+      "builtin:balanca-pediatrica"
+    ],
+    "featured": false,
+    "order": 36,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  "teste-rapido-de-gravidez": {
+    "name": "Teste rápido de gravidez",
+    "reference": "",
+    "category": "Equipamentos laboratoriais",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Caixa de testes rápidos de gravidez, marca Mamãe Perfeita, com 40 unidades.",
+    "description": "Teste rápido de gravidez de uma etapa, da marca Mamãe Perfeita. Caixa com 40 unidades. Seguir as instruções da embalagem.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Mamãe Perfeita"
+      },
+      {
+        "label": "Quantidade",
+        "value": "40 unidades"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:teste-gravidez",
+    "images": [
+      "builtin:teste-gravidez"
+    ],
+    "featured": false,
+    "order": 37,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  "teste-rapido-de-hiv": {
+    "name": "Teste rápido de HIV",
+    "reference": "",
+    "category": "Equipamentos laboratoriais",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Dispositivo de teste rápido de HIV, marca Preciso, para diagnóstico in vitro.",
+    "description": "Dispositivo de teste rápido de HIV, da marca Preciso, para utilização em diagnóstico in vitro. A embalagem indica conservação entre 2 e 30 °C.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Preciso"
+      },
+      {
+        "label": "Utilização",
+        "value": "Diagnóstico in vitro"
+      },
+      {
+        "label": "Conservação",
+        "value": "2 a 30 °C"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:teste-hiv",
+    "images": [
+      "builtin:teste-hiv"
+    ],
+    "featured": false,
+    "order": 38,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  "kit-de-primeiros-socorros-para-100-pessoas": {
+    "name": "Kit de primeiros socorros para 100 pessoas",
+    "reference": "",
+    "category": "Acessórios e materiais de apoio clínico",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Caixa de primeiros socorros em plástico laranja, referência GKB300, para 100 pessoas.",
+    "description": "Caixa de primeiros socorros em plástico laranja com pega. A etiqueta indica referência GKB300 e «For 100 People».\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Referência",
+        "value": "GKB300"
+      },
+      {
+        "label": "Indicação da caixa",
+        "value": "Para 100 pessoas"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:kit-100",
+    "images": [
+      "builtin:kit-100"
+    ],
+    "featured": false,
+    "order": 39,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  "kit-de-primeiros-socorros-para-25-pessoas": {
+    "name": "Kit de primeiros socorros para 25 pessoas",
+    "reference": "",
+    "category": "Acessórios e materiais de apoio clínico",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Caixa de primeiros socorros em plástico laranja, referência GKB301, para 25 pessoas.",
+    "description": "Caixa de primeiros socorros em plástico laranja com pega. A etiqueta indica referência GKB301 e «For 25 People».\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Referência",
+        "value": "GKB301"
+      },
+      {
+        "label": "Indicação da caixa",
+        "value": "Para 25 pessoas"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:kit-25",
+    "images": [
+      "builtin:kit-25"
+    ],
+    "featured": false,
+    "order": 40,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  "kit-de-primeiros-socorros-em-bolsa": {
+    "name": "Kit de primeiros socorros em bolsa",
+    "reference": "",
+    "category": "Acessórios e materiais de apoio clínico",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Estojo de primeiros socorros portátil, vermelho, com cruz branca.",
+    "description": "Estojo portátil de primeiros socorros, em tecido vermelho com cruz branca, embalado em plástico.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Formato",
+        "value": "Estojo portátil"
+      },
+      {
+        "label": "Cor",
+        "value": "Vermelho"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:kit-bolsa",
+    "images": [
+      "builtin:kit-bolsa"
+    ],
+    "featured": false,
+    "order": 41,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
   }
 }
