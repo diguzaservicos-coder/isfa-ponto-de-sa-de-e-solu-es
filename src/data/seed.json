@@ -134,15 +134,22 @@
     "category": "Equipamentos médicos e hospitalares",
     "brand": "",
     "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
+    "shortDescription": "Eletrocardiógrafo portátil branco, com ecrã a cores e botões vermelho e verde.",
+    "description": "Eletrocardiógrafo portátil em caixa branca, com ecrã e a indicação «ELECTROCARDIOGRAPH», botão vermelho, botão verde e compartimento tapado na parte inferior.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "Portátil, com ecrã"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:ecg",
+    "images": [
+      "builtin:ecg"
+    ],
     "featured": false,
     "order": 5,
     "updatedAt": "2026-10-11T21:00:00.000Z"
@@ -153,15 +160,22 @@
     "category": "Equipamentos médicos e hospitalares",
     "brand": "",
     "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
+    "shortDescription": "Eletrocardiógrafo portátil branco, com ecrã a cores e botões vermelho e verde.",
+    "description": "Eletrocardiógrafo portátil em caixa branca, com ecrã e a indicação «ELECTROCARDIOGRAPH», botão vermelho, botão verde e compartimento tapado na parte inferior.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "Portátil, com ecrã"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:ecg",
+    "images": [
+      "builtin:ecg"
+    ],
     "featured": false,
     "order": 6,
     "updatedAt": "2026-10-11T21:00:00.000Z"
@@ -172,15 +186,22 @@
     "category": "Equipamentos médicos e hospitalares",
     "brand": "",
     "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
+    "shortDescription": "Eletrocardiógrafo portátil branco, com ecrã a cores e botões vermelho e verde.",
+    "description": "Eletrocardiógrafo portátil em caixa branca, com ecrã e a indicação «ELECTROCARDIOGRAPH», botão vermelho, botão verde e compartimento tapado na parte inferior.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "Portátil, com ecrã"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:ecg",
+    "images": [
+      "builtin:ecg"
+    ],
     "featured": false,
     "order": 7,
     "updatedAt": "2026-10-11T21:00:00.000Z"
@@ -191,15 +212,22 @@
     "category": "Equipamentos médicos e hospitalares",
     "brand": "",
     "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
+    "shortDescription": "Eletrocardiógrafo portátil branco, com ecrã a cores e botões vermelho e verde.",
+    "description": "Eletrocardiógrafo portátil em caixa branca, com ecrã e a indicação «ELECTROCARDIOGRAPH», botão vermelho, botão verde e compartimento tapado na parte inferior.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "Portátil, com ecrã"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:ecg",
+    "images": [
+      "builtin:ecg"
+    ],
     "featured": false,
     "order": 8,
     "updatedAt": "2026-10-11T21:00:00.000Z"
