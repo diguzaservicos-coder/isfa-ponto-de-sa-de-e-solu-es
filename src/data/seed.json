@@ -5,15 +5,26 @@
     "category": "Equipamentos médicos e hospitalares",
     "brand": "",
     "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
+    "shortDescription": "Bomba de infusão portátil com ecrã, teclado numérico e pega lateral.",
+    "description": "Bomba de infusão portátil em caixa branca e cinzenta, com ecrã, teclado numérico, teclas de início e paragem e pega lateral.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "Portátil, com pega lateral"
+      },
+      {
+        "label": "Controlo",
+        "value": "Ecrã e teclado numérico"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:bomba-infusao",
+    "images": [
+      "builtin:bomba-infusao"
+    ],
     "featured": false,
     "order": 1,
     "updatedAt": "2026-10-11T21:00:00.000Z"
@@ -619,15 +630,26 @@
     "category": "Acessórios e materiais de apoio clínico",
     "brand": "",
     "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
+    "shortDescription": "Lençóis hospitalares azuis, embalados individualmente em plástico.",
+    "description": "Lençóis hospitalares em tecido azul, embalados em plástico transparente.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Cor",
+        "value": "Azul"
+      },
+      {
+        "label": "Embalagem",
+        "value": "Plástico transparente"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:lencois-azuis",
+    "images": [
+      "builtin:lencois-azuis"
+    ],
     "featured": false,
     "order": 25,
     "updatedAt": "2026-10-11T21:00:00.000Z"

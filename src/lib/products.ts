@@ -12,6 +12,8 @@ import imgBombaSeringa from "../assets/bomba-seringa.webp";
 import imgCadeira2 from "../assets/cadeira-rodas-2.webp";
 import imgMonitor from "../assets/monitor.webp";
 import imgMuletasAxila from "../assets/muletas-axila.webp";
+import imgBombaInfusao from "../assets/bomba-infusao.webp";
+import imgLencoisAzuis from "../assets/lencois-azuis.webp";
 import seed from "../data/seed.json";
 import { photoUrl } from "./supabaseClient";
 import { hasPlatform } from "./claude";
@@ -58,6 +60,8 @@ const builtin: Record<string, string> = {
   "cadeira-rodas-2": imgCadeira2,
   "monitor": imgMonitor,
   "muletas-axila": imgMuletasAxila,
+  "bomba-infusao": imgBombaInfusao,
+  "lencois-azuis": imgLencoisAzuis,
 };
 
 /** Converte a referência guardada (fotografia incluída na página ou id de ficheiro carregado) num endereço. */
@@ -81,7 +85,7 @@ export function formatPrice(p: Pick<Product, "price" | "showPrice">): string {
   if (p.showPrice && p.price !== null && p.price !== undefined) {
     return new Intl.NumberFormat("pt-PT", { maximumFractionDigits: 2 }).format(p.price) + " Kz";
   }
-  return "Preço sob consulta";
+  return "Sem preço";
 }
 
 const str = (v: unknown): string => (typeof v === "string" ? v : "");

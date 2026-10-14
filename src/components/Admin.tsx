@@ -487,7 +487,7 @@ function ProductForm({
             className={input}
             value={priceText}
             onChange={(e) => setPriceText(e.target.value)}
-            placeholder="Vazio = preço sob consulta"
+            placeholder="Vazio = sem preço"
           />
           <label className="mt-2 flex items-center gap-2 text-sm text-slate-700">
             <input
