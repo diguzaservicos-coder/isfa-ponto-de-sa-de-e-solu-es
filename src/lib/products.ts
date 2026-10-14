@@ -13,6 +13,7 @@ import imgCadeira2 from "../assets/cadeira-rodas-2.webp";
 import imgMonitor from "../assets/monitor.webp";
 import imgMuletasAxila from "../assets/muletas-axila.webp";
 import imgBombaInfusao from "../assets/bomba-infusao.webp";
+import imgCentrifuga from "../assets/centrifuga-800d.webp";
 import imgLencoisAzuis from "../assets/lencois-azuis.webp";
 import img_cadeira_cromada from "../assets/cadeira-cromada.webp";
 import img_nebulizador_compressor from "../assets/nebulizador-compressor.webp";
@@ -78,6 +79,7 @@ const builtin: Record<string, string> = {
   "muletas-axila": imgMuletasAxila,
   "bomba-infusao": imgBombaInfusao,
   "lencois-azuis": imgLencoisAzuis,
+  "centrifuga-800d": imgCentrifuga,
   "cadeira-cromada": img_cadeira_cromada,
   "nebulizador-compressor": img_nebulizador_compressor,
   "fluxometro-oxigenio": img_fluxometro_oxigenio,

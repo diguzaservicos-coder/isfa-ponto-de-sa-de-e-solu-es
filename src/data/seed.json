@@ -282,15 +282,26 @@
     "category": "Equipamentos laboratoriais",
     "brand": "",
     "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
+    "shortDescription": "Centrífuga elétrica 800D, com corpo bege e cinzento e comandos de tempo e velocidade.",
+    "description": "Centrífuga elétrica 800D com tampa cónica bege, corpo cinzento e painel azul com dois comandos rotativos: um de tempo (ON/OFF) e outro de velocidade (SPEED).\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Modelo",
+        "value": "800D"
+      },
+      {
+        "label": "Comandos",
+        "value": "Tempo e velocidade"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:centrifuga-800d",
+    "images": [
+      "builtin:centrifuga-800d"
+    ],
     "featured": false,
     "order": 12,
     "updatedAt": "2026-10-11T21:00:00.000Z"
@@ -301,15 +312,26 @@
     "category": "Equipamentos laboratoriais",
     "brand": "",
     "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
+    "shortDescription": "Centrífuga elétrica 800D, com corpo bege e cinzento e comandos de tempo e velocidade.",
+    "description": "Centrífuga elétrica 800D com tampa cónica bege, corpo cinzento e painel azul com dois comandos rotativos: um de tempo (ON/OFF) e outro de velocidade (SPEED).\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Modelo",
+        "value": "800D"
+      },
+      {
+        "label": "Comandos",
+        "value": "Tempo e velocidade"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:centrifuga-800d",
+    "images": [
+      "builtin:centrifuga-800d"
+    ],
     "featured": false,
     "order": 13,
     "updatedAt": "2026-10-11T21:00:00.000Z"
@@ -320,15 +342,26 @@
     "category": "Equipamentos laboratoriais",
     "brand": "",
     "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
+    "shortDescription": "Centrífuga elétrica 800D, com corpo bege e cinzento e comandos de tempo e velocidade.",
+    "description": "Centrífuga elétrica 800D com tampa cónica bege, corpo cinzento e painel azul com dois comandos rotativos: um de tempo (ON/OFF) e outro de velocidade (SPEED).\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Modelo",
+        "value": "800D"
+      },
+      {
+        "label": "Comandos",
+        "value": "Tempo e velocidade"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:centrifuga-800d",
+    "images": [
+      "builtin:centrifuga-800d"
+    ],
     "featured": false,
     "order": 14,
     "updatedAt": "2026-10-11T21:00:00.000Z"
