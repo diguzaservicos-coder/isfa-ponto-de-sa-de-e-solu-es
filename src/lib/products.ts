@@ -35,6 +35,22 @@ import img_banho_maria_3 from "../assets/banho-maria-3.webp";
 import seed from "../data/seed.json";
 import { photoUrl } from "./supabaseClient";
 import { hasPlatform } from "./claude";
+import img_cama_normal from "../assets/cama-normal.webp";
+import img_autoclave_35 from "../assets/autoclave-35.webp";
+import img_cama_tripartida from "../assets/cama-tripartida.webp";
+import img_bengalas from "../assets/bengalas.webp";
+import img_estufa_50 from "../assets/estufa-50.webp";
+import img_estufa_30 from "../assets/estufa-30.webp";
+import img_estufa_136 from "../assets/estufa-136.webp";
+import img_camara_inalacao from "../assets/camara-inalacao.webp";
+import img_cadeira_colheita from "../assets/cadeira-colheita.webp";
+import img_cadeira_rodas_isfa from "../assets/cadeira-rodas-isfa.webp";
+import img_cama_eletrica from "../assets/cama-eletrica.webp";
+import img_cadeira_infantil_eletrica from "../assets/cadeira-infantil-eletrica.webp";
+import img_autoclave_50 from "../assets/autoclave-50.webp";
+import img_cadeira_multifuncional from "../assets/cadeira-multifuncional.webp";
+import img_higienizacao_sem_rodas from "../assets/higienizacao-sem-rodas.webp";
+import img_higienizacao_rodas from "../assets/higienizacao-rodas.webp";
 
 export type Spec = { label: string; value: string };
 
@@ -76,6 +92,22 @@ const builtin: Record<string, string> = {
   "aspirador-secrecoes": imgAspirador,
   "bomba-seringa": imgBombaSeringa,
   "cadeira-rodas-2": imgCadeira2,
+  "cama-normal": img_cama_normal,
+  "autoclave-35": img_autoclave_35,
+  "cama-tripartida": img_cama_tripartida,
+  "bengalas": img_bengalas,
+  "estufa-50": img_estufa_50,
+  "estufa-30": img_estufa_30,
+  "estufa-136": img_estufa_136,
+  "camara-inalacao": img_camara_inalacao,
+  "cadeira-colheita": img_cadeira_colheita,
+  "cadeira-rodas-isfa": img_cadeira_rodas_isfa,
+  "cama-eletrica": img_cama_eletrica,
+  "cadeira-infantil-eletrica": img_cadeira_infantil_eletrica,
+  "autoclave-50": img_autoclave_50,
+  "cadeira-multifuncional": img_cadeira_multifuncional,
+  "higienizacao-sem-rodas": img_higienizacao_sem_rodas,
+  "higienizacao-rodas": img_higienizacao_rodas,
   "monitor": imgMonitor,
   "muletas-axila": imgMuletasAxila,
   "bomba-infusao": imgBombaInfusao,

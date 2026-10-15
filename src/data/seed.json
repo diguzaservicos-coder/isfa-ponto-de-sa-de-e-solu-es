@@ -272,18 +272,29 @@
     "category": "Equipamentos médicos e hospitalares",
     "brand": "",
     "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
+    "shortDescription": "Cama hospitalar normal, com estrutura branca, grades laterais e colchão azul.",
+    "description": "Cama hospitalar normal com estrutura branca, cabeceira e peseira com painéis azuis, grade lateral e colchão azul, sobre rodízios.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "Normal"
+      },
+      {
+        "label": "Colchão",
+        "value": "Azul"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:cama-normal",
+    "images": [
+      "builtin:cama-normal"
+    ],
     "featured": false,
     "order": 10,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
+    "updatedAt": "2026-10-15T13:00:00.000Z"
   },
   "maca-hospitalar": {
     "name": "Maca hospitalar",
@@ -502,18 +513,25 @@
     "category": "Mobilidade e reabilitação",
     "brand": "",
     "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
+    "shortDescription": "Cadeira de rodas com estrutura metálica e assento e costas em tecido colorido.",
+    "description": "Cadeira de rodas com estrutura metálica cromada, assento e costas em tecido colorido e apoios de pés.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Estrutura",
+        "value": "Metálica"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:cadeira-rodas-isfa",
+    "images": [
+      "builtin:cadeira-rodas-isfa"
+    ],
     "featured": false,
     "order": 18,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
+    "updatedAt": "2026-10-15T13:00:00.000Z"
   },
   "cadeira-de-rodas-eletrica": {
     "name": "Cadeira de rodas elétrica",
@@ -623,18 +641,29 @@
     "category": "Mobilidade e reabilitação",
     "brand": "",
     "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
+    "shortDescription": "Cadeira para higienização com estrutura cromada, assento com tampa e rodízios.",
+    "description": "Cadeira para higienização com estrutura cromada, braços almofadados, assento com tampa e balde, e quatro rodízios.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Estrutura",
+        "value": "Cromada"
+      },
+      {
+        "label": "Rodas",
+        "value": "Com rodízios"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:higienizacao-rodas",
+    "images": [
+      "builtin:higienizacao-rodas"
+    ],
     "featured": false,
     "order": 22,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
+    "updatedAt": "2026-10-15T13:00:00.000Z"
   },
   "cadeira-para-higienizacao-sem-rodas": {
     "name": "Cadeira para higienização sem rodas",
@@ -642,18 +671,29 @@
     "category": "Mobilidade e reabilitação",
     "brand": "",
     "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
+    "shortDescription": "Cadeira para higienização com estrutura cromada e sem rodas.",
+    "description": "Cadeira para higienização com estrutura cromada, braços almofadados, assento com tampa e balde, apoiada em pés com ponteiras de borracha.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Estrutura",
+        "value": "Cromada"
+      },
+      {
+        "label": "Rodas",
+        "value": "Sem rodas"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:higienizacao-sem-rodas",
+    "images": [
+      "builtin:higienizacao-sem-rodas"
+    ],
     "featured": false,
     "order": 23,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
+    "updatedAt": "2026-10-15T13:00:00.000Z"
   },
   "maleta-medica": {
     "name": "Maleta médica",
@@ -1184,5 +1224,333 @@
     "featured": false,
     "order": 41,
     "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  "cama-hospitalar-tri-partida": {
+    "name": "Cama hospitalar tri-partida",
+    "reference": "",
+    "category": "Equipamentos médicos e hospitalares",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Cama hospitalar tri-partida com grades laterais e colchão azul.",
+    "description": "Cama hospitalar tri-partida com estrutura branca, grades laterais em alumínio, painéis azuis na cabeceira e peseira, colchão azul e rodízios.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "Tri-partida"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:cama-tripartida",
+    "images": [
+      "builtin:cama-tripartida"
+    ],
+    "featured": false,
+    "order": 42,
+    "updatedAt": "2026-10-15T13:00:00.000Z"
+  },
+  "cama-hospitalar-eletrica": {
+    "name": "Cama hospitalar elétrica",
+    "reference": "",
+    "category": "Equipamentos médicos e hospitalares",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Cama hospitalar elétrica com grades laterais, colchão azul e comando.",
+    "description": "Cama hospitalar elétrica com grades laterais, painéis azuis na cabeceira e peseira, colchão azul, comando por cabo e rodízios.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "Elétrica"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:cama-eletrica",
+    "images": [
+      "builtin:cama-eletrica"
+    ],
+    "featured": false,
+    "order": 43,
+    "updatedAt": "2026-10-15T13:00:00.000Z"
+  },
+  "cadeira-de-colheita": {
+    "name": "Cadeira de colheita",
+    "reference": "",
+    "category": "Equipamentos médicos e hospitalares",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Cadeira de colheita estofada a azul, com apoio de pernas e suporte de soro.",
+    "description": "Cadeira de colheita com estofo azul, braços acolchoados, apoio de pernas e suporte para soro.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Estofo",
+        "value": "Azul"
+      },
+      {
+        "label": "Inclui",
+        "value": "Apoio de pernas e suporte de soro"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:cadeira-colheita",
+    "images": [
+      "builtin:cadeira-colheita"
+    ],
+    "featured": false,
+    "order": 44,
+    "updatedAt": "2026-10-15T13:00:00.000Z"
+  },
+  "cadeira-de-rodas-multifuncional": {
+    "name": "Cadeira de rodas multifuncional",
+    "reference": "",
+    "category": "Mobilidade e reabilitação",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Cadeira de rodas com encosto alto, apoio de cabeça, cintos e apoios de pernas.",
+    "description": "Cadeira de rodas multifuncional com estrutura cromada, tecido axadrezado, encosto alto com apoio de cabeça, cintos de segurança e apoios de pernas almofadados.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Estrutura",
+        "value": "Cromada"
+      },
+      {
+        "label": "Inclui",
+        "value": "Apoio de cabeça, cintos e apoios de pernas"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:cadeira-multifuncional",
+    "images": [
+      "builtin:cadeira-multifuncional"
+    ],
+    "featured": false,
+    "order": 45,
+    "updatedAt": "2026-10-15T13:00:00.000Z"
+  },
+  "cadeira-de-rodas-eletrica-infantil": {
+    "name": "Cadeira de rodas elétrica infantil",
+    "reference": "",
+    "category": "Mobilidade e reabilitação",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Cadeira de rodas elétrica infantil com comando e assento estampado.",
+    "description": "Cadeira de rodas elétrica infantil com estrutura verde, assento e costas estampados em amarelo, cintos de segurança e comando tipo joystick.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "Elétrica, infantil"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:cadeira-infantil-eletrica",
+    "images": [
+      "builtin:cadeira-infantil-eletrica"
+    ],
+    "featured": false,
+    "order": 46,
+    "updatedAt": "2026-10-15T13:00:00.000Z"
+  },
+  "bengalas": {
+    "name": "Bengalas",
+    "reference": "",
+    "category": "Mobilidade e reabilitação",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Bengalas e canadianas em várias versões.",
+    "description": "Conjunto de apoios de marcha: canadianas de axila em alumínio com apoios em madeira e bengalas de diferentes modelos.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Modelos",
+        "value": "Canadianas e bengalas"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:bengalas",
+    "images": [
+      "builtin:bengalas"
+    ],
+    "featured": false,
+    "order": 47,
+    "updatedAt": "2026-10-15T13:00:00.000Z"
+  },
+  "autoclave-35-litros": {
+    "name": "Autoclave 35 litros",
+    "reference": "",
+    "category": "Equipamentos laboratoriais",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Autoclave vertical a vapor de 35 litros.",
+    "description": "Autoclave vertical a vapor de 35 litros, em aço inoxidável, com tampa azul, manómetro e painel digital.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Capacidade",
+        "value": "35 litros"
+      },
+      {
+        "label": "Tipo",
+        "value": "Esterilizador a vapor vertical"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:autoclave-35",
+    "images": [
+      "builtin:autoclave-35"
+    ],
+    "featured": false,
+    "order": 48,
+    "updatedAt": "2026-10-15T13:00:00.000Z"
+  },
+  "autoclave-50-litros": {
+    "name": "Autoclave 50 litros",
+    "reference": "",
+    "category": "Equipamentos laboratoriais",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Autoclave vertical a vapor de 50 litros.",
+    "description": "Autoclave vertical a vapor de 50 litros, em aço inoxidável, com manómetro, painel digital e rodízios.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Capacidade",
+        "value": "50 litros"
+      },
+      {
+        "label": "Tipo",
+        "value": "Esterilizador a vapor vertical"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:autoclave-50",
+    "images": [
+      "builtin:autoclave-50"
+    ],
+    "featured": false,
+    "order": 49,
+    "updatedAt": "2026-10-15T13:00:00.000Z"
+  },
+  "estufa-30-litros": {
+    "name": "Estufa 30 litros",
+    "reference": "",
+    "category": "Equipamentos laboratoriais",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Estufa laboratorial de 30 litros com porta com visor.",
+    "description": "Estufa laboratorial de 30 litros, com corpo branco e azul, ecrã de controlo e porta com visor, com prateleiras internas.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Capacidade",
+        "value": "30 litros"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:estufa-30",
+    "images": [
+      "builtin:estufa-30"
+    ],
+    "featured": false,
+    "order": 50,
+    "updatedAt": "2026-10-15T13:00:00.000Z"
+  },
+  "estufa-50-litros": {
+    "name": "Estufa 50 litros",
+    "reference": "",
+    "category": "Equipamentos laboratoriais",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Estufa laboratorial de 50 litros com porta com visor.",
+    "description": "Estufa laboratorial de 50 litros, com corpo branco e azul-claro, ecrã de controlo digital e porta com visor, com prateleiras internas.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Capacidade",
+        "value": "50 litros"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:estufa-50",
+    "images": [
+      "builtin:estufa-50"
+    ],
+    "featured": false,
+    "order": 51,
+    "updatedAt": "2026-10-15T13:00:00.000Z"
+  },
+  "estufa-136-litros": {
+    "name": "Estufa 136 litros",
+    "reference": "",
+    "category": "Equipamentos laboratoriais",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Estufa laboratorial de 136 litros com porta com visor.",
+    "description": "Estufa laboratorial de 136 litros, com corpo branco e azul, ecrã de controlo e porta com visor.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Capacidade",
+        "value": "136 litros"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:estufa-136",
+    "images": [
+      "builtin:estufa-136"
+    ],
+    "featured": false,
+    "order": 52,
+    "updatedAt": "2026-10-15T13:00:00.000Z"
+  },
+  "camara-de-inalacao": {
+    "name": "Câmara de inalação",
+    "reference": "",
+    "category": "Acessórios e materiais de apoio clínico",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Câmara de inalação com válvula, embalada em saco plástico.",
+    "description": "Câmara de inalação (câmara de detenção valvulada) com tampa azul, embalada em saco plástico e caixa.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "Câmara de detenção valvulada"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:camara-inalacao",
+    "images": [
+      "builtin:camara-inalacao"
+    ],
+    "featured": false,
+    "order": 53,
+    "updatedAt": "2026-10-15T13:00:00.000Z"
   }
 }
