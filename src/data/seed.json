@@ -28,18 +28,20 @@
     "brand": "",
     "model": "",
     "shortDescription": "Cadeira concebida para pessoas que necessitam de apoio postural específico, podendo incluir suporte para cabeça, tronco e membros.",
-    "description": "Cadeira concebida para pessoas que necessitam de apoio postural específico, podendo incluir suporte para cabeça, tronco e membros.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "description": "Cadeira concebida para pessoas que necessitam de apoio postural específico, podendo incluir suporte para cabeça, tronco e membros.\n\nA foto mostra uma cadeira semelhante, com encosto alto acolchoado e apoios de pernas.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
     "specs": [],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:cadeira-multifuncional",
+    "images": [
+      "builtin:cadeira-multifuncional"
+    ],
     "featured": false,
     "order": 2,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:31:45.000Z"
   },
   "cadeira-de-rodas-robusta": {
     "name": "Cadeira de rodas robusta",
@@ -1234,18 +1236,35 @@
     "brand": "",
     "model": "",
     "shortDescription": "Recipientes utilizados na recolha e conservação de amostras sanguíneas.",
-    "description": "Recipientes utilizados na recolha e conservação de amostras sanguíneas. Existem versões com diferentes volumes e aditivos, consoante o tipo de análise.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
-    "specs": [],
+    "description": "Recipientes utilizados na recolha e conservação de amostras sanguíneas. Existem versões com diferentes volumes e aditivos, consoante o tipo de análise.\n\nEmbalagens de 100 tubos de vidro com tampa de borracha cinzenta, disponíveis nas fotos com anel vermelho, azul-claro e preto. Os rótulos das embalagens indicam tubo de 13×75 mm, em vidro, e os modelos azul e preto indicam citrato de sódio (5 ml).\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Tamanho (conforme rótulo)",
+        "value": "13×75 mm"
+      },
+      {
+        "label": "Material (conforme rótulo)",
+        "value": "Vidro"
+      },
+      {
+        "label": "Unidades por embalagem",
+        "value": "100"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:tubos-sangue-vermelho",
+    "images": [
+      "builtin:tubos-sangue-vermelho",
+      "builtin:tubos-sangue-azul",
+      "builtin:tubos-sangue-preto"
+    ],
     "featured": false,
     "order": 55,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:31:45.000Z"
   },
   "copo-de-colheita-de-urina": {
     "name": "Copo de colheita de urina",
@@ -1254,18 +1273,20 @@
     "brand": "",
     "model": "",
     "shortDescription": "Recipiente destinado à recolha e transporte de amostras de urina, podendo ser estéril ou não estéril, conforme o modelo.",
-    "description": "Recipiente destinado à recolha e transporte de amostras de urina, podendo ser estéril ou não estéril, conforme o modelo.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "description": "Recipiente destinado à recolha e transporte de amostras de urina, podendo ser estéril ou não estéril, conforme o modelo.\n\nCopos transparentes com tampa vermelha e rótulo para identificação, fornecidos em saco plástico transparente.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
     "specs": [],
     "price": null,
     "showPrice": false,
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:copo-urina",
+    "images": [
+      "builtin:copo-urina"
+    ],
     "featured": false,
     "order": 56,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:31:45.000Z"
   },
   "lancetas-de-sangue": {
     "name": "Lancetas de sangue",
@@ -1294,8 +1315,21 @@
     "brand": "",
     "model": "",
     "shortDescription": "Teste de diagnóstico destinado à deteção da hormona hCG, geralmente em amostras de urina.",
-    "description": "Teste de diagnóstico destinado à deteção da hormona hCG, geralmente em amostras de urina.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
-    "specs": [],
+    "description": "Teste de diagnóstico destinado à deteção da hormona hCG, geralmente em amostras de urina.\n\nTeste rápido de uma etapa, com nome \"Mamãe Perfeita\" na caixa. A caixa indica 40 unidades e conservação entre 4 °C e 30 °C.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Nome na caixa",
+        "value": "Mamãe Perfeita"
+      },
+      {
+        "label": "Unidades por caixa",
+        "value": "40"
+      },
+      {
+        "label": "Conservação (conforme caixa)",
+        "value": "4 °C a 30 °C"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
@@ -1303,11 +1337,12 @@
     "inStock": true,
     "mainImage": "builtin:teste-gravidez",
     "images": [
-      "builtin:teste-gravidez"
+      "builtin:teste-gravidez",
+      "builtin:teste-gravidez-caixa"
     ],
     "featured": false,
     "order": 58,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:31:45.000Z"
   },
   "teste-rapido-de-hiv": {
     "name": "Teste de HIV",
@@ -1316,8 +1351,17 @@
     "brand": "",
     "model": "",
     "shortDescription": "Teste de diagnóstico destinado à deteção de marcadores associados à infeção pelo HIV.",
-    "description": "Teste de diagnóstico destinado à deteção de marcadores associados à infeção pelo HIV. O tipo de marcador e a amostra dependem do produto.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
-    "specs": [],
+    "description": "Teste de diagnóstico destinado à deteção de marcadores associados à infeção pelo HIV. O tipo de marcador e a amostra dependem do produto.\n\nDispositivo de teste rápido para diagnóstico in vitro, com nome \"Preciso\" na caixa. A caixa indica conservação entre 2 °C e 30 °C.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Nome na caixa",
+        "value": "Preciso"
+      },
+      {
+        "label": "Conservação (conforme caixa)",
+        "value": "2 °C a 30 °C"
+      }
+    ],
     "price": null,
     "showPrice": false,
     "stock": null,
@@ -1325,11 +1369,12 @@
     "inStock": true,
     "mainImage": "builtin:teste-hiv",
     "images": [
-      "builtin:teste-hiv"
+      "builtin:teste-hiv",
+      "builtin:teste-hiv-caixa"
     ],
     "featured": false,
     "order": 59,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:31:45.000Z"
   },
   "teste-de-malaria": {
     "name": "Teste de malária",
@@ -1709,7 +1754,7 @@
     "brand": "",
     "model": "",
     "shortDescription": "Conjunto de materiais de primeiros socorros identificado para grupos de 10 pessoas.",
-    "description": "Conjunto de materiais de primeiros socorros identificado para grupos de 10 pessoas. A composição deve ser confirmada com o fornecedor.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "description": "Conjunto de materiais de primeiros socorros identificado para grupos de 10 pessoas. A composição deve ser confirmada com o fornecedor.\n\nA foto mostra um estojo portátil vermelho com cruz branca. Conteúdo e quantidades devem ser confirmados com a equipa da ISFA.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
     "specs": [
       {
         "label": "Grupo",
@@ -1721,11 +1766,13 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:kit-bolsa",
+    "images": [
+      "builtin:kit-bolsa"
+    ],
     "featured": false,
     "order": 77,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:31:45.000Z"
   },
   "kit-de-primeiros-socorros-para-25-pessoas": {
     "name": "Kit de primeiros socorros para 25 pessoas",
@@ -1734,11 +1781,15 @@
     "brand": "",
     "model": "",
     "shortDescription": "Kit destinado a grupos de maior dimensão, com conteúdos e quantidades definidos pela versão comercializada.",
-    "description": "Kit destinado a grupos de maior dimensão, com conteúdos e quantidades definidos pela versão comercializada.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "description": "Kit destinado a grupos de maior dimensão, com conteúdos e quantidades definidos pela versão comercializada.\n\nCaixa de plástico vermelha com pega superior e fecho, identificada com o código GKB301 e a indicação \"For 25 People\".\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
     "specs": [
       {
         "label": "Grupo",
         "value": "25 pessoas"
+      },
+      {
+        "label": "Código indicado na caixa",
+        "value": "GKB301"
       }
     ],
     "price": null,
@@ -1752,7 +1803,7 @@
     ],
     "featured": false,
     "order": 78,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:31:45.000Z"
   },
   "kit-de-primeiros-socorros-para-100-pessoas": {
     "name": "Kit de primeiros socorros para 100 pessoas",
@@ -1761,11 +1812,15 @@
     "brand": "",
     "model": "",
     "shortDescription": "Conjunto destinado a organizações e instalações com grupos numerosos.",
-    "description": "Conjunto destinado a organizações e instalações com grupos numerosos. A adequação depende dos riscos e da composição efetiva do kit.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "description": "Conjunto destinado a organizações e instalações com grupos numerosos. A adequação depende dos riscos e da composição efetiva do kit.\n\nCaixa de plástico vermelha com pega superior e fecho, identificada com o código GKB300 e a indicação \"For 100 People\".\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
     "specs": [
       {
         "label": "Grupo",
         "value": "100 pessoas"
+      },
+      {
+        "label": "Código indicado na caixa",
+        "value": "GKB300"
       }
     ],
     "price": null,
@@ -1779,7 +1834,7 @@
     ],
     "featured": false,
     "order": 79,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:31:45.000Z"
   },
   "maleta-medica": {
     "name": "Maleta para primeiros socorros",

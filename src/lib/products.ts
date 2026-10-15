@@ -16,6 +16,12 @@ import imgBombaInfusao from "../assets/bomba-infusao.webp";
 import imgCentrifuga from "../assets/centrifuga-800d.webp";
 import imgEcg from "../assets/ecg.webp";
 import imgLencoisAzuis from "../assets/lencois-azuis.webp";
+import img_tubos_sangue_vermelho from "../assets/tubos-sangue-vermelho.webp";
+import img_tubos_sangue_preto from "../assets/tubos-sangue-preto.webp";
+import img_tubos_sangue_azul from "../assets/tubos-sangue-azul.webp";
+import img_teste_gravidez_caixa from "../assets/teste-gravidez-caixa.webp";
+import img_teste_hiv_caixa from "../assets/teste-hiv-caixa.webp";
+import img_copo_urina from "../assets/copo-urina.webp";
 import img_cadeira_cromada from "../assets/cadeira-cromada.webp";
 import img_nebulizador_compressor from "../assets/nebulizador-compressor.webp";
 import img_fluxometro_oxigenio from "../assets/fluxometro-oxigenio.webp";
@@ -143,6 +149,12 @@ const builtin: Record<string, string> = {
   "olympus-cx23": img_olympus_cx23,
   "bengala-dobravel": img_bengala_dobravel,
   "estufa-136-2": img_estufa_136_2,
+  "tubos-sangue-vermelho": img_tubos_sangue_vermelho,
+  "tubos-sangue-preto": img_tubos_sangue_preto,
+  "tubos-sangue-azul": img_tubos_sangue_azul,
+  "teste-gravidez-caixa": img_teste_gravidez_caixa,
+  "teste-hiv-caixa": img_teste_hiv_caixa,
+  "copo-urina": img_copo_urina,
   "aspirador-manual": img_aspirador_manual,
   "avental-cirurgico": img_avental_cirurgico,
   "banco-laboratorio": img_banco_laboratorio,
