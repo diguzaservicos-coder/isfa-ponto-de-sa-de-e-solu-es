@@ -185,13 +185,16 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "builtin:higienizacao-rodas",
+    "mainImage": "builtin:higienizacao-rodas-2",
     "images": [
-      "builtin:higienizacao-rodas"
+      "builtin:higienizacao-rodas-2",
+      "builtin:higienizacao-rodas",
+      "builtin:cadeira-higienizacao-banho",
+      "builtin:cadeira-higienizacao-4-rodas"
     ],
     "featured": false,
     "order": 9,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T18:30:00.000Z"
   },
   "cadeira-para-higienizacao-sem-rodas": {
     "name": "Cadeira para necessidades sem rodas",
@@ -355,11 +358,13 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:bengala-dobravel",
+    "images": [
+      "builtin:bengala-dobravel"
+    ],
     "featured": false,
     "order": 17,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T18:30:00.000Z"
   },
   "cama-hospitalar": {
     "name": "Cama hospitalar",
@@ -483,11 +488,13 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:cadeira-odontologica",
+    "images": [
+      "builtin:cadeira-odontologica"
+    ],
     "featured": false,
     "order": 23,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T18:30:00.000Z"
   },
   "suporte-de-soro": {
     "name": "Suporte de soro",
@@ -568,11 +575,13 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:carrinho-inox",
+    "images": [
+      "builtin:carrinho-inox"
+    ],
     "featured": false,
     "order": 27,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T18:30:00.000Z"
   },
   "banco-para-laboratorio": {
     "name": "Banco para laboratório",
@@ -704,8 +713,8 @@
     "name": "Oxímetro",
     "reference": "",
     "category": "Equipamentos de diagnóstico e monitorização",
-    "brand": "",
-    "model": "",
+    "brand": "Upalm",
+    "model": "UT100",
     "shortDescription": "Dispositivo que estima a saturação periférica de oxigénio no sangue (SpO2) e geralmente apresenta a frequência do pulso.",
     "description": "Dispositivo que estima a saturação periférica de oxigénio no sangue (SpO2) e geralmente apresenta a frequência do pulso.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
     "specs": [],
@@ -714,11 +723,13 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:oximetro-upalm",
+    "images": [
+      "builtin:oximetro-upalm"
+    ],
     "featured": false,
     "order": 34,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T18:30:00.000Z"
   },
   "balanca-pediatrica": {
     "name": "Balança pediátrica",
@@ -978,11 +989,13 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:olympus-cx23",
+    "images": [
+      "builtin:olympus-cx23"
+    ],
     "featured": false,
     "order": 46,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T18:30:00.000Z"
   },
   "centrifuga-laboratorial-de-6-tubos": {
     "name": "Centrífuga de 6 saídas",
@@ -1030,13 +1043,14 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "builtin:centrifuga-800d",
+    "mainImage": "builtin:centrifuga-24",
     "images": [
+      "builtin:centrifuga-24",
       "builtin:centrifuga-800d"
     ],
     "featured": false,
     "order": 48,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T18:30:00.000Z"
   },
   "centrifuga-de-micro-hematocrito": {
     "name": "Centrífuga de micro-hematócrito",
@@ -1052,11 +1066,13 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:centrifuga-micro-hematocrito",
+    "images": [
+      "builtin:centrifuga-micro-hematocrito"
+    ],
     "featured": false,
     "order": 49,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T18:30:00.000Z"
   },
   "banho-maria-laboratorial": {
     "name": "Banho-maria laboratorial",
@@ -1157,7 +1173,8 @@
     "inStock": true,
     "mainImage": "builtin:estufa-136",
     "images": [
-      "builtin:estufa-136"
+      "builtin:estufa-136",
+      "builtin:estufa-136-2"
     ],
     "featured": false,
     "order": 53,
@@ -1840,7 +1857,8 @@
     "showStock": false,
     "mainImage": "builtin:monitor",
     "images": [
-      "builtin:monitor"
+      "builtin:monitor",
+      "builtin:monitor-2"
     ],
     "featured": false,
     "order": 83,

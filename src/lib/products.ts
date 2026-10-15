@@ -51,6 +51,18 @@ import img_autoclave_50 from "../assets/autoclave-50.webp";
 import img_cadeira_multifuncional from "../assets/cadeira-multifuncional.webp";
 import img_higienizacao_sem_rodas from "../assets/higienizacao-sem-rodas.webp";
 import img_higienizacao_rodas from "../assets/higienizacao-rodas.webp";
+import img_cadeira_higienizacao_4_rodas from "../assets/cadeira-higienizacao-4-rodas.webp";
+import img_carrinho_inox from "../assets/carrinho-inox.webp";
+import img_higienizacao_rodas_2 from "../assets/higienizacao-rodas-2.webp";
+import img_cadeira_higienizacao_banho from "../assets/cadeira-higienizacao-banho.webp";
+import img_centrifuga_micro_hematocrito from "../assets/centrifuga-micro-hematocrito.webp";
+import img_olympus_cx23 from "../assets/olympus-cx23.webp";
+import img_bengala_dobravel from "../assets/bengala-dobravel.webp";
+import img_estufa_136_2 from "../assets/estufa-136-2.webp";
+import img_cadeira_odontologica from "../assets/cadeira-odontologica.webp";
+import img_monitor_2 from "../assets/monitor-2.webp";
+import img_centrifuga_24 from "../assets/centrifuga-24.webp";
+import img_oximetro_upalm from "../assets/oximetro-upalm.webp";
 
 export type Spec = { label: string; value: string };
 
@@ -94,6 +106,18 @@ const builtin: Record<string, string> = {
   "aspirador-secrecoes": imgAspirador,
   "bomba-seringa": imgBombaSeringa,
   "cadeira-rodas-2": imgCadeira2,
+  "cadeira-higienizacao-4-rodas": img_cadeira_higienizacao_4_rodas,
+  "carrinho-inox": img_carrinho_inox,
+  "higienizacao-rodas-2": img_higienizacao_rodas_2,
+  "cadeira-higienizacao-banho": img_cadeira_higienizacao_banho,
+  "centrifuga-micro-hematocrito": img_centrifuga_micro_hematocrito,
+  "olympus-cx23": img_olympus_cx23,
+  "bengala-dobravel": img_bengala_dobravel,
+  "estufa-136-2": img_estufa_136_2,
+  "cadeira-odontologica": img_cadeira_odontologica,
+  "monitor-2": img_monitor_2,
+  "centrifuga-24": img_centrifuga_24,
+  "oximetro-upalm": img_oximetro_upalm,
   "cama-normal": img_cama_normal,
   "autoclave-35": img_autoclave_35,
   "cama-tripartida": img_cama_tripartida,
