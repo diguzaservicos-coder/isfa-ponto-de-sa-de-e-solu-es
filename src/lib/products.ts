@@ -68,6 +68,8 @@ export type Product = {
   showPrice: boolean;
   stock: number | null;
   showStock: boolean;
+  /** Catálogo da ISFA indica "Em stock" sem quantidade exata. */
+  inStock: boolean;
   mainImage: string;
   images: string[];
   featured: boolean;
@@ -141,9 +143,11 @@ export function imageUrl(ref: string | undefined | null): string {
 
 export type Availability = { key: "disponivel" | "limitado" | "sem_stock" | "confirmar"; label: string; classes: string };
 
-export function availability(p: Pick<Product, "stock">): Availability {
-  if (p.stock === null || p.stock === undefined)
+export function availability(p: Pick<Product, "stock"> & { inStock?: boolean }): Availability {
+  if (p.stock === null || p.stock === undefined) {
+    if (p.inStock) return { key: "disponivel", label: "Em stock", classes: "bg-isfa-green-soft text-isfa-green-dark" };
     return { key: "confirmar", label: "Disponibilidade por confirmar", classes: "bg-slate-100 text-slate-600" };
+  }
   if (p.stock <= 0) return { key: "sem_stock", label: "Sem stock", classes: "bg-red-50 text-red-700" };
   if (p.stock <= LOW_STOCK) return { key: "limitado", label: "Stock limitado", classes: "bg-amber-50 text-amber-800" };
   return { key: "disponivel", label: "Disponível", classes: "bg-isfa-green-soft text-isfa-green-dark" };
@@ -179,6 +183,7 @@ export function fromDoc(id: string, d: Record<string, unknown>, published: boole
     showPrice: d.showPrice === true,
     stock: numOrNull(d.stock),
     showStock: d.showStock === true,
+    inStock: d.inStock === true,
     mainImage: main || images[0] || "",
     images,
     featured: d.featured === true,
@@ -193,12 +198,18 @@ export function toDoc(p: Product): Record<string, unknown> {
   return rest;
 }
 
-/** Categorias da lista oficial de materiais da ISFA, pela ordem de apresentação. */
+/** Categorias do catálogo da ISFA, pela ordem de apresentação. */
 export const CATEGORIES = [
-  "Equipamentos médicos e hospitalares",
+  "Mobilidade, acessibilidade e reabilitação",
+  "Camas, macas e mobiliário hospitalar",
+  "Equipamentos de diagnóstico e monitorização",
+  "Equipamentos respiratórios e oxigenoterapia",
   "Equipamentos laboratoriais",
-  "Mobilidade e reabilitação",
-  "Acessórios e materiais de apoio clínico",
+  "Material de colheita, testes e consumíveis clínicos",
+  "Material cirúrgico e esterilização",
+  "Vestuário clínico e proteção individual",
+  "Kits de primeiros socorros",
+  "Outros equipamentos clínicos",
 ];
 export const categoryRank = (c: string) => {
   const i = CATEGORIES.indexOf(c);
@@ -246,6 +257,7 @@ export function blankProduct(order: number): Product {
     showPrice: false,
     stock: null,
     showStock: false,
+    inStock: false,
     mainImage: "",
     images: [],
     featured: false,

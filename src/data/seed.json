@@ -1,8 +1,1758 @@
 {
+  "cadeira-de-rodas-eletrica": {
+    "name": "Cadeira de rodas elétrica para adulto",
+    "reference": "",
+    "category": "Mobilidade, acessibilidade e reabilitação",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Equipamento motorizado destinado a auxiliar a mobilidade de adultos com limitações de locomoção.",
+    "description": "Equipamento motorizado destinado a auxiliar a mobilidade de adultos com limitações de locomoção. As especificações incluem autonomia da bateria, capacidade de carga, velocidade e tipo de comando.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:cadeira-eletrica",
+    "images": [
+      "builtin:cadeira-eletrica"
+    ],
+    "featured": false,
+    "order": 1,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "cadeira-de-rodas-para-paralisia-cerebral": {
+    "name": "Cadeira de rodas para paralisia cerebral",
+    "reference": "",
+    "category": "Mobilidade, acessibilidade e reabilitação",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Cadeira concebida para pessoas que necessitam de apoio postural específico, podendo incluir suporte para cabeça, tronco e membros.",
+    "description": "Cadeira concebida para pessoas que necessitam de apoio postural específico, podendo incluir suporte para cabeça, tronco e membros.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 2,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "cadeira-de-rodas-robusta": {
+    "name": "Cadeira de rodas robusta",
+    "reference": "",
+    "category": "Mobilidade, acessibilidade e reabilitação",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Cadeira manual com estrutura reforçada, destinada a utilizadores que necessitam de maior resistência estrutural.",
+    "description": "Cadeira manual com estrutura reforçada, destinada a utilizadores que necessitam de maior resistência estrutural. A capacidade de carga deve ser confirmada.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:cadeira-rodas-isfa",
+    "images": [
+      "builtin:cadeira-rodas-isfa"
+    ],
+    "featured": false,
+    "order": 3,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "cadeira-de-rodas-infantil-multicolor": {
+    "name": "Cadeira de rodas infantil multicolor",
+    "reference": "",
+    "category": "Mobilidade, acessibilidade e reabilitação",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Cadeira de rodas destinada a crianças com mobilidade reduzida, com cores variadas e dimensões adaptadas ao modelo.",
+    "description": "Cadeira de rodas destinada a crianças com mobilidade reduzida, com cores variadas e dimensões adaptadas ao modelo.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 4,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "cadeira-de-rodas-convencional": {
+    "name": "Cadeira de rodas standard",
+    "reference": "",
+    "category": "Mobilidade, acessibilidade e reabilitação",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Modelo convencional de propulsão manual, geralmente com assento, encosto, rodas traseiras, rodas dianteiras e apoios para os pés.",
+    "description": "Modelo convencional de propulsão manual, geralmente com assento, encosto, rodas traseiras, rodas dianteiras e apoios para os pés.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:cadeira-de-rodas",
+    "images": [
+      "builtin:cadeira-de-rodas",
+      "builtin:cadeira-rodas-2",
+      "builtin:cadeira-cromada"
+    ],
+    "featured": false,
+    "order": 5,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "cadeira-de-rodas-multifuncional": {
+    "name": "Cadeira de rodas multifuncional",
+    "reference": "",
+    "category": "Mobilidade, acessibilidade e reabilitação",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Modelo que pode oferecer diferentes posições e ajustes para melhorar o posicionamento e o conforto do utilizador.",
+    "description": "Modelo que pode oferecer diferentes posições e ajustes para melhorar o posicionamento e o conforto do utilizador.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:cadeira-multifuncional",
+    "images": [
+      "builtin:cadeira-multifuncional"
+    ],
+    "featured": false,
+    "order": 6,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "cadeira-de-rodas-eletrica-infantil": {
+    "name": "Cadeira de rodas automática infantil",
+    "reference": "",
+    "category": "Mobilidade, acessibilidade e reabilitação",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Cadeira motorizada destinada à mobilidade infantil, com características de controlo e segurança próprias do modelo.",
+    "description": "Cadeira motorizada destinada à mobilidade infantil, com características de controlo e segurança próprias do modelo.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:cadeira-infantil-eletrica",
+    "images": [
+      "builtin:cadeira-infantil-eletrica"
+    ],
+    "featured": false,
+    "order": 7,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "cadeira-de-rodas-para-necessidades-especiais": {
+    "name": "Cadeira de rodas para necessidades especiais",
+    "reference": "",
+    "category": "Mobilidade, acessibilidade e reabilitação",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Cadeira destinada a pessoas com necessidades específicas de mobilidade e posicionamento.",
+    "description": "Cadeira destinada a pessoas com necessidades específicas de mobilidade e posicionamento.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 8,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "cadeira-para-higienizacao-com-rodas": {
+    "name": "Cadeira de necessidades com rodas",
+    "reference": "",
+    "category": "Mobilidade, acessibilidade e reabilitação",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Cadeira sanitária móvel, concebida para facilitar a higiene de pessoas com mobilidade reduzida.",
+    "description": "Cadeira sanitária móvel, concebida para facilitar a higiene de pessoas com mobilidade reduzida.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:higienizacao-rodas",
+    "images": [
+      "builtin:higienizacao-rodas"
+    ],
+    "featured": false,
+    "order": 9,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "cadeira-para-higienizacao-sem-rodas": {
+    "name": "Cadeira para necessidades sem rodas",
+    "reference": "",
+    "category": "Mobilidade, acessibilidade e reabilitação",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Cadeira sanitária fixa, normalmente utilizada junto à cama ou em espaços de higiene adaptados.",
+    "description": "Cadeira sanitária fixa, normalmente utilizada junto à cama ou em espaços de higiene adaptados.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:higienizacao-sem-rodas",
+    "images": [
+      "builtin:higienizacao-sem-rodas"
+    ],
+    "featured": false,
+    "order": 10,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "andarilho-normal": {
+    "name": "Andarilho normal",
+    "reference": "",
+    "category": "Mobilidade, acessibilidade e reabilitação",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Dispositivo de apoio à marcha e ao equilíbrio, geralmente com estrutura metálica e pegas de apoio.",
+    "description": "Dispositivo de apoio à marcha e ao equilíbrio, geralmente com estrutura metálica e pegas de apoio.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 11,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "andarilho-com-rodas": {
+    "name": "Andarilho com rodas",
+    "reference": "",
+    "category": "Mobilidade, acessibilidade e reabilitação",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Equipamento de apoio à marcha com rodas que facilitam a deslocação.",
+    "description": "Equipamento de apoio à marcha com rodas que facilitam a deslocação.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 12,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "andarilho-especial": {
+    "name": "Andarilho especial",
+    "reference": "",
+    "category": "Mobilidade, acessibilidade e reabilitação",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Dispositivo de marcha adaptado a necessidades específicas de mobilidade.",
+    "description": "Dispositivo de marcha adaptado a necessidades específicas de mobilidade. A configuração depende do modelo.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 13,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "muletas-convencionais": {
+    "name": "Canadianas",
+    "reference": "",
+    "category": "Mobilidade, acessibilidade e reabilitação",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Dispositivos de apoio à marcha com suporte para o antebraço e pega manual.",
+    "description": "Dispositivos de apoio à marcha com suporte para o antebraço e pega manual.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:muletas",
+    "images": [
+      "builtin:muletas"
+    ],
+    "featured": false,
+    "order": 14,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "muletas-de-axila": {
+    "name": "Muletas de apoio",
+    "reference": "",
+    "category": "Mobilidade, acessibilidade e reabilitação",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Dispositivos utilizados para auxiliar a marcha e reduzir a carga sobre um ou ambos os membros inferiores.",
+    "description": "Dispositivos utilizados para auxiliar a marcha e reduzir a carga sobre um ou ambos os membros inferiores.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:muletas-axila",
+    "images": [
+      "builtin:muletas-axila"
+    ],
+    "featured": false,
+    "order": 15,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "bengalas": {
+    "name": "Bengalas de apoio",
+    "reference": "",
+    "category": "Mobilidade, acessibilidade e reabilitação",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Auxiliares de marcha que proporcionam suporte adicional ao equilíbrio.",
+    "description": "Auxiliares de marcha que proporcionam suporte adicional ao equilíbrio.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:bengalas",
+    "images": [
+      "builtin:bengalas"
+    ],
+    "featured": false,
+    "order": 16,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "bengala-dobravel": {
+    "name": "Bengala dobrável",
+    "reference": "",
+    "category": "Mobilidade, acessibilidade e reabilitação",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Bengala articulada que permite dobragem para facilitar o transporte e a arrumação.",
+    "description": "Bengala articulada que permite dobragem para facilitar o transporte e a arrumação.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 17,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "cama-hospitalar": {
+    "name": "Cama hospitalar",
+    "reference": "",
+    "category": "Camas, macas e mobiliário hospitalar",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Cama destinada ao repouso e aos cuidados de pacientes, podendo incluir grades laterais, rodas e mecanismos de ajuste.",
+    "description": "Cama destinada ao repouso e aos cuidados de pacientes, podendo incluir grades laterais, rodas e mecanismos de ajuste.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:cama-normal",
+    "images": [
+      "builtin:cama-normal"
+    ],
+    "featured": false,
+    "order": 18,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "cama-hospitalar-tri-partida": {
+    "name": "Cama hospitalar tripartida",
+    "reference": "",
+    "category": "Camas, macas e mobiliário hospitalar",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Cama com três secções ajustáveis, permitindo diferentes posições do paciente.",
+    "description": "Cama com três secções ajustáveis, permitindo diferentes posições do paciente.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:cama-tripartida",
+    "images": [
+      "builtin:cama-tripartida"
+    ],
+    "featured": false,
+    "order": 19,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "cama-hospitalar-eletrica": {
+    "name": "Cama hospitalar elétrica",
+    "reference": "",
+    "category": "Camas, macas e mobiliário hospitalar",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Cama com mecanismos motorizados para regular as posições do paciente através de um comando.",
+    "description": "Cama com mecanismos motorizados para regular as posições do paciente através de um comando.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:cama-eletrica",
+    "images": [
+      "builtin:cama-eletrica"
+    ],
+    "featured": false,
+    "order": 20,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "maca-hospitalar": {
+    "name": "Maca para transporte",
+    "reference": "",
+    "category": "Camas, macas e mobiliário hospitalar",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Equipamento utilizado para transportar pacientes dentro de hospitais, clínicas e outras unidades de saúde.",
+    "description": "Equipamento utilizado para transportar pacientes dentro de hospitais, clínicas e outras unidades de saúde.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 21,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "cadeira-de-colheita": {
+    "name": "Cadeira de colheita",
+    "reference": "",
+    "category": "Camas, macas e mobiliário hospitalar",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Cadeira utilizada em procedimentos de colheita de sangue e outros procedimentos clínicos.",
+    "description": "Cadeira utilizada em procedimentos de colheita de sangue e outros procedimentos clínicos.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:cadeira-colheita",
+    "images": [
+      "builtin:cadeira-colheita"
+    ],
+    "featured": false,
+    "order": 22,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "cadeira-odontologica": {
+    "name": "Cadeira odontológica",
+    "reference": "",
+    "category": "Camas, macas e mobiliário hospitalar",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Equipamento destinado ao posicionamento do paciente durante tratamentos e exames dentários.",
+    "description": "Equipamento destinado ao posicionamento do paciente durante tratamentos e exames dentários.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 23,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "suporte-de-soro": {
+    "name": "Suporte de soro",
+    "reference": "",
+    "category": "Camas, macas e mobiliário hospitalar",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Estrutura utilizada para suspender bolsas ou frascos de soluções de infusão.",
+    "description": "Estrutura utilizada para suspender bolsas ou frascos de soluções de infusão.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 24,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "biombo-de-4-telas": {
+    "name": "Biombo de 4 telas",
+    "reference": "",
+    "category": "Camas, macas e mobiliário hospitalar",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Divisória hospitalar composta por quatro painéis, utilizada para preservar a privacidade dos pacientes.",
+    "description": "Divisória hospitalar composta por quatro painéis, utilizada para preservar a privacidade dos pacientes.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Painéis",
+        "value": "4"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 25,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "carrinho-de-medicacao": {
+    "name": "Carrinho de medicação",
+    "reference": "",
+    "category": "Camas, macas e mobiliário hospitalar",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Carrinho para organização e transporte de medicamentos e materiais de administração clínica.",
+    "description": "Carrinho para organização e transporte de medicamentos e materiais de administração clínica.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 26,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "carrinho-de-tratamento": {
+    "name": "Carrinho de tratamento",
+    "reference": "",
+    "category": "Camas, macas e mobiliário hospitalar",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Equipamento móvel para transportar instrumentos e materiais utilizados em procedimentos e cuidados clínicos.",
+    "description": "Equipamento móvel para transportar instrumentos e materiais utilizados em procedimentos e cuidados clínicos.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 27,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "banco-para-laboratorio": {
+    "name": "Banco para laboratório",
+    "reference": "",
+    "category": "Camas, macas e mobiliário hospitalar",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Assento destinado a profissionais que trabalham em laboratórios, podendo ter altura regulável.",
+    "description": "Assento destinado a profissionais que trabalham em laboratórios, podendo ter altura regulável.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 28,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "esfigmomanometro-manual-com-estetoscopio": {
+    "name": "Esfigmomanómetro manual",
+    "reference": "",
+    "category": "Equipamentos de diagnóstico e monitorização",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Instrumento utilizado para medir a pressão arterial, geralmente composto por braçadeira, manómetro e insuflador.",
+    "description": "Instrumento utilizado para medir a pressão arterial, geralmente composto por braçadeira, manómetro e insuflador.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:esfigmo-manual",
+    "images": [
+      "builtin:esfigmo-manual"
+    ],
+    "featured": false,
+    "order": 29,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "esfigmomanometro-digital-de-braco": {
+    "name": "Esfigmomanómetro digital",
+    "reference": "",
+    "category": "Equipamentos de diagnóstico e monitorização",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Aparelho eletrónico que mede a pressão arterial e apresenta os resultados num visor digital.",
+    "description": "Aparelho eletrónico que mede a pressão arterial e apresenta os resultados num visor digital.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:tensiometro-digital",
+    "images": [
+      "builtin:tensiometro-digital"
+    ],
+    "featured": false,
+    "order": 30,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "estetoscopio": {
+    "name": "Estetoscópio",
+    "reference": "",
+    "category": "Equipamentos de diagnóstico e monitorização",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Instrumento utilizado para auscultar sons cardíacos, respiratórios e outros sons corporais.",
+    "description": "Instrumento utilizado para auscultar sons cardíacos, respiratórios e outros sons corporais.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 31,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "termometro-infravermelho": {
+    "name": "Termómetro infravermelho",
+    "reference": "",
+    "category": "Equipamentos de diagnóstico e monitorização",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Equipamento que mede a temperatura através da deteção de radiação infravermelha, geralmente sem contacto direto.",
+    "description": "Equipamento que mede a temperatura através da deteção de radiação infravermelha, geralmente sem contacto direto.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:termometro-infravermelho",
+    "images": [
+      "builtin:termometro-infravermelho"
+    ],
+    "featured": false,
+    "order": 32,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "termometro-digital": {
+    "name": "Termómetro digital",
+    "reference": "",
+    "category": "Equipamentos de diagnóstico e monitorização",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Instrumento eletrónico para medição da temperatura corporal.",
+    "description": "Instrumento eletrónico para medição da temperatura corporal.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 33,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "oximetro": {
+    "name": "Oxímetro",
+    "reference": "",
+    "category": "Equipamentos de diagnóstico e monitorização",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Dispositivo que estima a saturação periférica de oxigénio no sangue (SpO2) e geralmente apresenta a frequência do pulso.",
+    "description": "Dispositivo que estima a saturação periférica de oxigénio no sangue (SpO2) e geralmente apresenta a frequência do pulso.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 34,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "balanca-pediatrica": {
+    "name": "Balança pediátrica",
+    "reference": "",
+    "category": "Equipamentos de diagnóstico e monitorização",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Equipamento destinado à pesagem de bebés e crianças pequenas, com capacidade e precisão adequadas ao modelo.",
+    "description": "Equipamento destinado à pesagem de bebés e crianças pequenas, com capacidade e precisão adequadas ao modelo.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:balanca-pediatrica",
+    "images": [
+      "builtin:balanca-pediatrica"
+    ],
+    "featured": false,
+    "order": 35,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "nebulizador-de-compressor": {
+    "name": "Nebulizador compressor",
+    "reference": "",
+    "category": "Equipamentos respiratórios e oxigenoterapia",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Equipamento que transforma uma solução adequada em aerossol através de ar comprimido, para administração por inalação.",
+    "description": "Equipamento que transforma uma solução adequada em aerossol através de ar comprimido, para administração por inalação.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:nebulizador-compressor",
+    "images": [
+      "builtin:nebulizador-compressor"
+    ],
+    "featured": false,
+    "order": 36,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "nebulizador-portatil": {
+    "name": "Nebulizador de mão",
+    "reference": "",
+    "category": "Equipamentos respiratórios e oxigenoterapia",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Dispositivo portátil para nebulização, cuja tecnologia pode variar conforme o fabricante.",
+    "description": "Dispositivo portátil para nebulização, cuja tecnologia pode variar conforme o fabricante.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:nebulizador-portatil",
+    "images": [
+      "builtin:nebulizador-portatil"
+    ],
+    "featured": false,
+    "order": 37,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "camara-de-inalacao": {
+    "name": "Câmara para inalação",
+    "reference": "",
+    "category": "Equipamentos respiratórios e oxigenoterapia",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Acessório que facilita a administração de medicamentos em aerossol através de determinados inaladores.",
+    "description": "Acessório que facilita a administração de medicamentos em aerossol através de determinados inaladores.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:camara-inalacao",
+    "images": [
+      "builtin:camara-inalacao"
+    ],
+    "featured": false,
+    "order": 38,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "fluxometro-de-oxigenio-com-humidificador": {
+    "name": "Fluxómetro de oxigénio",
+    "reference": "",
+    "category": "Equipamentos respiratórios e oxigenoterapia",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Dispositivo que permite regular e visualizar o fluxo de oxigénio fornecido por uma fonte compatível.",
+    "description": "Dispositivo que permite regular e visualizar o fluxo de oxigénio fornecido por uma fonte compatível.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:fluxometro-oxigenio",
+    "images": [
+      "builtin:fluxometro-oxigenio"
+    ],
+    "featured": false,
+    "order": 39,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "concentrador-de-oxigenio": {
+    "name": "Concentrador de oxigénio",
+    "reference": "",
+    "category": "Equipamentos respiratórios e oxigenoterapia",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Equipamento que concentra o oxigénio presente no ar ambiente para utilização em oxigenoterapia, conforme indicação clínica.",
+    "description": "Equipamento que concentra o oxigénio presente no ar ambiente para utilização em oxigenoterapia, conforme indicação clínica.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 40,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "concentrador-de-oxigenio-de-5-l": {
+    "name": "Concentrador de oxigénio de 5 L",
+    "reference": "",
+    "category": "Equipamentos respiratórios e oxigenoterapia",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Concentrador identificado pela capacidade nominal de 5 litros por minuto.",
+    "description": "Concentrador identificado pela capacidade nominal de 5 litros por minuto. O fluxo efetivo e a concentração de saída dependem do modelo.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Capacidade nominal",
+        "value": "5 litros por minuto"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 41,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "concentrador-de-oxigenio-duplo": {
+    "name": "Concentrador de oxigénio duplo",
+    "reference": "",
+    "category": "Equipamentos respiratórios e oxigenoterapia",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Equipamento designado como duplo, cuja configuração de saídas e capacidade devem ser confirmadas.",
+    "description": "Equipamento designado como duplo, cuja configuração de saídas e capacidade devem ser confirmadas.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Configuração",
+        "value": "Duplo"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 42,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "bomba-de-aspiracao-de-secrecoes": {
+    "name": "Aspirador de secreções",
+    "reference": "",
+    "category": "Equipamentos respiratórios e oxigenoterapia",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Equipamento que utiliza pressão negativa para aspirar secreções, normalmente com recipiente coletor e tubos.",
+    "description": "Equipamento que utiliza pressão negativa para aspirar secreções, normalmente com recipiente coletor e tubos.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:aspirador-secrecoes",
+    "images": [
+      "builtin:aspirador-secrecoes"
+    ],
+    "featured": false,
+    "order": 43,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "aspirador-de-secrecoes-manual": {
+    "name": "Aspirador de secreções manual",
+    "reference": "",
+    "category": "Equipamentos respiratórios e oxigenoterapia",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Dispositivo de aspiração acionado manualmente, destinado a situações compatíveis com as suas características técnicas.",
+    "description": "Dispositivo de aspiração acionado manualmente, destinado a situações compatíveis com as suas características técnicas.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 44,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "microscopio-optico-binocular": {
+    "name": "Microscópio binocular óptico",
+    "reference": "",
+    "category": "Equipamentos laboratoriais",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Instrumento com duas oculares utilizado para observar amostras ampliadas.",
+    "description": "Instrumento com duas oculares utilizado para observar amostras ampliadas. As ampliações e as objetivas dependem da configuração.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:microscopio-optico",
+    "images": [
+      "builtin:microscopio-optico"
+    ],
+    "featured": false,
+    "order": 45,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "microscopio-olympus-cx23": {
+    "name": "Microscópio Olympus CX23",
+    "reference": "",
+    "category": "Equipamentos laboratoriais",
+    "brand": "Olympus",
+    "model": "CX23",
+    "shortDescription": "Modelo específico de microscópio óptico binocular.",
+    "description": "Modelo específico de microscópio óptico binocular. A configuração de objetivas, iluminação e acessórios deve ser confirmada na unidade comercializada.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 46,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "centrifuga-laboratorial-de-6-tubos": {
+    "name": "Centrífuga de 6 saídas",
+    "reference": "",
+    "category": "Equipamentos laboratoriais",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Equipamento laboratorial para separação de componentes de amostras por rotação, identificado pela capacidade indicada de seis posições.",
+    "description": "Equipamento laboratorial para separação de componentes de amostras por rotação, identificado pela capacidade indicada de seis posições.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Capacidade",
+        "value": "6 posições"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:centrifuga-800d",
+    "images": [
+      "builtin:centrifuga-800d"
+    ],
+    "featured": false,
+    "order": 47,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "centrifuga-laboratorial-de-24-tubos": {
+    "name": "Centrífuga de 24 saídas",
+    "reference": "",
+    "category": "Equipamentos laboratoriais",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Centrífuga identificada pela capacidade de 24 posições, cuja compatibilidade com os tubos depende do rotor.",
+    "description": "Centrífuga identificada pela capacidade de 24 posições, cuja compatibilidade com os tubos depende do rotor.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Capacidade",
+        "value": "24 posições"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:centrifuga-800d",
+    "images": [
+      "builtin:centrifuga-800d"
+    ],
+    "featured": false,
+    "order": 48,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "centrifuga-de-micro-hematocrito": {
+    "name": "Centrífuga de micro-hematócrito",
+    "reference": "",
+    "category": "Equipamentos laboratoriais",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Equipamento utilizado para centrifugar capilares em procedimentos de determinação do hematócrito.",
+    "description": "Equipamento utilizado para centrifugar capilares em procedimentos de determinação do hematócrito.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 49,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "banho-maria-laboratorial": {
+    "name": "Banho-maria laboratorial",
+    "reference": "",
+    "category": "Equipamentos laboratoriais",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Equipamento que mantém amostras ou recipientes numa temperatura controlada através de água aquecida.",
+    "description": "Equipamento que mantém amostras ou recipientes numa temperatura controlada através de água aquecida.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:banho-maria",
+    "images": [
+      "builtin:banho-maria",
+      "builtin:banho-maria-2",
+      "builtin:banho-maria-3"
+    ],
+    "featured": false,
+    "order": 50,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "estufa-30-litros": {
+    "name": "Estufa de 30 L",
+    "reference": "",
+    "category": "Equipamentos laboratoriais",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Equipamento laboratorial com capacidade nominal de 30 litros.",
+    "description": "Equipamento laboratorial com capacidade nominal de 30 litros. A finalidade e o intervalo de temperatura devem ser confirmados.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Capacidade nominal",
+        "value": "30 litros"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:estufa-30",
+    "images": [
+      "builtin:estufa-30"
+    ],
+    "featured": false,
+    "order": 51,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "estufa-50-litros": {
+    "name": "Estufa de 50 L",
+    "reference": "",
+    "category": "Equipamentos laboratoriais",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Estufa com capacidade nominal de 50 litros, cuja aplicação pode variar conforme o tipo de equipamento.",
+    "description": "Estufa com capacidade nominal de 50 litros, cuja aplicação pode variar conforme o tipo de equipamento.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Capacidade nominal",
+        "value": "50 litros"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:estufa-50",
+    "images": [
+      "builtin:estufa-50"
+    ],
+    "featured": false,
+    "order": 52,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "estufa-136-litros": {
+    "name": "Estufa de 136 L",
+    "reference": "",
+    "category": "Equipamentos laboratoriais",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Equipamento laboratorial com capacidade nominal de 136 litros, destinado à finalidade indicada pelo fabricante.",
+    "description": "Equipamento laboratorial com capacidade nominal de 136 litros, destinado à finalidade indicada pelo fabricante.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Capacidade nominal",
+        "value": "136 litros"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:estufa-136",
+    "images": [
+      "builtin:estufa-136"
+    ],
+    "featured": false,
+    "order": 53,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "aparelho-de-hemograma-bc-3000": {
+    "name": "Aparelho de hemograma BC 3000",
+    "reference": "",
+    "category": "Equipamentos laboratoriais",
+    "brand": "",
+    "model": "BC 3000",
+    "shortDescription": "Analisador hematológico identificado pela designação BC 3000, utilizado em análises de amostras sanguíneas.",
+    "description": "Analisador hematológico identificado pela designação BC 3000, utilizado em análises de amostras sanguíneas. O fabricante, os parâmetros e os consumíveis compatíveis devem ser confirmados.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 54,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "tubos-de-colheita-de-sangue": {
+    "name": "Tubos de colheita de sangue",
+    "reference": "",
+    "category": "Material de colheita, testes e consumíveis clínicos",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Recipientes utilizados na recolha e conservação de amostras sanguíneas.",
+    "description": "Recipientes utilizados na recolha e conservação de amostras sanguíneas. Existem versões com diferentes volumes e aditivos, consoante o tipo de análise.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 55,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "copo-de-colheita-de-urina": {
+    "name": "Copo de colheita de urina",
+    "reference": "",
+    "category": "Material de colheita, testes e consumíveis clínicos",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Recipiente destinado à recolha e transporte de amostras de urina, podendo ser estéril ou não estéril, conforme o modelo.",
+    "description": "Recipiente destinado à recolha e transporte de amostras de urina, podendo ser estéril ou não estéril, conforme o modelo.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 56,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "lancetas-de-sangue": {
+    "name": "Lancetas de sangue",
+    "reference": "",
+    "category": "Material de colheita, testes e consumíveis clínicos",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Dispositivos utilizados para obter pequenas amostras de sangue capilar, geralmente através de uma punção superficial.",
+    "description": "Dispositivos utilizados para obter pequenas amostras de sangue capilar, geralmente através de uma punção superficial.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 57,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "teste-rapido-de-gravidez": {
+    "name": "Teste de gravidez",
+    "reference": "",
+    "category": "Material de colheita, testes e consumíveis clínicos",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Teste de diagnóstico destinado à deteção da hormona hCG, geralmente em amostras de urina.",
+    "description": "Teste de diagnóstico destinado à deteção da hormona hCG, geralmente em amostras de urina.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:teste-gravidez",
+    "images": [
+      "builtin:teste-gravidez"
+    ],
+    "featured": false,
+    "order": 58,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "teste-rapido-de-hiv": {
+    "name": "Teste de HIV",
+    "reference": "",
+    "category": "Material de colheita, testes e consumíveis clínicos",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Teste de diagnóstico destinado à deteção de marcadores associados à infeção pelo HIV.",
+    "description": "Teste de diagnóstico destinado à deteção de marcadores associados à infeção pelo HIV. O tipo de marcador e a amostra dependem do produto.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:teste-hiv",
+    "images": [
+      "builtin:teste-hiv"
+    ],
+    "featured": false,
+    "order": 59,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "teste-de-malaria": {
+    "name": "Teste de malária",
+    "reference": "",
+    "category": "Material de colheita, testes e consumíveis clínicos",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Teste de diagnóstico utilizado para detetar antigénios associados ao parasita da malária, conforme a especificação do fabricante.",
+    "description": "Teste de diagnóstico utilizado para detetar antigénios associados ao parasita da malária, conforme a especificação do fabricante.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 60,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "teste-hcv": {
+    "name": "Teste HCV",
+    "reference": "",
+    "category": "Material de colheita, testes e consumíveis clínicos",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Teste destinado à deteção de marcadores associados ao vírus da hepatite C, frequentemente anticorpos anti-HCV.",
+    "description": "Teste destinado à deteção de marcadores associados ao vírus da hepatite C, frequentemente anticorpos anti-HCV.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 61,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "gel-para-ultrassom": {
+    "name": "Gel para ultrassom",
+    "reference": "",
+    "category": "Material de colheita, testes e consumíveis clínicos",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Gel de acoplamento utilizado para facilitar a transmissão das ondas ultrassónicas entre o transdutor e a pele.",
+    "description": "Gel de acoplamento utilizado para facilitar a transmissão das ondas ultrassónicas entre o transdutor e a pele.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 62,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "gesso-adesivo-perfurado": {
+    "name": "Gesso adesivo perfurado",
+    "reference": "",
+    "category": "Material de colheita, testes e consumíveis clínicos",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Fita adesiva médica perfurada, utilizada para fixar pensos e determinados materiais clínicos.",
+    "description": "Fita adesiva médica perfurada, utilizada para fixar pensos e determinados materiais clínicos.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 63,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "papel-para-marquesa": {
+    "name": "Papel para marquesa",
+    "reference": "",
+    "category": "Material de colheita, testes e consumíveis clínicos",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Papel utilizado para cobrir superfícies de exame, ajudando a manter a higiene entre utilizações.",
+    "description": "Papel utilizado para cobrir superfícies de exame, ajudando a manter a higiene entre utilizações.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 64,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "kit-instrumentos-cirurgicos": {
+    "name": "Kit de pequenas cirurgias",
+    "reference": "",
+    "category": "Material cirúrgico e esterilização",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Conjunto de instrumentos destinados a procedimentos cirúrgicos menores.",
+    "description": "Conjunto de instrumentos destinados a procedimentos cirúrgicos menores. A composição depende dos instrumentos fornecidos.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:kit-instrumentos-cirurgicos",
+    "images": [
+      "builtin:kit-instrumentos-cirurgicos"
+    ],
+    "featured": false,
+    "order": 65,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "bisturi-eletrico": {
+    "name": "Bisturi elétrico",
+    "reference": "",
+    "category": "Material cirúrgico e esterilização",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Equipamento eletrocirúrgico utilizado para corte e/ou coagulação de tecidos, conforme o modelo e os acessórios.",
+    "description": "Equipamento eletrocirúrgico utilizado para corte e/ou coagulação de tecidos, conforme o modelo e os acessórios.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 66,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "autoclave-35-litros": {
+    "name": "Autoclave de 35 L",
+    "reference": "",
+    "category": "Material cirúrgico e esterilização",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Equipamento de esterilização por vapor sob pressão, com capacidade nominal indicada de 35 litros.",
+    "description": "Equipamento de esterilização por vapor sob pressão, com capacidade nominal indicada de 35 litros.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Capacidade nominal",
+        "value": "35 litros"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:autoclave-35",
+    "images": [
+      "builtin:autoclave-35"
+    ],
+    "featured": false,
+    "order": 67,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "autoclave-50-litros": {
+    "name": "Autoclave de 50 L",
+    "reference": "",
+    "category": "Material cirúrgico e esterilização",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Autoclave com capacidade nominal de 50 litros, destinada à esterilização de materiais compatíveis com os ciclos disponíveis.",
+    "description": "Autoclave com capacidade nominal de 50 litros, destinada à esterilização de materiais compatíveis com os ciclos disponíveis.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Capacidade nominal",
+        "value": "50 litros"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:autoclave-50",
+    "images": [
+      "builtin:autoclave-50"
+    ],
+    "featured": false,
+    "order": 68,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "laminas-cirurgicas": {
+    "name": "Lâminas cirúrgicas",
+    "reference": "",
+    "category": "Material cirúrgico e esterilização",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Lâminas utilizadas em procedimentos cirúrgicos, normalmente compatíveis com cabos de bisturi específicos.",
+    "description": "Lâminas utilizadas em procedimentos cirúrgicos, normalmente compatíveis com cabos de bisturi específicos.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 69,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "esponja-para-cirurgia": {
+    "name": "Esponja para cirurgia",
+    "reference": "",
+    "category": "Material cirúrgico e esterilização",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Material absorvente utilizado durante procedimentos cirúrgicos, cuja composição, esterilidade e dimensões dependem do produto.",
+    "description": "Material absorvente utilizado durante procedimentos cirúrgicos, cuja composição, esterilidade e dimensões dependem do produto.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 70,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "maleta-para-equipamentos-cirurgicos": {
+    "name": "Maleta para equipamentos cirúrgicos",
+    "reference": "",
+    "category": "Material cirúrgico e esterilização",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Estojo destinado ao acondicionamento e transporte de instrumentos e acessórios cirúrgicos.",
+    "description": "Estojo destinado ao acondicionamento e transporte de instrumentos e acessórios cirúrgicos. Deve-se confirmar se é vendida vazia ou com instrumentos.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 71,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "batas-clinicas": {
+    "name": "Batas clínicas",
+    "reference": "",
+    "category": "Vestuário clínico e proteção individual",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Vestuário utilizado por profissionais de saúde em ambientes clínicos, podendo ser reutilizável ou descartável.",
+    "description": "Vestuário utilizado por profissionais de saúde em ambientes clínicos, podendo ser reutilizável ou descartável.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 72,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "avental-cirurgico": {
+    "name": "Avental cirúrgico",
+    "reference": "",
+    "category": "Vestuário clínico e proteção individual",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Vestuário destinado a procedimentos cirúrgicos, com características de proteção que dependem do material e do modelo.",
+    "description": "Vestuário destinado a procedimentos cirúrgicos, com características de proteção que dependem do material e do modelo.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 73,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "mascara-respiratoria-n95": {
+    "name": "Máscara respiratória N95",
+    "reference": "",
+    "category": "Vestuário clínico e proteção individual",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Respirador concebido para filtrar partículas, devendo a certificação e a autenticidade do produto ser verificadas.",
+    "description": "Respirador concebido para filtrar partículas, devendo a certificação e a autenticidade do produto ser verificadas.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "N95"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 74,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "protetores-descartaveis-de-calcado": {
+    "name": "Protetores descartáveis de calçado",
+    "reference": "",
+    "category": "Vestuário clínico e proteção individual",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Coberturas utilizadas sobre os sapatos para apoiar medidas de higiene em ambientes específicos.",
+    "description": "Coberturas utilizadas sobre os sapatos para apoiar medidas de higiene em ambientes específicos.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 75,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "toucas-descartaveis": {
+    "name": "Toucas descartáveis",
+    "reference": "",
+    "category": "Vestuário clínico e proteção individual",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Coberturas destinadas a conter os cabelos em ambientes clínicos e laboratoriais.",
+    "description": "Coberturas destinadas a conter os cabelos em ambientes clínicos e laboratoriais.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 76,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "kit-de-primeiros-socorros-para-10-pessoas": {
+    "name": "Kit de primeiros socorros para 10 pessoas",
+    "reference": "",
+    "category": "Kits de primeiros socorros",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Conjunto de materiais de primeiros socorros identificado para grupos de 10 pessoas.",
+    "description": "Conjunto de materiais de primeiros socorros identificado para grupos de 10 pessoas. A composição deve ser confirmada com o fornecedor.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Grupo",
+        "value": "10 pessoas"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "",
+    "images": [],
+    "featured": false,
+    "order": 77,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "kit-de-primeiros-socorros-para-25-pessoas": {
+    "name": "Kit de primeiros socorros para 25 pessoas",
+    "reference": "",
+    "category": "Kits de primeiros socorros",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Kit destinado a grupos de maior dimensão, com conteúdos e quantidades definidos pela versão comercializada.",
+    "description": "Kit destinado a grupos de maior dimensão, com conteúdos e quantidades definidos pela versão comercializada.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Grupo",
+        "value": "25 pessoas"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:kit-25",
+    "images": [
+      "builtin:kit-25"
+    ],
+    "featured": false,
+    "order": 78,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "kit-de-primeiros-socorros-para-100-pessoas": {
+    "name": "Kit de primeiros socorros para 100 pessoas",
+    "reference": "",
+    "category": "Kits de primeiros socorros",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Conjunto destinado a organizações e instalações com grupos numerosos.",
+    "description": "Conjunto destinado a organizações e instalações com grupos numerosos. A adequação depende dos riscos e da composição efetiva do kit.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Grupo",
+        "value": "100 pessoas"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:kit-100",
+    "images": [
+      "builtin:kit-100"
+    ],
+    "featured": false,
+    "order": 79,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
+  "maleta-medica": {
+    "name": "Maleta para primeiros socorros",
+    "reference": "",
+    "category": "Kits de primeiros socorros",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Estojo destinado a organizar e transportar materiais de primeiros socorros.",
+    "description": "Estojo destinado a organizar e transportar materiais de primeiros socorros. Confirmar se inclui consumíveis ou se é fornecido vazio.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:maleta-medica",
+    "images": [
+      "builtin:maleta-medica"
+    ],
+    "featured": false,
+    "order": 80,
+    "updatedAt": "2026-10-15T14:00:00.000Z"
+  },
   "bomba-de-infusao": {
     "name": "Bomba de infusão",
     "reference": "",
-    "category": "Equipamentos médicos e hospitalares",
+    "category": "Outros equipamentos clínicos",
     "brand": "",
     "model": "",
     "shortDescription": "Bomba de infusão portátil com ecrã, teclado numérico e pega lateral.",
@@ -27,13 +1777,14 @@
       "builtin:bomba-upalm"
     ],
     "featured": false,
-    "order": 1,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
+    "order": 81,
+    "updatedAt": "2026-10-11T21:00:00.000Z",
+    "inStock": false
   },
   "bomba-de-injecao": {
     "name": "Bomba de injeção",
     "reference": "",
-    "category": "Equipamentos médicos e hospitalares",
+    "category": "Outros equipamentos clínicos",
     "brand": "",
     "model": "",
     "shortDescription": "Bomba de seringa (\"Syringe Pump\") com ecrã, teclado numérico e botões START, STOP/CLEAR e BOLUS.",
@@ -61,47 +1812,14 @@
       "builtin:bomba-seringa"
     ],
     "featured": false,
-    "order": 2,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
-  },
-  "bomba-de-aspiracao-de-secrecoes": {
-    "name": "Bomba de aspiração de secreções",
-    "reference": "",
-    "category": "Equipamentos médicos e hospitalares",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Aspirador de secreções portátil com frasco de recolha graduado, manómetro e regulador.",
-    "description": "Bomba de aspiração de secreções com corpo branco e pega superior. Tem frasco de recolha transparente e graduado, com tampa cinzenta e duas ligações, e painel frontal com botão regulador, manómetro e interruptor.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Corpo",
-        "value": "Branco, com pega superior"
-      },
-      {
-        "label": "Frasco de recolha",
-        "value": "Transparente, graduado"
-      },
-      {
-        "label": "Painel",
-        "value": "Regulador, manómetro e interruptor"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:aspirador-secrecoes",
-    "images": [
-      "builtin:aspirador-secrecoes"
-    ],
-    "featured": false,
-    "order": 3,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
+    "order": 82,
+    "updatedAt": "2026-10-11T21:00:00.000Z",
+    "inStock": false
   },
   "monitor-multiparametrico": {
     "name": "Monitor multiparamétrico",
     "reference": "",
-    "category": "Equipamentos médicos e hospitalares",
+    "category": "Equipamentos de diagnóstico e monitorização",
     "brand": "",
     "model": "",
     "shortDescription": "Monitor com ecrã tátil, corpo branco, botões laterais e botão rotativo.",
@@ -125,13 +1843,14 @@
       "builtin:monitor"
     ],
     "featured": false,
-    "order": 4,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
+    "order": 83,
+    "updatedAt": "2026-10-11T21:00:00.000Z",
+    "inStock": false
   },
   "eletrocardiografo-ecg-de-1-canal": {
     "name": "Eletrocardiógrafo (ECG) de 1 canal",
     "reference": "",
-    "category": "Equipamentos médicos e hospitalares",
+    "category": "Equipamentos de diagnóstico e monitorização",
     "brand": "",
     "model": "",
     "shortDescription": "Eletrocardiógrafo portátil branco, com ecrã a cores e botões vermelho e verde.",
@@ -151,13 +1870,14 @@
       "builtin:ecg"
     ],
     "featured": false,
-    "order": 5,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
+    "order": 84,
+    "updatedAt": "2026-10-11T21:00:00.000Z",
+    "inStock": false
   },
   "eletrocardiografo-ecg-de-3-canais": {
     "name": "Eletrocardiógrafo (ECG) de 3 canais",
     "reference": "",
-    "category": "Equipamentos médicos e hospitalares",
+    "category": "Equipamentos de diagnóstico e monitorização",
     "brand": "",
     "model": "",
     "shortDescription": "Eletrocardiógrafo portátil branco, com ecrã a cores e botões vermelho e verde.",
@@ -177,13 +1897,14 @@
       "builtin:ecg"
     ],
     "featured": false,
-    "order": 6,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
+    "order": 85,
+    "updatedAt": "2026-10-11T21:00:00.000Z",
+    "inStock": false
   },
   "eletrocardiografo-ecg-de-6-canais": {
     "name": "Eletrocardiógrafo (ECG) de 6 canais",
     "reference": "",
-    "category": "Equipamentos médicos e hospitalares",
+    "category": "Equipamentos de diagnóstico e monitorização",
     "brand": "",
     "model": "",
     "shortDescription": "Eletrocardiógrafo portátil branco, com ecrã a cores e botões vermelho e verde.",
@@ -203,13 +1924,14 @@
       "builtin:ecg"
     ],
     "featured": false,
-    "order": 7,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
+    "order": 86,
+    "updatedAt": "2026-10-11T21:00:00.000Z",
+    "inStock": false
   },
   "eletrocardiografo-ecg-de-12-canais": {
     "name": "Eletrocardiógrafo (ECG) de 12 canais",
     "reference": "",
-    "category": "Equipamentos médicos e hospitalares",
+    "category": "Equipamentos de diagnóstico e monitorização",
     "brand": "",
     "model": "",
     "shortDescription": "Eletrocardiógrafo portátil branco, com ecrã a cores e botões vermelho e verde.",
@@ -229,13 +1951,14 @@
       "builtin:ecg"
     ],
     "featured": false,
-    "order": 8,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
+    "order": 87,
+    "updatedAt": "2026-10-11T21:00:00.000Z",
+    "inStock": false
   },
   "balanca-para-adultos": {
     "name": "Balança para adultos",
     "reference": "",
-    "category": "Equipamentos médicos e hospitalares",
+    "category": "Equipamentos de diagnóstico e monitorização",
     "brand": "",
     "model": "",
     "shortDescription": "Balança mecânica de mostrador, com acabamento cromado e plataforma antiderrapante.",
@@ -263,87 +1986,9 @@
       "builtin:balanca"
     ],
     "featured": false,
-    "order": 9,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
-  },
-  "cama-hospitalar": {
-    "name": "Cama hospitalar",
-    "reference": "",
-    "category": "Equipamentos médicos e hospitalares",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Cama hospitalar normal, com estrutura branca, grades laterais e colchão azul.",
-    "description": "Cama hospitalar normal com estrutura branca, cabeceira e peseira com painéis azuis, grade lateral e colchão azul, sobre rodízios.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Tipo",
-        "value": "Normal"
-      },
-      {
-        "label": "Colchão",
-        "value": "Azul"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:cama-normal",
-    "images": [
-      "builtin:cama-normal"
-    ],
-    "featured": false,
-    "order": 10,
-    "updatedAt": "2026-10-15T13:00:00.000Z"
-  },
-  "maca-hospitalar": {
-    "name": "Maca hospitalar",
-    "reference": "",
-    "category": "Equipamentos médicos e hospitalares",
-    "brand": "",
-    "model": "",
-    "shortDescription": "",
-    "description": "",
-    "specs": [],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "",
-    "images": [],
-    "featured": false,
-    "order": 11,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
-  },
-  "centrifuga-laboratorial-de-6-tubos": {
-    "name": "Centrífuga laboratorial de 6 tubos",
-    "reference": "",
-    "category": "Equipamentos laboratoriais",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Centrífuga elétrica 800D, com corpo bege e cinzento e comandos de tempo e velocidade.",
-    "description": "Centrífuga elétrica 800D com tampa cónica bege, corpo cinzento e painel azul com dois comandos rotativos: um de tempo (ON/OFF) e outro de velocidade (SPEED).\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Modelo",
-        "value": "800D"
-      },
-      {
-        "label": "Comandos",
-        "value": "Tempo e velocidade"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:centrifuga-800d",
-    "images": [
-      "builtin:centrifuga-800d"
-    ],
-    "featured": false,
-    "order": 12,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
+    "order": 88,
+    "updatedAt": "2026-10-11T21:00:00.000Z",
+    "inStock": false
   },
   "centrifuga-laboratorial-de-12-tubos": {
     "name": "Centrífuga laboratorial de 12 tubos",
@@ -372,367 +2017,14 @@
       "builtin:centrifuga-800d"
     ],
     "featured": false,
-    "order": 13,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
-  },
-  "centrifuga-laboratorial-de-24-tubos": {
-    "name": "Centrífuga laboratorial de 24 tubos",
-    "reference": "",
-    "category": "Equipamentos laboratoriais",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Centrífuga elétrica 800D, com corpo bege e cinzento e comandos de tempo e velocidade.",
-    "description": "Centrífuga elétrica 800D com tampa cónica bege, corpo cinzento e painel azul com dois comandos rotativos: um de tempo (ON/OFF) e outro de velocidade (SPEED).\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Modelo",
-        "value": "800D"
-      },
-      {
-        "label": "Comandos",
-        "value": "Tempo e velocidade"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:centrifuga-800d",
-    "images": [
-      "builtin:centrifuga-800d"
-    ],
-    "featured": false,
-    "order": 14,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
-  },
-  "microscopio-optico-binocular": {
-    "name": "Microscópio óptico binocular",
-    "reference": "",
-    "category": "Equipamentos laboratoriais",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Microscópio óptico binocular com corpo branco, platina preta e revólver com várias objetivas.",
-    "description": "Microscópio óptico binocular com corpo branco e platina preta com pinça de fixação da lâmina. Tem cabeça binocular com duas oculares, revólver com várias objetivas, botões de focagem e base com iluminação.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Tipo",
-        "value": "Óptico, binocular"
-      },
-      {
-        "label": "Cor do corpo",
-        "value": "Branco"
-      },
-      {
-        "label": "Platina",
-        "value": "Preta, com pinça para lâmina"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:microscopio-optico",
-    "images": [
-      "builtin:microscopio-optico"
-    ],
-    "featured": false,
-    "order": 15,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
-  },
-  "banho-maria-laboratorial": {
-    "name": "Banho-maria laboratorial",
-    "reference": "",
-    "category": "Equipamentos laboratoriais",
-    "brand": "",
-    "model": "HH-4",
-    "shortDescription": "Banho-maria com termóstato digital e quatro furos com tampas azuis, modelo HH-4.",
-    "description": "Banho-maria laboratorial com a inscrição \"Thermostat Water Bath HH-4\" no painel frontal. Tem tampa superior em aço inox com quatro furos fechados por tampas de silicone azuis, controlador digital de temperatura e interruptor de ligar/desligar.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Modelo indicado no painel",
-        "value": "HH-4"
-      },
-      {
-        "label": "Furos",
-        "value": "4, com tampas azuis"
-      },
-      {
-        "label": "Controlo",
-        "value": "Digital, com interruptor ON/OFF"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:banho-maria",
-    "images": [
-      "builtin:banho-maria",
-      "builtin:banho-maria-2",
-      "builtin:banho-maria-3"
-    ],
-    "featured": false,
-    "order": 16,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
-  },
-  "cadeira-de-rodas-convencional": {
-    "name": "Cadeira de rodas convencional",
-    "reference": "",
-    "category": "Mobilidade e reabilitação",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Cadeira de rodas com estrutura laranja e verde, assento acolchoado e apoios de pés.",
-    "description": "Cadeira de rodas com estrutura de cor laranja e verde, assento e costas acolchoados em preto, apoios de braços e apoios de pés com tira de apoio às pernas. Rodas traseiras grandes com aros de propulsão e rodas dianteiras pequenas, com punhos de empurrar na parte de trás.\n\nMedidas, capacidade de carga, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Cor da estrutura",
-        "value": "Laranja e verde"
-      },
-      {
-        "label": "Assento e costas",
-        "value": "Acolchoados, em preto"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:cadeira-de-rodas",
-    "images": [
-      "builtin:cadeira-de-rodas",
-      "builtin:cadeira-rodas-2",
-      "builtin:cadeira-cromada"
-    ],
-    "featured": false,
-    "order": 17,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
-  },
-  "cadeira-de-rodas-robusta": {
-    "name": "Cadeira de rodas robusta",
-    "reference": "",
-    "category": "Mobilidade e reabilitação",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Cadeira de rodas com estrutura metálica e assento e costas em tecido colorido.",
-    "description": "Cadeira de rodas com estrutura metálica cromada, assento e costas em tecido colorido e apoios de pés.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Estrutura",
-        "value": "Metálica"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:cadeira-rodas-isfa",
-    "images": [
-      "builtin:cadeira-rodas-isfa"
-    ],
-    "featured": false,
-    "order": 18,
-    "updatedAt": "2026-10-15T13:00:00.000Z"
-  },
-  "cadeira-de-rodas-eletrica": {
-    "name": "Cadeira de rodas elétrica",
-    "reference": "",
-    "category": "Mobilidade e reabilitação",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Cadeira de rodas elétrica com estrutura azul, assento acolchoado cinzento e apoios de pés.",
-    "description": "Cadeira de rodas elétrica com estrutura de cor azul, assento e costas acolchoados em cinzento e preto, apoios de braços e apoios de pés com tira de apoio às pernas. Tem rodas traseiras maiores com sistema motorizado e uma caixa preta junto a elas. A fotografia mostra o assento ainda protegido com plástico.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Cor da estrutura",
-        "value": "Azul"
-      },
-      {
-        "label": "Assento e costas",
-        "value": "Acolchoados, cinzento e preto"
-      },
-      {
-        "label": "Tipo",
-        "value": "Elétrica"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:cadeira-eletrica",
-    "images": [
-      "builtin:cadeira-eletrica"
-    ],
-    "featured": false,
-    "order": 19,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
-  },
-  "muletas-convencionais": {
-    "name": "Muletas convencionais",
-    "reference": "",
-    "category": "Mobilidade e reabilitação",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Par de muletas de antebraço em alumínio, com altura regulável e ponteiras de borracha.",
-    "description": "Par de muletas com tubo em alumínio de altura regulável (furos de ajuste visíveis), apoio de antebraço e punho em cinzento e ponteira de borracha.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Material do tubo",
-        "value": "Alumínio"
-      },
-      {
-        "label": "Altura",
-        "value": "Regulável"
-      },
-      {
-        "label": "Apoio",
-        "value": "De antebraço, com punho"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:muletas",
-    "images": [
-      "builtin:muletas"
-    ],
-    "featured": false,
-    "order": 20,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
-  },
-  "muletas-de-axila": {
-    "name": "Muletas de axila",
-    "reference": "",
-    "category": "Mobilidade e reabilitação",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Par de muletas de axila em alumínio, com altura regulável, apoios e punhos laranja e ponteiras amarelas.",
-    "description": "Par de muletas de axila com tubos em alumínio de altura regulável (furos de ajuste visíveis), apoio de axila e punho em cor laranja-clara e ponteiras de borracha amarelas.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Material do tubo",
-        "value": "Alumínio"
-      },
-      {
-        "label": "Altura",
-        "value": "Regulável"
-      },
-      {
-        "label": "Apoio",
-        "value": "De axila, com punho"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:muletas-axila",
-    "images": [
-      "builtin:muletas-axila"
-    ],
-    "featured": false,
-    "order": 21,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
-  },
-  "cadeira-para-higienizacao-com-rodas": {
-    "name": "Cadeira para higienização com rodas",
-    "reference": "",
-    "category": "Mobilidade e reabilitação",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Cadeira para higienização com estrutura cromada, assento com tampa e rodízios.",
-    "description": "Cadeira para higienização com estrutura cromada, braços almofadados, assento com tampa e balde, e quatro rodízios.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Estrutura",
-        "value": "Cromada"
-      },
-      {
-        "label": "Rodas",
-        "value": "Com rodízios"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:higienizacao-rodas",
-    "images": [
-      "builtin:higienizacao-rodas"
-    ],
-    "featured": false,
-    "order": 22,
-    "updatedAt": "2026-10-15T13:00:00.000Z"
-  },
-  "cadeira-para-higienizacao-sem-rodas": {
-    "name": "Cadeira para higienização sem rodas",
-    "reference": "",
-    "category": "Mobilidade e reabilitação",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Cadeira para higienização com estrutura cromada e sem rodas.",
-    "description": "Cadeira para higienização com estrutura cromada, braços almofadados, assento com tampa e balde, apoiada em pés com ponteiras de borracha.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Estrutura",
-        "value": "Cromada"
-      },
-      {
-        "label": "Rodas",
-        "value": "Sem rodas"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:higienizacao-sem-rodas",
-    "images": [
-      "builtin:higienizacao-sem-rodas"
-    ],
-    "featured": false,
-    "order": 23,
-    "updatedAt": "2026-10-15T13:00:00.000Z"
-  },
-  "maleta-medica": {
-    "name": "Maleta médica",
-    "reference": "",
-    "category": "Acessórios e materiais de apoio clínico",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Maleta em alumínio prateado com símbolo da cruz vermelha, pega superior e dois fechos com chave.",
-    "description": "Maleta médica em alumínio de acabamento prateado texturado, com cantos reforçados, pega superior e dois fechos metálicos com fechadura. Tem o símbolo da cruz vermelha na frente.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Material",
-        "value": "Alumínio, acabamento prateado"
-      },
-      {
-        "label": "Fecho",
-        "value": "Dois fechos metálicos com chave"
-      },
-      {
-        "label": "Pega",
-        "value": "Superior"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:maleta-medica",
-    "images": [
-      "builtin:maleta-medica"
-    ],
-    "featured": false,
-    "order": 24,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
+    "order": 89,
+    "updatedAt": "2026-10-11T21:00:00.000Z",
+    "inStock": false
   },
   "lencois-hospitalares-azuis": {
     "name": "Lençóis hospitalares azuis",
     "reference": "",
-    "category": "Acessórios e materiais de apoio clínico",
+    "category": "Camas, macas e mobiliário hospitalar",
     "brand": "",
     "model": "",
     "shortDescription": "Lençóis hospitalares azuis, embalados individualmente em plástico.",
@@ -756,13 +2048,14 @@
       "builtin:lencois-azuis"
     ],
     "featured": false,
-    "order": 25,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
+    "order": 90,
+    "updatedAt": "2026-10-11T21:00:00.000Z",
+    "inStock": false
   },
   "lencois-hospitalares-brancos": {
     "name": "Lençóis hospitalares brancos",
     "reference": "",
-    "category": "Acessórios e materiais de apoio clínico",
+    "category": "Camas, macas e mobiliário hospitalar",
     "brand": "",
     "model": "",
     "shortDescription": "",
@@ -775,13 +2068,14 @@
     "mainImage": "",
     "images": [],
     "featured": false,
-    "order": 26,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
+    "order": 91,
+    "updatedAt": "2026-10-11T21:00:00.000Z",
+    "inStock": false
   },
   "lencois-hospitalares-verdes": {
     "name": "Lençóis hospitalares verdes",
     "reference": "",
-    "category": "Acessórios e materiais de apoio clínico",
+    "category": "Camas, macas e mobiliário hospitalar",
     "brand": "",
     "model": "",
     "shortDescription": "",
@@ -794,13 +2088,14 @@
     "mainImage": "",
     "images": [],
     "featured": false,
-    "order": 27,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
+    "order": 92,
+    "updatedAt": "2026-10-11T21:00:00.000Z",
+    "inStock": false
   },
   "kit-primeiros-socorros": {
     "name": "Kit de primeiros socorros",
     "reference": "GKB300",
-    "category": "Acessórios e materiais de apoio clínico",
+    "category": "Kits de primeiros socorros",
     "brand": "",
     "model": "",
     "shortDescription": "Caixa de primeiros socorros laranja, com pega e fecho, identificada com o código GKB300.",
@@ -828,377 +2123,14 @@
       "builtin:kit-primeiros-socorros"
     ],
     "featured": true,
-    "order": 28,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
-  },
-  "kit-instrumentos-cirurgicos": {
-    "name": "Kit de instrumentos cirúrgicos",
-    "reference": "",
-    "category": "Equipamentos médicos e hospitalares",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Estojo com fecho de correr e vários instrumentos metálicos em bolsas individuais.",
-    "description": "Estojo com fecho de correr e interior vermelho, com instrumentos metálicos organizados em bolsas de plástico individuais presas por elásticos. Inclui tesouras, pinças e outros instrumentos, visíveis na fotografia.\n\nA lista completa de peças, o material, o preço e a disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Embalagem",
-        "value": "Estojo com fecho de correr"
-      },
-      {
-        "label": "Interior",
-        "value": "Vermelho, com elásticos de fixação"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:kit-instrumentos-cirurgicos",
-    "images": [
-      "builtin:kit-instrumentos-cirurgicos"
-    ],
-    "featured": false,
-    "order": 29,
-    "updatedAt": "2026-10-11T21:00:00.000Z"
-  },
-  "nebulizador-de-compressor": {
-    "name": "Nebulizador de compressor",
-    "reference": "",
-    "category": "Equipamentos médicos e hospitalares",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Nebulizador de compressor com corpo branco e tampa azul transparente, com acessórios embalados.",
-    "description": "Nebulizador de compressor com corpo branco e tampa azul transparente. Acompanha acessórios embalados em saco plástico.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Tipo",
-        "value": "Compressor"
-      },
-      {
-        "label": "Cor",
-        "value": "Branco e azul"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:nebulizador-compressor",
-    "images": [
-      "builtin:nebulizador-compressor"
-    ],
-    "featured": false,
-    "order": 30,
-    "updatedAt": "2026-10-15T00:00:00.000Z"
-  },
-  "fluxometro-de-oxigenio-com-humidificador": {
-    "name": "Fluxómetro de oxigénio com humidificador",
-    "reference": "",
-    "category": "Equipamentos médicos e hospitalares",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Fluxómetro de oxigénio com manómetro e frasco humidificador transparente.",
-    "description": "Fluxómetro de oxigénio com tubo de caudal transparente, válvula azul marcada O2, manómetro de cor verde e frasco humidificador transparente com tampa azul. Vem embalado em saco plástico.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Componentes",
-        "value": "Fluxómetro, manómetro e frasco humidificador"
-      },
-      {
-        "label": "Gás",
-        "value": "O2"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:fluxometro-oxigenio",
-    "images": [
-      "builtin:fluxometro-oxigenio"
-    ],
-    "featured": false,
-    "order": 31,
-    "updatedAt": "2026-10-15T00:00:00.000Z"
-  },
-  "esfigmomanometro-digital-de-braco": {
-    "name": "Esfigmomanómetro digital de braço",
-    "reference": "",
-    "category": "Equipamentos médicos e hospitalares",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Medidor de tensão arterial digital com braçadeira, ecrã e botões MEM, SET e START/STOP.",
-    "description": "Medidor de tensão arterial digital de braço, com ecrã, botões MEM, SET e START/STOP e braçadeira preta.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Tipo",
-        "value": "Digital, de braço"
-      },
-      {
-        "label": "Botões",
-        "value": "MEM, SET, START/STOP"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:tensiometro-digital",
-    "images": [
-      "builtin:tensiometro-digital"
-    ],
-    "featured": false,
-    "order": 32,
-    "updatedAt": "2026-10-15T00:00:00.000Z"
-  },
-  "esfigmomanometro-manual-com-estetoscopio": {
-    "name": "Esfigmomanómetro manual com estetoscópio",
-    "reference": "",
-    "category": "Equipamentos médicos e hospitalares",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Esfigmomanómetro manual com braçadeira preta, pera de insuflação e estetoscópio.",
-    "description": "Esfigmomanómetro manual com braçadeira preta, pera de insuflação, manómetro e estetoscópio.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Tipo",
-        "value": "Manual"
-      },
-      {
-        "label": "Inclui",
-        "value": "Braçadeira, pera e estetoscópio"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:esfigmo-manual",
-    "images": [
-      "builtin:esfigmo-manual"
-    ],
-    "featured": false,
-    "order": 33,
-    "updatedAt": "2026-10-15T00:00:00.000Z"
-  },
-  "nebulizador-portatil": {
-    "name": "Nebulizador portátil",
-    "reference": "",
-    "category": "Equipamentos médicos e hospitalares",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Nebulizador portátil de mão, em branco e azul, com máscara transparente.",
-    "description": "Nebulizador portátil de mão, com corpo branco e azul, copo para medicamento e máscara transparente.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Tipo",
-        "value": "Portátil, de mão"
-      },
-      {
-        "label": "Inclui",
-        "value": "Máscara"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:nebulizador-portatil",
-    "images": [
-      "builtin:nebulizador-portatil"
-    ],
-    "featured": false,
-    "order": 34,
-    "updatedAt": "2026-10-15T00:00:00.000Z"
-  },
-  "termometro-infravermelho": {
-    "name": "Termómetro infravermelho",
-    "reference": "",
-    "category": "Equipamentos médicos e hospitalares",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Termómetro infravermelho de mão com ecrã retroiluminado.",
-    "description": "Termómetro infravermelho de mão, em branco, com ecrã retroiluminado.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Tipo",
-        "value": "Infravermelho, de mão"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:termometro-infravermelho",
-    "images": [
-      "builtin:termometro-infravermelho"
-    ],
-    "featured": false,
-    "order": 35,
-    "updatedAt": "2026-10-15T00:00:00.000Z"
-  },
-  "balanca-pediatrica": {
-    "name": "Balança pediátrica",
-    "reference": "",
-    "category": "Equipamentos médicos e hospitalares",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Balança pediátrica mecânica com tabuleiro, capacidade de 20 kg e graduação de 100 g.",
-    "description": "Balança pediátrica mecânica com tabuleiro branco. A etiqueta indica capacidade de 20 kg e graduação de 100 g (modelo YRBB-20).\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Capacidade",
-        "value": "20 kg"
-      },
-      {
-        "label": "Graduação",
-        "value": "100 g"
-      },
-      {
-        "label": "Modelo",
-        "value": "YRBB-20"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:balanca-pediatrica",
-    "images": [
-      "builtin:balanca-pediatrica"
-    ],
-    "featured": false,
-    "order": 36,
-    "updatedAt": "2026-10-15T00:00:00.000Z"
-  },
-  "teste-rapido-de-gravidez": {
-    "name": "Teste rápido de gravidez",
-    "reference": "",
-    "category": "Equipamentos laboratoriais",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Caixa de testes rápidos de gravidez, marca Mamãe Perfeita, com 40 unidades.",
-    "description": "Teste rápido de gravidez de uma etapa, da marca Mamãe Perfeita. Caixa com 40 unidades. Seguir as instruções da embalagem.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Mamãe Perfeita"
-      },
-      {
-        "label": "Quantidade",
-        "value": "40 unidades"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:teste-gravidez",
-    "images": [
-      "builtin:teste-gravidez"
-    ],
-    "featured": false,
-    "order": 37,
-    "updatedAt": "2026-10-15T00:00:00.000Z"
-  },
-  "teste-rapido-de-hiv": {
-    "name": "Teste rápido de HIV",
-    "reference": "",
-    "category": "Equipamentos laboratoriais",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Dispositivo de teste rápido de HIV, marca Preciso, para diagnóstico in vitro.",
-    "description": "Dispositivo de teste rápido de HIV, da marca Preciso, para utilização em diagnóstico in vitro. A embalagem indica conservação entre 2 e 30 °C.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Preciso"
-      },
-      {
-        "label": "Utilização",
-        "value": "Diagnóstico in vitro"
-      },
-      {
-        "label": "Conservação",
-        "value": "2 a 30 °C"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:teste-hiv",
-    "images": [
-      "builtin:teste-hiv"
-    ],
-    "featured": false,
-    "order": 38,
-    "updatedAt": "2026-10-15T00:00:00.000Z"
-  },
-  "kit-de-primeiros-socorros-para-100-pessoas": {
-    "name": "Kit de primeiros socorros para 100 pessoas",
-    "reference": "",
-    "category": "Acessórios e materiais de apoio clínico",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Caixa de primeiros socorros em plástico laranja, referência GKB300, para 100 pessoas.",
-    "description": "Caixa de primeiros socorros em plástico laranja com pega. A etiqueta indica referência GKB300 e «For 100 People».\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Referência",
-        "value": "GKB300"
-      },
-      {
-        "label": "Indicação da caixa",
-        "value": "Para 100 pessoas"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:kit-100",
-    "images": [
-      "builtin:kit-100"
-    ],
-    "featured": false,
-    "order": 39,
-    "updatedAt": "2026-10-15T00:00:00.000Z"
-  },
-  "kit-de-primeiros-socorros-para-25-pessoas": {
-    "name": "Kit de primeiros socorros para 25 pessoas",
-    "reference": "",
-    "category": "Acessórios e materiais de apoio clínico",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Caixa de primeiros socorros em plástico laranja, referência GKB301, para 25 pessoas.",
-    "description": "Caixa de primeiros socorros em plástico laranja com pega. A etiqueta indica referência GKB301 e «For 25 People».\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Referência",
-        "value": "GKB301"
-      },
-      {
-        "label": "Indicação da caixa",
-        "value": "Para 25 pessoas"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:kit-25",
-    "images": [
-      "builtin:kit-25"
-    ],
-    "featured": false,
-    "order": 40,
-    "updatedAt": "2026-10-15T00:00:00.000Z"
+    "order": 93,
+    "updatedAt": "2026-10-11T21:00:00.000Z",
+    "inStock": false
   },
   "kit-de-primeiros-socorros-em-bolsa": {
     "name": "Kit de primeiros socorros em bolsa",
     "reference": "",
-    "category": "Acessórios e materiais de apoio clínico",
+    "category": "Kits de primeiros socorros",
     "brand": "",
     "model": "",
     "shortDescription": "Estojo de primeiros socorros portátil, vermelho, com cruz branca.",
@@ -1222,335 +2154,8 @@
       "builtin:kit-bolsa"
     ],
     "featured": false,
-    "order": 41,
-    "updatedAt": "2026-10-15T00:00:00.000Z"
-  },
-  "cama-hospitalar-tri-partida": {
-    "name": "Cama hospitalar tri-partida",
-    "reference": "",
-    "category": "Equipamentos médicos e hospitalares",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Cama hospitalar tri-partida com grades laterais e colchão azul.",
-    "description": "Cama hospitalar tri-partida com estrutura branca, grades laterais em alumínio, painéis azuis na cabeceira e peseira, colchão azul e rodízios.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Tipo",
-        "value": "Tri-partida"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:cama-tripartida",
-    "images": [
-      "builtin:cama-tripartida"
-    ],
-    "featured": false,
-    "order": 42,
-    "updatedAt": "2026-10-15T13:00:00.000Z"
-  },
-  "cama-hospitalar-eletrica": {
-    "name": "Cama hospitalar elétrica",
-    "reference": "",
-    "category": "Equipamentos médicos e hospitalares",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Cama hospitalar elétrica com grades laterais, colchão azul e comando.",
-    "description": "Cama hospitalar elétrica com grades laterais, painéis azuis na cabeceira e peseira, colchão azul, comando por cabo e rodízios.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Tipo",
-        "value": "Elétrica"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:cama-eletrica",
-    "images": [
-      "builtin:cama-eletrica"
-    ],
-    "featured": false,
-    "order": 43,
-    "updatedAt": "2026-10-15T13:00:00.000Z"
-  },
-  "cadeira-de-colheita": {
-    "name": "Cadeira de colheita",
-    "reference": "",
-    "category": "Equipamentos médicos e hospitalares",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Cadeira de colheita estofada a azul, com apoio de pernas e suporte de soro.",
-    "description": "Cadeira de colheita com estofo azul, braços acolchoados, apoio de pernas e suporte para soro.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Estofo",
-        "value": "Azul"
-      },
-      {
-        "label": "Inclui",
-        "value": "Apoio de pernas e suporte de soro"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:cadeira-colheita",
-    "images": [
-      "builtin:cadeira-colheita"
-    ],
-    "featured": false,
-    "order": 44,
-    "updatedAt": "2026-10-15T13:00:00.000Z"
-  },
-  "cadeira-de-rodas-multifuncional": {
-    "name": "Cadeira de rodas multifuncional",
-    "reference": "",
-    "category": "Mobilidade e reabilitação",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Cadeira de rodas com encosto alto, apoio de cabeça, cintos e apoios de pernas.",
-    "description": "Cadeira de rodas multifuncional com estrutura cromada, tecido axadrezado, encosto alto com apoio de cabeça, cintos de segurança e apoios de pernas almofadados.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Estrutura",
-        "value": "Cromada"
-      },
-      {
-        "label": "Inclui",
-        "value": "Apoio de cabeça, cintos e apoios de pernas"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:cadeira-multifuncional",
-    "images": [
-      "builtin:cadeira-multifuncional"
-    ],
-    "featured": false,
-    "order": 45,
-    "updatedAt": "2026-10-15T13:00:00.000Z"
-  },
-  "cadeira-de-rodas-eletrica-infantil": {
-    "name": "Cadeira de rodas elétrica infantil",
-    "reference": "",
-    "category": "Mobilidade e reabilitação",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Cadeira de rodas elétrica infantil com comando e assento estampado.",
-    "description": "Cadeira de rodas elétrica infantil com estrutura verde, assento e costas estampados em amarelo, cintos de segurança e comando tipo joystick.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Tipo",
-        "value": "Elétrica, infantil"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:cadeira-infantil-eletrica",
-    "images": [
-      "builtin:cadeira-infantil-eletrica"
-    ],
-    "featured": false,
-    "order": 46,
-    "updatedAt": "2026-10-15T13:00:00.000Z"
-  },
-  "bengalas": {
-    "name": "Bengalas",
-    "reference": "",
-    "category": "Mobilidade e reabilitação",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Bengalas e canadianas em várias versões.",
-    "description": "Conjunto de apoios de marcha: canadianas de axila em alumínio com apoios em madeira e bengalas de diferentes modelos.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Modelos",
-        "value": "Canadianas e bengalas"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:bengalas",
-    "images": [
-      "builtin:bengalas"
-    ],
-    "featured": false,
-    "order": 47,
-    "updatedAt": "2026-10-15T13:00:00.000Z"
-  },
-  "autoclave-35-litros": {
-    "name": "Autoclave 35 litros",
-    "reference": "",
-    "category": "Equipamentos laboratoriais",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Autoclave vertical a vapor de 35 litros.",
-    "description": "Autoclave vertical a vapor de 35 litros, em aço inoxidável, com tampa azul, manómetro e painel digital.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Capacidade",
-        "value": "35 litros"
-      },
-      {
-        "label": "Tipo",
-        "value": "Esterilizador a vapor vertical"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:autoclave-35",
-    "images": [
-      "builtin:autoclave-35"
-    ],
-    "featured": false,
-    "order": 48,
-    "updatedAt": "2026-10-15T13:00:00.000Z"
-  },
-  "autoclave-50-litros": {
-    "name": "Autoclave 50 litros",
-    "reference": "",
-    "category": "Equipamentos laboratoriais",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Autoclave vertical a vapor de 50 litros.",
-    "description": "Autoclave vertical a vapor de 50 litros, em aço inoxidável, com manómetro, painel digital e rodízios.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Capacidade",
-        "value": "50 litros"
-      },
-      {
-        "label": "Tipo",
-        "value": "Esterilizador a vapor vertical"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:autoclave-50",
-    "images": [
-      "builtin:autoclave-50"
-    ],
-    "featured": false,
-    "order": 49,
-    "updatedAt": "2026-10-15T13:00:00.000Z"
-  },
-  "estufa-30-litros": {
-    "name": "Estufa 30 litros",
-    "reference": "",
-    "category": "Equipamentos laboratoriais",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Estufa laboratorial de 30 litros com porta com visor.",
-    "description": "Estufa laboratorial de 30 litros, com corpo branco e azul, ecrã de controlo e porta com visor, com prateleiras internas.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Capacidade",
-        "value": "30 litros"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:estufa-30",
-    "images": [
-      "builtin:estufa-30"
-    ],
-    "featured": false,
-    "order": 50,
-    "updatedAt": "2026-10-15T13:00:00.000Z"
-  },
-  "estufa-50-litros": {
-    "name": "Estufa 50 litros",
-    "reference": "",
-    "category": "Equipamentos laboratoriais",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Estufa laboratorial de 50 litros com porta com visor.",
-    "description": "Estufa laboratorial de 50 litros, com corpo branco e azul-claro, ecrã de controlo digital e porta com visor, com prateleiras internas.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Capacidade",
-        "value": "50 litros"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:estufa-50",
-    "images": [
-      "builtin:estufa-50"
-    ],
-    "featured": false,
-    "order": 51,
-    "updatedAt": "2026-10-15T13:00:00.000Z"
-  },
-  "estufa-136-litros": {
-    "name": "Estufa 136 litros",
-    "reference": "",
-    "category": "Equipamentos laboratoriais",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Estufa laboratorial de 136 litros com porta com visor.",
-    "description": "Estufa laboratorial de 136 litros, com corpo branco e azul, ecrã de controlo e porta com visor.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Capacidade",
-        "value": "136 litros"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:estufa-136",
-    "images": [
-      "builtin:estufa-136"
-    ],
-    "featured": false,
-    "order": 52,
-    "updatedAt": "2026-10-15T13:00:00.000Z"
-  },
-  "camara-de-inalacao": {
-    "name": "Câmara de inalação",
-    "reference": "",
-    "category": "Acessórios e materiais de apoio clínico",
-    "brand": "",
-    "model": "",
-    "shortDescription": "Câmara de inalação com válvula, embalada em saco plástico.",
-    "description": "Câmara de inalação (câmara de detenção valvulada) com tampa azul, embalada em saco plástico e caixa.\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
-    "specs": [
-      {
-        "label": "Tipo",
-        "value": "Câmara de detenção valvulada"
-      }
-    ],
-    "price": null,
-    "showPrice": false,
-    "stock": null,
-    "showStock": false,
-    "mainImage": "builtin:camara-inalacao",
-    "images": [
-      "builtin:camara-inalacao"
-    ],
-    "featured": false,
-    "order": 53,
-    "updatedAt": "2026-10-15T13:00:00.000Z"
+    "order": 94,
+    "updatedAt": "2026-10-15T00:00:00.000Z",
+    "inStock": false
   }
 }

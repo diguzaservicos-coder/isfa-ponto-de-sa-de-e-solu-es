@@ -520,8 +520,17 @@ function ProductForm({
             />
             Mostrar a quantidade exata no site
           </label>
+          <label className="mt-2 flex items-center gap-2 text-sm text-slate-700">
+            <input
+              id="f-em-stock"
+              type="checkbox"
+              checked={p.inStock}
+              onChange={(e) => set("inStock", e.target.checked)}
+            />
+            Em stock (sem indicar quantidade)
+          </label>
           <p className="mt-1 text-xs text-slate-500">
-            No site aparece: {availability({ stock: parsedStock.ok ? parsedStock.value : null }).label}.
+            No site aparece: {availability({ stock: parsedStock.ok ? parsedStock.value : null, inStock: p.inStock }).label}.
           </p>
         </div>
         {stockChanged && (
