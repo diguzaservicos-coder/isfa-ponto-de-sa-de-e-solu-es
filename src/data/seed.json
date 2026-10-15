@@ -338,11 +338,12 @@
     "inStock": true,
     "mainImage": "builtin:bengalas",
     "images": [
-      "builtin:bengalas"
+      "builtin:bengalas",
+      "builtin:bengala-quatro-apoios"
     ],
     "featured": false,
     "order": 16,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:25:51.000Z"
   },
   "bengala-dobravel": {
     "name": "Bengala dobrável",
@@ -446,11 +447,16 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:maca-aco",
+    "images": [
+      "builtin:maca-aco",
+      "builtin:maca-aco-2",
+      "builtin:maca-laranja",
+      "builtin:maca-laranja-2"
+    ],
     "featured": false,
     "order": 21,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:25:51.000Z"
   },
   "cadeira-de-colheita": {
     "name": "Cadeira de colheita",
@@ -510,11 +516,13 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:suporte-soro",
+    "images": [
+      "builtin:suporte-soro"
+    ],
     "featured": false,
     "order": 24,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:25:51.000Z"
   },
   "biombo-de-4-telas": {
     "name": "Biombo de 4 telas",
@@ -535,11 +543,13 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:biombo-4-telas",
+    "images": [
+      "builtin:biombo-4-telas"
+    ],
     "featured": false,
     "order": 25,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:25:51.000Z"
   },
   "carrinho-de-medicacao": {
     "name": "Carrinho de medicação",
@@ -555,11 +565,13 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:carrinho-medicacao",
+    "images": [
+      "builtin:carrinho-medicacao"
+    ],
     "featured": false,
     "order": 26,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:25:51.000Z"
   },
   "carrinho-de-tratamento": {
     "name": "Carrinho de tratamento",
@@ -597,11 +609,13 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:banco-laboratorio",
+    "images": [
+      "builtin:banco-laboratorio"
+    ],
     "featured": false,
     "order": 28,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:25:51.000Z"
   },
   "esfigmomanometro-manual-com-estetoscopio": {
     "name": "Esfigmomanómetro manual",
@@ -639,13 +653,13 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "builtin:tensiometro-digital",
+    "mainImage": "builtin:monitor-pa-bp05",
     "images": [
-      "builtin:tensiometro-digital"
+      "builtin:monitor-pa-bp05"
     ],
     "featured": false,
     "order": 30,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:25:51.000Z"
   },
   "estetoscopio": {
     "name": "Estetoscópio",
@@ -661,11 +675,13 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:estetoscopio",
+    "images": [
+      "builtin:estetoscopio"
+    ],
     "featured": false,
     "order": 31,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:25:51.000Z"
   },
   "termometro-infravermelho": {
     "name": "Termómetro infravermelho",
@@ -703,11 +719,13 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:termometro-digital",
+    "images": [
+      "builtin:termometro-digital"
+    ],
     "featured": false,
     "order": 33,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:25:51.000Z"
   },
   "oximetro": {
     "name": "Oxímetro",
@@ -725,11 +743,12 @@
     "inStock": true,
     "mainImage": "builtin:oximetro-upalm",
     "images": [
-      "builtin:oximetro-upalm"
+      "builtin:oximetro-upalm",
+      "builtin:oximetro-lk89"
     ],
     "featured": false,
     "order": 34,
-    "updatedAt": "2026-10-15T18:30:00.000Z"
+    "updatedAt": "2026-10-15T22:25:51.000Z"
   },
   "balanca-pediatrica": {
     "name": "Balança pediátrica",
@@ -855,11 +874,13 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:concentrador-390",
+    "images": [
+      "builtin:concentrador-390"
+    ],
     "featured": false,
     "order": 40,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:25:51.000Z"
   },
   "concentrador-de-oxigenio-de-5-l": {
     "name": "Concentrador de oxigénio de 5 L",
@@ -880,11 +901,13 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:concentrador-5l",
+    "images": [
+      "builtin:concentrador-5l"
+    ],
     "featured": false,
     "order": 41,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:25:51.000Z"
   },
   "concentrador-de-oxigenio-duplo": {
     "name": "Concentrador de oxigénio duplo",
@@ -905,11 +928,13 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:concentrador-10l",
+    "images": [
+      "builtin:concentrador-10l"
+    ],
     "featured": false,
     "order": 42,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:25:51.000Z"
   },
   "bomba-de-aspiracao-de-secrecoes": {
     "name": "Aspirador de secreções",
@@ -931,7 +956,7 @@
     ],
     "featured": false,
     "order": 43,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:25:51.000Z"
   },
   "aspirador-de-secrecoes-manual": {
     "name": "Aspirador de secreções manual",
@@ -947,11 +972,13 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:aspirador-manual",
+    "images": [
+      "builtin:aspirador-manual"
+    ],
     "featured": false,
     "order": 44,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:25:51.000Z"
   },
   "microscopio-optico-binocular": {
     "name": "Microscópio binocular óptico",
@@ -1398,11 +1425,13 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:papel-marquesa",
+    "images": [
+      "builtin:papel-marquesa"
+    ],
     "featured": false,
     "order": 64,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:25:51.000Z"
   },
   "kit-instrumentos-cirurgicos": {
     "name": "Kit de pequenas cirurgias",
@@ -1440,11 +1469,13 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:bisturi-eletrico",
+    "images": [
+      "builtin:bisturi-eletrico"
+    ],
     "featured": false,
     "order": 66,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:25:51.000Z"
   },
   "autoclave-35-litros": {
     "name": "Autoclave de 35 L",
@@ -1574,11 +1605,13 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:bata-clinica",
+    "images": [
+      "builtin:bata-clinica"
+    ],
     "featured": false,
     "order": 72,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:25:51.000Z"
   },
   "avental-cirurgico": {
     "name": "Avental cirúrgico",
@@ -1594,11 +1627,13 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:avental-cirurgico",
+    "images": [
+      "builtin:avental-cirurgico"
+    ],
     "featured": false,
     "order": 73,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:25:51.000Z"
   },
   "mascara-respiratoria-n95": {
     "name": "Máscara respiratória N95",
@@ -1619,11 +1654,13 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "",
-    "images": [],
+    "mainImage": "builtin:mascara-n95",
+    "images": [
+      "builtin:mascara-n95"
+    ],
     "featured": false,
     "order": 74,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-15T22:25:51.000Z"
   },
   "protetores-descartaveis-de-calcado": {
     "name": "Protetores descartáveis de calçado",
@@ -1824,13 +1861,13 @@
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "builtin:bomba-seringa",
+    "mainImage": "builtin:bomba-injecao",
     "images": [
-      "builtin:bomba-seringa"
+      "builtin:bomba-injecao"
     ],
     "featured": false,
     "order": 82,
-    "updatedAt": "2026-10-11T21:00:00.000Z",
+    "updatedAt": "2026-10-15T22:25:51.000Z",
     "inStock": false
   },
   "monitor-multiparametrico": {
@@ -1910,13 +1947,13 @@
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "builtin:ecg",
+    "mainImage": "builtin:ecg-3-canais",
     "images": [
-      "builtin:ecg"
+      "builtin:ecg-3-canais"
     ],
     "featured": false,
     "order": 85,
-    "updatedAt": "2026-10-11T21:00:00.000Z",
+    "updatedAt": "2026-10-15T22:25:51.000Z",
     "inStock": false
   },
   "eletrocardiografo-ecg-de-6-canais": {
@@ -1937,13 +1974,13 @@
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "builtin:ecg",
+    "mainImage": "builtin:ecg-6-canais",
     "images": [
-      "builtin:ecg"
+      "builtin:ecg-6-canais"
     ],
     "featured": false,
     "order": 86,
-    "updatedAt": "2026-10-11T21:00:00.000Z",
+    "updatedAt": "2026-10-15T22:25:51.000Z",
     "inStock": false
   },
   "eletrocardiografo-ecg-de-12-canais": {
@@ -1964,13 +2001,13 @@
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "builtin:ecg",
+    "mainImage": "builtin:ecg-12-canais",
     "images": [
-      "builtin:ecg"
+      "builtin:ecg-12-canais"
     ],
     "featured": false,
     "order": 87,
-    "updatedAt": "2026-10-11T21:00:00.000Z",
+    "updatedAt": "2026-10-15T22:25:51.000Z",
     "inStock": false
   },
   "balanca-para-adultos": {
@@ -2174,6 +2211,72 @@
     "featured": false,
     "order": 94,
     "updatedAt": "2026-10-15T00:00:00.000Z",
+    "inStock": false
+  },
+  "ecografo-portatil-preto-e-branco": {
+    "name": "Ecógrafo portátil preto e branco",
+    "reference": "",
+    "category": "Equipamentos de diagnóstico e monitorização",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Equipamento portátil em formato de computador portátil, com ecrã, teclado, trackball e comandos físicos.",
+    "description": "Ecógrafo portátil preto e branco, em formato de computador portátil, com ecrã, teclado, trackball e comandos físicos.\n\nCaracterísticas técnicas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:ecografo-pb",
+    "images": [
+      "builtin:ecografo-pb"
+    ],
+    "featured": false,
+    "order": 95,
+    "updatedAt": "2026-10-15T22:25:51.000Z",
+    "inStock": false
+  },
+  "ecografo-portatil-colorido-com-doppler": {
+    "name": "Ecógrafo portátil colorido, com Doppler",
+    "reference": "",
+    "category": "Equipamentos de diagnóstico e monitorização",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Equipamento portátil em formato de computador portátil, com ecrã, teclado, trackball e comandos físicos.",
+    "description": "Ecógrafo portátil colorido, com Doppler, em formato de computador portátil, com ecrã, teclado, trackball e comandos físicos.\n\nCaracterísticas técnicas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:ecografo-doppler",
+    "images": [
+      "builtin:ecografo-doppler"
+    ],
+    "featured": false,
+    "order": 96,
+    "updatedAt": "2026-10-15T22:25:51.000Z",
+    "inStock": false
+  },
+  "monitor-fetal-ctg": {
+    "name": "Monitor fetal (CTG)",
+    "reference": "",
+    "category": "Equipamentos de diagnóstico e monitorização",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Monitor com ecrã inclinado, teclas de comando e corpo branco.",
+    "description": "Monitor fetal (CTG) com ecrã inclinado e teclas de comando por baixo do ecrã.\n\nCaracterísticas técnicas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "specs": [],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "mainImage": "builtin:monitor-fetal",
+    "images": [
+      "builtin:monitor-fetal"
+    ],
+    "featured": false,
+    "order": 97,
+    "updatedAt": "2026-10-15T22:25:51.000Z",
     "inStock": false
   }
 }

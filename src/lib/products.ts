@@ -63,6 +63,35 @@ import img_cadeira_odontologica from "../assets/cadeira-odontologica.webp";
 import img_monitor_2 from "../assets/monitor-2.webp";
 import img_centrifuga_24 from "../assets/centrifuga-24.webp";
 import img_oximetro_upalm from "../assets/oximetro-upalm.webp";
+import img_aspirador_manual from "../assets/aspirador-manual.webp";
+import img_avental_cirurgico from "../assets/avental-cirurgico.webp";
+import img_banco_laboratorio from "../assets/banco-laboratorio.webp";
+import img_bata_clinica from "../assets/bata-clinica.webp";
+import img_bengala_quatro_apoios from "../assets/bengala-quatro-apoios.webp";
+import img_biombo_4_telas from "../assets/biombo-4-telas.webp";
+import img_bisturi_eletrico from "../assets/bisturi-eletrico.webp";
+import img_bomba_injecao from "../assets/bomba-injecao.webp";
+import img_carrinho_medicacao from "../assets/carrinho-medicacao.webp";
+import img_concentrador_10l from "../assets/concentrador-10l.webp";
+import img_concentrador_390 from "../assets/concentrador-390.webp";
+import img_concentrador_5l from "../assets/concentrador-5l.webp";
+import img_ecg_12_canais from "../assets/ecg-12-canais.webp";
+import img_ecg_3_canais from "../assets/ecg-3-canais.webp";
+import img_ecg_6_canais from "../assets/ecg-6-canais.webp";
+import img_ecografo_doppler from "../assets/ecografo-doppler.webp";
+import img_ecografo_pb from "../assets/ecografo-pb.webp";
+import img_estetoscopio from "../assets/estetoscopio.webp";
+import img_maca_aco from "../assets/maca-aco.webp";
+import img_maca_aco_2 from "../assets/maca-aco-2.webp";
+import img_maca_laranja from "../assets/maca-laranja.webp";
+import img_maca_laranja_2 from "../assets/maca-laranja-2.webp";
+import img_mascara_n95 from "../assets/mascara-n95.webp";
+import img_monitor_fetal from "../assets/monitor-fetal.webp";
+import img_monitor_pa_bp05 from "../assets/monitor-pa-bp05.webp";
+import img_oximetro_lk89 from "../assets/oximetro-lk89.webp";
+import img_papel_marquesa from "../assets/papel-marquesa.webp";
+import img_suporte_soro from "../assets/suporte-soro.webp";
+import img_termometro_digital from "../assets/termometro-digital.webp";
 
 export type Spec = { label: string; value: string };
 
@@ -114,6 +143,35 @@ const builtin: Record<string, string> = {
   "olympus-cx23": img_olympus_cx23,
   "bengala-dobravel": img_bengala_dobravel,
   "estufa-136-2": img_estufa_136_2,
+  "aspirador-manual": img_aspirador_manual,
+  "avental-cirurgico": img_avental_cirurgico,
+  "banco-laboratorio": img_banco_laboratorio,
+  "bata-clinica": img_bata_clinica,
+  "bengala-quatro-apoios": img_bengala_quatro_apoios,
+  "biombo-4-telas": img_biombo_4_telas,
+  "bisturi-eletrico": img_bisturi_eletrico,
+  "bomba-injecao": img_bomba_injecao,
+  "carrinho-medicacao": img_carrinho_medicacao,
+  "concentrador-10l": img_concentrador_10l,
+  "concentrador-390": img_concentrador_390,
+  "concentrador-5l": img_concentrador_5l,
+  "ecg-12-canais": img_ecg_12_canais,
+  "ecg-3-canais": img_ecg_3_canais,
+  "ecg-6-canais": img_ecg_6_canais,
+  "ecografo-doppler": img_ecografo_doppler,
+  "ecografo-pb": img_ecografo_pb,
+  "estetoscopio": img_estetoscopio,
+  "maca-aco": img_maca_aco,
+  "maca-aco-2": img_maca_aco_2,
+  "maca-laranja": img_maca_laranja,
+  "maca-laranja-2": img_maca_laranja_2,
+  "mascara-n95": img_mascara_n95,
+  "monitor-fetal": img_monitor_fetal,
+  "monitor-pa-bp05": img_monitor_pa_bp05,
+  "oximetro-lk89": img_oximetro_lk89,
+  "papel-marquesa": img_papel_marquesa,
+  "suporte-soro": img_suporte_soro,
+  "termometro-digital": img_termometro_digital,
   "cadeira-odontologica": img_cadeira_odontologica,
   "monitor-2": img_monitor_2,
   "centrifuga-24": img_centrifuga_24,
