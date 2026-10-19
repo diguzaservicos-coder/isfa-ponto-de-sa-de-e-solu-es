@@ -3,10 +3,10 @@ import { hasPlatform } from "./claude";
 import { supabase } from "./supabaseClient";
 import { platform } from "./backends/platform";
 import { supabaseBackend } from "./backends/supabase";
-import type { AuthState, Backend, StockMovement } from "./backends/types";
+import type { AuthState, Backend, StockKind, StockMovement } from "./backends/types";
 import { Product, seedProducts } from "./products";
 
-export type { StockMovement };
+export type { StockKind, StockMovement };
 
 /** platform = pré-visualização na plataforma Claude; supabase = produção (Vercel); dev = só leitura, dados de exemplo. */
 export const mode: "platform" | "supabase" | "dev" = hasPlatform() ? "platform" : supabase ? "supabase" : "dev";
@@ -52,3 +52,6 @@ export const saveProduct = (p: Product, prev: Product | null, existingIds: strin
   need().saveProduct(p, prev, existingIds, reason);
 export const deleteProduct = (p: Product) => need().deleteProduct(p);
 export const uploadPhoto = (file: File) => need().uploadPhoto(file);
+export const loadRecentMovements = (limit = 15) => (backend ? backend.loadRecentMovements(limit) : Promise.resolve([]));
+export const adjustStock = (p: Product, kind: StockKind, qty: number, reason: string) => need().adjustStock(p, kind, qty, reason);
+export const importStock = (rows: { product: Product; qty: number }[], reason: string) => need().importStock(rows, reason);

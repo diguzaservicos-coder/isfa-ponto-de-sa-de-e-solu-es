@@ -120,6 +120,29 @@ export const platform: Backend = {
     }
   },
 
+  async loadRecentMovements() {
+    return [];
+  },
+
+  async adjustStock(prod, kind, qty, reason) {
+    if (!Number.isInteger(qty) || qty < 0) throw new Error("Quantidade inválida.");
+    const cur = prod.stock;
+    let next: number;
+    if (kind === "entrada") next = (cur ?? 0) + qty;
+    else if (kind === "saida") {
+      if (cur === null) throw new Error('Sem quantidade registada: use "Definir quantidade" primeiro');
+      if (cur < qty) throw new Error(`Stock insuficiente: existem ${cur} unidades`);
+      next = cur - qty;
+    } else next = qty;
+    await platform.saveProduct({ ...prod, stock: next }, prod, [], reason || "Movimento de stock");
+    return next;
+  },
+
+  async importStock(rows, reason) {
+    for (const r of rows) await platform.saveProduct({ ...r.product, stock: r.qty }, r.product, [], reason);
+    return rows.length;
+  },
+
   async resolveNames(ids) {
     const user = await use<any>("user");
     if (!user || !ids.length) return {};

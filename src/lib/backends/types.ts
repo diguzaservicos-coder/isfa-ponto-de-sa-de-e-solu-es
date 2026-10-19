@@ -7,7 +7,12 @@ export type StockMovement = {
   reason: string;
   by: string | null;
   at: string;
+  kind?: string;
+  delta?: number | null;
+  productName?: string;
 };
+
+export type StockKind = "entrada" | "saida" | "ajuste";
 
 export type AuthState = { loading: boolean; signedIn: boolean; isAdmin: boolean; email: string | null; error?: string };
 
@@ -19,6 +24,11 @@ export interface Backend {
   deleteProduct(p: Product): Promise<void>;
   uploadPhoto(file: File): Promise<string>;
   loadMovements(productId: string): Promise<StockMovement[]>;
+  loadRecentMovements(limit: number): Promise<StockMovement[]>;
+  /** Entrada soma, saída subtrai (nunca abaixo de zero) e ajuste define a quantidade. Devolve o novo stock. */
+  adjustStock(p: Product, kind: StockKind, qty: number, reason: string): Promise<number>;
+  /** Define várias quantidades de uma vez (tudo ou nada). Devolve quantos produtos foram atualizados. */
+  importStock(rows: { product: Product; qty: number }[], reason: string): Promise<number>;
   resolveNames(ids: string[]): Promise<Record<string, string>>;
   signIn?(email: string, password: string): Promise<void>;
   signOut?(): Promise<void>;

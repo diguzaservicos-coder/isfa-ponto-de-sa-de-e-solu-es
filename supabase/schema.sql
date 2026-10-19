@@ -112,3 +112,49 @@ create policy "fotos: admin altera" on storage.objects
 drop policy if exists "fotos: admin elimina" on storage.objects;
 create policy "fotos: admin elimina" on storage.objects
   for delete to authenticated using (bucket_id = 'product-photos' and public.is_admin());
+
+
+-- ============================================================
+-- Controlo de stock automático (entrada / saída / definir / importar)
+-- ============================================================
+alter table public.stock_movements add column if not exists kind text not null default 'ajuste';
+alter table public.stock_movements add column if not exists delta integer;
+
+create or replace function public.apply_stock_movement(p_product_id text, p_kind text, p_qty integer, p_reason text default '')
+returns integer language plpgsql security definer set search_path = public as $$
+declare v_before integer; v_name text; v_after integer;
+begin
+  if not public.is_admin() then raise exception 'Sem permissão' using errcode = '42501'; end if;
+  if p_qty is null or p_qty < 0 then raise exception 'Quantidade inválida' using errcode = '23514'; end if;
+  if p_kind not in ('entrada','saida','ajuste','importacao') then raise exception 'Tipo de movimento inválido' using errcode = '22023'; end if;
+  select stock, name into v_before, v_name from public.products where id = p_product_id for update;
+  if not found then raise exception 'Produto não encontrado' using errcode = 'P0002'; end if;
+  if p_kind = 'entrada' then v_after := coalesce(v_before,0) + p_qty;
+  elsif p_kind = 'saida' then
+    if v_before is null then raise exception 'Sem quantidade registada: use "Definir quantidade" primeiro' using errcode = 'P0001'; end if;
+    if v_before < p_qty then raise exception 'Stock insuficiente: existem % unidades', v_before using errcode = 'P0001'; end if;
+    v_after := v_before - p_qty;
+  else v_after := p_qty; end if;
+  update public.products set stock = v_after, updated_at = now() where id = p_product_id;
+  insert into public.stock_movements (product_id, product_name, before_qty, after_qty, reason, by_user, kind, delta)
+  values (p_product_id, v_name, v_before, v_after,
+    coalesce(nullif(trim(p_reason),''), case p_kind when 'entrada' then 'Entrada de mercadoria' when 'saida' then 'Saída de mercadoria' when 'importacao' then 'Importação de quantidades' else 'Contagem de stock' end),
+    auth.jwt() ->> 'email', p_kind, v_after - coalesce(v_before,0));
+  return v_after;
+end; $$;
+
+create or replace function public.apply_stock_import(p_rows jsonb, p_reason text default 'Importação de quantidades')
+returns integer language plpgsql security definer set search_path = public as $$
+declare r record; n integer := 0;
+begin
+  if not public.is_admin() then raise exception 'Sem permissão' using errcode = '42501'; end if;
+  for r in select * from jsonb_to_recordset(p_rows) as x(id text, qty integer) loop
+    perform public.apply_stock_movement(r.id, 'importacao', r.qty, p_reason); n := n + 1;
+  end loop;
+  return n;
+end; $$;
+
+revoke all on function public.apply_stock_movement(text,text,integer,text) from public, anon;
+revoke all on function public.apply_stock_import(jsonb,text) from public, anon;
+grant execute on function public.apply_stock_movement(text,text,integer,text) to authenticated;
+grant execute on function public.apply_stock_import(jsonb,text) to authenticated;

@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowLeft, ImagePlus, Plus, Star, Trash2 } from "lucide-react";
+import StockPanel from "./StockPanel";
 import {
   availability,
   blankProduct,
@@ -41,6 +42,7 @@ export default function Admin({
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [form, setForm] = useState<Product | null>(null);
   const [isNew, setIsNew] = useState(false);
+  const [tab, setTab] = useState<"produtos" | "stock">("produtos");
 
   const formRef = useRef<HTMLDivElement>(null);
   // Em ecrãs pequenos a lista fica por cima do formulário: ao escolher, desce até ele.
@@ -94,8 +96,34 @@ export default function Admin({
             )}
           </div>
         </div>
+        <div role="tablist" aria-label="Secções da gestão" className="mx-auto flex max-w-6xl gap-1 px-4 sm:px-6">
+          {(
+            [
+              ["produtos", "Produtos"],
+              ["stock", "Controlo de stock"],
+            ] as const
+          ).map(([k, t]) => (
+            <button
+              key={k}
+              type="button"
+              role="tab"
+              aria-selected={tab === k}
+              onClick={() => setTab(k)}
+              className={`-mb-px border-b-2 px-4 py-2.5 text-sm font-semibold ${
+                tab === k ? "border-isfa-blue text-isfa-blue-dark" : "border-transparent text-slate-500 hover:text-slate-700"
+              }`}
+            >
+              {t}
+            </button>
+          ))}
+        </div>
       </header>
 
+      {tab === "stock" ? (
+        <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
+          <StockPanel products={products} />
+        </div>
+      ) : (
       <div className="mx-auto grid max-w-6xl gap-6 px-4 py-6 sm:px-6 lg:grid-cols-[20rem_1fr]">
         <aside className="min-w-0 max-h-[55vh] overflow-y-auto pr-1 lg:sticky lg:top-4 lg:max-h-[calc(100vh-2rem)]">
           <button
@@ -177,6 +205,7 @@ export default function Admin({
           )}
         </main>
       </div>
+      )}
     </div>
   );
 }

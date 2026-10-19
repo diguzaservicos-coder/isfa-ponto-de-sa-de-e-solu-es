@@ -71,6 +71,7 @@ function friendly(error: { message?: string; code?: string } | null, fallback: s
   if (!error) return new Error(fallback);
   if (error.code === "42501" || /row-level security|permission/i.test(error.message ?? ""))
     return new Error("Sem permissão. Inicie sessão com uma conta de administrador.");
+  if (error.code === "P0001" && error.message) return new Error(error.message);
   if (error.code === "23514") return new Error("Valor inválido: preço e stock não podem ser negativos.");
   return new Error(fallback);
 }
@@ -216,6 +217,48 @@ export const supabaseBackend: Backend = {
       by: r.by_user,
       at: r.created_at,
     }));
+  },
+
+  async loadRecentMovements(limit) {
+    const { data, error } = await db()
+      .from("stock_movements")
+      .select("id, product_name, before_qty, after_qty, reason, by_user, created_at, kind, delta")
+      .order("created_at", { ascending: false })
+      .limit(limit);
+    if (error || !data) return [];
+    return data.map((r: any) => ({
+      id: r.id,
+      productName: r.product_name,
+      before: r.before_qty,
+      after: r.after_qty,
+      reason: r.reason,
+      by: r.by_user,
+      at: r.created_at,
+      kind: r.kind,
+      delta: r.delta,
+    }));
+  },
+
+  async adjustStock(p, kind, qty, reason) {
+    const { data, error } = await db().rpc("apply_stock_movement", {
+      p_product_id: p.id,
+      p_kind: kind,
+      p_qty: qty,
+      p_reason: reason,
+    });
+    if (error) throw friendly(error, "Não foi possível registar o movimento de stock.");
+    notify();
+    return Number(data);
+  },
+
+  async importStock(rows, reason) {
+    const { data, error } = await db().rpc("apply_stock_import", {
+      p_rows: rows.map((r) => ({ id: r.product.id, qty: r.qty })),
+      p_reason: reason,
+    });
+    if (error) throw friendly(error, "Não foi possível importar as quantidades. Nada foi alterado.");
+    notify();
+    return Number(data);
   },
 
   async resolveNames(ids) {
