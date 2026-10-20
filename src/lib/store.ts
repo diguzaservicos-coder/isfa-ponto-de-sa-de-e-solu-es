@@ -3,7 +3,7 @@ import { hasPlatform } from "./claude";
 import { supabase } from "./supabaseClient";
 import { platform } from "./backends/platform";
 import { supabaseBackend } from "./backends/supabase";
-import type { AuthState, Backend, StockKind, StockMovement } from "./backends/types";
+import type { AuthState, Backend, FeaturedVideo, StockKind, StockMovement } from "./backends/types";
 import { Product, seedProducts } from "./products";
 
 export type { StockKind, StockMovement };
@@ -55,3 +55,35 @@ export const uploadPhoto = (file: File) => need().uploadPhoto(file);
 export const loadRecentMovements = (limit = 15) => (backend ? backend.loadRecentMovements(limit) : Promise.resolve([]));
 export const adjustStock = (p: Product, kind: StockKind, qty: number, reason: string) => need().adjustStock(p, kind, qty, reason);
 export const importStock = (rows: { product: Product; qty: number }[], reason: string) => need().importStock(rows, reason);
+
+export const saveVideo = (v: FeaturedVideo) => need().saveVideo(v);
+export const uploadVideo = (f: File) => need().uploadVideo(f);
+export const deleteVideoFile = (path: string) => (backend ? backend.deleteVideoFile(path).catch(() => undefined) : Promise.resolve());
+
+/** Vídeo em destaque (null = nenhum). Em modo de exemplo (dev) lê o ficheiro de exemplo, sem vídeo. */
+export function useFeaturedVideo(): { video: FeaturedVideo | null; loaded: boolean; reload: () => void } {
+  const [video, setVideo] = useState<FeaturedVideo | null>(null);
+  const [loaded, setLoaded] = useState(false);
+  const [tick, setTick] = useState(0);
+  useEffect(() => {
+    let alive = true;
+    if (!backend) {
+      setLoaded(true);
+      return;
+    }
+    backend
+      .loadVideo()
+      .then((v) => alive && setVideo(v))
+      .catch(() => undefined)
+      .finally(() => alive && setLoaded(true));
+    return () => {
+      alive = false;
+    };
+  }, [tick]);
+  useEffect(() => {
+    const on = () => setTick((n) => n + 1);
+    window.addEventListener("isfa:video", on);
+    return () => window.removeEventListener("isfa:video", on);
+  }, []);
+  return { video, loaded, reload: () => setTick((n) => n + 1) };
+}

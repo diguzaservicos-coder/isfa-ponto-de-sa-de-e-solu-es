@@ -12,6 +12,20 @@ export type StockMovement = {
   productName?: string;
 };
 
+/** Vídeo em destaque da página principal. */
+export type FeaturedVideo = {
+  enabled: boolean;
+  /** "link" = YouTube ou Vimeo; "upload" = ficheiro enviado para o Supabase. */
+  source: "link" | "upload";
+  url: string;
+  /** Caminho do ficheiro enviado (só source = "upload"). */
+  path: string;
+  title: string;
+  description: string;
+};
+
+export const blankVideo: FeaturedVideo = { enabled: false, source: "link", url: "", path: "", title: "", description: "" };
+
 export type StockKind = "entrada" | "saida" | "ajuste";
 
 export type AuthState = { loading: boolean; signedIn: boolean; isAdmin: boolean; email: string | null; error?: string };
@@ -29,6 +43,11 @@ export interface Backend {
   adjustStock(p: Product, kind: StockKind, qty: number, reason: string): Promise<number>;
   /** Define várias quantidades de uma vez (tudo ou nada). Devolve quantos produtos foram atualizados. */
   importStock(rows: { product: Product; qty: number }[], reason: string): Promise<number>;
+  loadVideo(): Promise<FeaturedVideo | null>;
+  saveVideo(v: FeaturedVideo): Promise<FeaturedVideo>;
+  /** Envia um ficheiro de vídeo (MP4/WebM, máx. 50 MB) e devolve o caminho guardado. */
+  uploadVideo(file: File): Promise<string>;
+  deleteVideoFile(path: string): Promise<void>;
   resolveNames(ids: string[]): Promise<Record<string, string>>;
   signIn?(email: string, password: string): Promise<void>;
   signOut?(): Promise<void>;
@@ -61,4 +80,12 @@ export function newProductId(base: string, existingIds: string[]): string {
   let n = 2;
   while (existingIds.includes(id)) id = `${base}-${n++}`;
   return id;
+}
+
+export const VIDEO_MIME = ["video/mp4", "video/webm", "video/quicktime"];
+export const VIDEO_MAX_BYTES = 50 * 1024 * 1024;
+
+export function checkVideoFile(file: File) {
+  if (!VIDEO_MIME.includes(file.type)) throw new Error(`"${file.name}": use um vídeo MP4 ou WebM.`);
+  if (file.size > VIDEO_MAX_BYTES) throw new Error(`"${file.name}" tem mais de 50 MB. Reduza o vídeo ou use uma ligação do YouTube.`);
 }

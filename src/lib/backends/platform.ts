@@ -1,6 +1,6 @@
 import { use } from "../claude";
 import { byOrder, fromDoc, Product, slugify, toDoc } from "../products";
-import { Backend, newProductId, prepareImage, StockMovement } from "./types";
+import { Backend, blankVideo, FeaturedVideo, newProductId, prepareImage, StockMovement } from "./types";
 
 // Destino usado na pré-visualização publicada na plataforma Claude (base de dados + fotografias da página).
 // Coleções: products (publicados), productDrafts (rascunhos, só a gestão lê), stockMovements (só a gestão).
@@ -141,6 +141,30 @@ export const platform: Backend = {
   async importStock(rows, reason) {
     for (const r of rows) await platform.saveProduct({ ...r.product, stock: r.qty }, r.product, [], reason);
     return rows.length;
+  },
+
+  async loadVideo() {
+    const db = await use<any>("db");
+    if (!db) return null;
+    const snap = await db.doc("settings/featuredVideo").get();
+    const d = snap?.data?.();
+    return d ? ({ ...blankVideo, ...d, source: "link" } as FeaturedVideo) : null;
+  },
+
+  async saveVideo(v) {
+    const db = await use<any>("db");
+    if (!db) throw new Error("A base de dados não está disponível nesta visualização.");
+    await db.doc("settings/featuredVideo").set(v);
+    window.dispatchEvent(new Event("isfa:video"));
+    return v;
+  },
+
+  async uploadVideo() {
+    throw new Error("O envio de vídeos só funciona no site publicado. Aqui use uma ligação do YouTube ou Vimeo.");
+  },
+
+  async deleteVideoFile() {
+    /* nada a apagar nesta pré-visualização */
   },
 
   async resolveNames(ids) {

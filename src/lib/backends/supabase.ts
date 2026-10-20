@@ -1,6 +1,6 @@
-import { PHOTO_BUCKET, supabase } from "../supabaseClient";
+import { PHOTO_BUCKET, supabase, VIDEO_BUCKET } from "../supabaseClient";
 import { byOrder, Product, slugify } from "../products";
-import { AuthState, Backend, newProductId, prepareImage, StockMovement } from "./types";
+import { AuthState, Backend, blankVideo, checkVideoFile, FeaturedVideo, newProductId, prepareImage, StockMovement } from "./types";
 
 // Destino de produção: Supabase (Postgres + Auth + Storage). A segurança está nas políticas RLS de supabase/schema.sql.
 
@@ -259,6 +259,43 @@ export const supabaseBackend: Backend = {
     if (error) throw friendly(error, "Não foi possível importar as quantidades. Nada foi alterado.");
     notify();
     return Number(data);
+  },
+
+  async loadVideo() {
+    const { data, error } = await db().from("site_settings").select("value").eq("key", "featured_video").maybeSingle();
+    if (error || !data) return null;
+    const v: any = data.value ?? {};
+    return {
+      ...blankVideo,
+      enabled: v.enabled === true,
+      source: v.source === "upload" ? "upload" : "link",
+      url: str(v.url),
+      path: str(v.path),
+      title: str(v.title),
+      description: str(v.description),
+    } as FeaturedVideo;
+  },
+
+  async saveVideo(v) {
+    const { error } = await db()
+      .from("site_settings")
+      .upsert({ key: "featured_video", value: v, updated_at: new Date().toISOString() }, { onConflict: "key" });
+    if (error) throw friendly(error, "Não foi possível guardar o vídeo. Tente novamente.");
+    window.dispatchEvent(new Event("isfa:video"));
+    return v;
+  },
+
+  async uploadVideo(file) {
+    checkVideoFile(file);
+    const ext = file.type === "video/webm" ? "webm" : file.type === "video/quicktime" ? "mov" : "mp4";
+    const path = `${crypto.randomUUID()}.${ext}`;
+    const { error } = await db().storage.from(VIDEO_BUCKET).upload(path, file, { contentType: file.type, upsert: false });
+    if (error) throw friendly(error, "Não foi possível enviar o vídeo. Verifique o tamanho (máx. 50 MB) e tente novamente.");
+    return path;
+  },
+
+  async deleteVideoFile(path) {
+    if (path) await db().storage.from(VIDEO_BUCKET).remove([path]);
   },
 
   async resolveNames(ids) {

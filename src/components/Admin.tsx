@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowLeft, ImagePlus, Plus, Star, Trash2 } from "lucide-react";
+import VideoPanel from "./VideoPanel";
 import StockPanel from "./StockPanel";
 import {
   availability,
@@ -42,7 +43,7 @@ export default function Admin({
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [form, setForm] = useState<Product | null>(null);
   const [isNew, setIsNew] = useState(false);
-  const [tab, setTab] = useState<"produtos" | "stock">("produtos");
+  const [tab, setTab] = useState<"produtos" | "stock" | "video">("produtos");
 
   const formRef = useRef<HTMLDivElement>(null);
   // Em ecrãs pequenos a lista fica por cima do formulário: ao escolher, desce até ele.
@@ -101,6 +102,7 @@ export default function Admin({
             [
               ["produtos", "Produtos"],
               ["stock", "Controlo de stock"],
+              ["video", "Vídeo em destaque"],
             ] as const
           ).map(([k, t]) => (
             <button
@@ -119,7 +121,11 @@ export default function Admin({
         </div>
       </header>
 
-      {tab === "stock" ? (
+      {tab === "video" ? (
+        <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
+          <VideoPanel />
+        </div>
+      ) : tab === "stock" ? (
         <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
           <StockPanel products={products} />
         </div>

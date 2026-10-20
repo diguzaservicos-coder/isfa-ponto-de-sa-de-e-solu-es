@@ -3,10 +3,12 @@ import { MessageCircle, ArrowRight, Search, Stethoscope, FlaskConical, Package, 
 import Nav from "../components/Nav";
 import Admin from "../components/Admin";
 import AdminLogin from "../components/AdminLogin";
+import FeaturedVideoSection from "../components/FeaturedVideo";
 import ProductModal from "../components/ProductModal";
 import logo from "../assets/logo-isfa.webp";
 import { availability, formatPrice, groupByCategory, imageUrl, Product } from "../lib/products";
-import { signOut, useAuth, useCatalog } from "../lib/store";
+import { signOut, useAuth, useCatalog, useFeaturedVideo } from "../lib/store";
+import { toPlayable } from "../lib/video";
 import { generalLink, quoteLink, whatsappLink, WHATSAPP_DISPLAY } from "../lib/whatsapp";
 
 const areas = [
@@ -39,6 +41,8 @@ function Chip({ p }: { p: Product }) {
 export default function Home() {
   const { products, ready, available } = useCatalog();
   const auth = useAuth();
+  const { video } = useFeaturedVideo();
+  const media = toPlayable(video);
   const isAdmin = auth.isAdmin;
   const [view, setView] = useState<"site" | "admin">("site");
   const [open, setOpen] = useState<Product | null>(null);
@@ -190,6 +194,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {media && video && <FeaturedVideoSection media={media} title={video.title} description={video.description} />}
 
       {/* PRODUTOS */}
       <section id="produtos" className="mx-auto max-w-6xl px-4 py-16 sm:px-6">

@@ -7,6 +7,7 @@ const anonKey = ((import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined) 
 
 export const supabase: SupabaseClient | null = url && anonKey ? createClient(url, anonKey) : null;
 export const PHOTO_BUCKET = "product-photos";
+export const VIDEO_BUCKET = "site-videos";
 
 export function photoUrl(path: string): string {
   if (!supabase) return "";
