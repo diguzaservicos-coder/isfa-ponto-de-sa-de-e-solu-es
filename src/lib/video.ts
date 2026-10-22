@@ -57,3 +57,14 @@ export function toPlayable(v: FeaturedVideo | null): Playable | null {
   }
   return parseVideoUrl(v.url);
 }
+
+/** Vídeo que acompanha o site (public/videos). Usado enquanto a gestão não definir outro. */
+export const DEFAULT_VIDEO: FeaturedVideo = {
+  enabled: true,
+  source: "upload",
+  url: "/videos/destaque.mp4",
+  path: "",
+  title: "Conheça a ISFA",
+  description: "",
+};
+export const DEFAULT_POSTER = "/videos/destaque.jpg";

@@ -3,7 +3,7 @@ import { Film, Loader2, Trash2, Upload } from "lucide-react";
 import { VideoPlayer } from "./FeaturedVideo";
 import { blankVideo, FeaturedVideo, VIDEO_MAX_BYTES } from "../lib/backends/types";
 import { deleteVideoFile, saveVideo, uploadVideo, useFeaturedVideo } from "../lib/store";
-import { parseVideoUrl, toPlayable } from "../lib/video";
+import { DEFAULT_VIDEO, parseVideoUrl, toPlayable } from "../lib/video";
 
 type Msg = { kind: "ok" | "error"; text: string } | null;
 const field = "w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-isfa-blue focus:outline-none focus:ring-2 focus:ring-isfa-blue/20";
@@ -18,8 +18,8 @@ export default function VideoPanel() {
 
   useEffect(() => {
     if (loaded) {
-      setForm(video ?? blankVideo);
-      setSaved(video ?? blankVideo);
+      setForm(video ?? DEFAULT_VIDEO);
+      setSaved(video ?? DEFAULT_VIDEO);
     }
   }, [loaded, video]);
 

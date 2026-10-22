@@ -8,7 +8,7 @@ import ProductModal from "../components/ProductModal";
 import logo from "../assets/logo-isfa.webp";
 import { availability, formatPrice, groupByCategory, imageUrl, Product } from "../lib/products";
 import { signOut, useAuth, useCatalog, useFeaturedVideo } from "../lib/store";
-import { toPlayable } from "../lib/video";
+import { DEFAULT_POSTER, DEFAULT_VIDEO, toPlayable } from "../lib/video";
 import { generalLink, quoteLink, whatsappLink, WHATSAPP_DISPLAY } from "../lib/whatsapp";
 
 const areas = [
@@ -41,8 +41,9 @@ function Chip({ p }: { p: Product }) {
 export default function Home() {
   const { products, ready, available } = useCatalog();
   const auth = useAuth();
-  const { video } = useFeaturedVideo();
-  const media = toPlayable(video);
+  const { video, loaded } = useFeaturedVideo();
+  const shown = loaded ? (video ?? DEFAULT_VIDEO) : null;
+  const media = toPlayable(shown);
   const isAdmin = auth.isAdmin;
   const [view, setView] = useState<"site" | "admin">("site");
   const [open, setOpen] = useState<Product | null>(null);
@@ -195,7 +196,9 @@ export default function Home() {
         </div>
       </section>
 
-      {media && video && <FeaturedVideoSection media={media} title={video.title} description={video.description} />}
+      {media && shown && (
+        <FeaturedVideoSection media={media} title={shown.title} description={shown.description} poster={shown === DEFAULT_VIDEO ? DEFAULT_POSTER : undefined} />
+      )}
 
       {/* PRODUTOS */}
       <section id="produtos" className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
