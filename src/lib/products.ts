@@ -1,3 +1,9 @@
+import img_agitador_kj201bs from "../assets/agitador-orbital-kj201bs.webp";
+import img_cadeira_colheita_isfa from "../assets/cadeira-colheita-isfa.webp";
+import img_microscopio_cx23_isfa from "../assets/microscopio-cx23-isfa.webp";
+import img_monitor_isfa from "../assets/monitor-multiparametrico-isfa.webp";
+import img_monitor_acessorios from "../assets/monitor-multiparametrico-acessorios.webp";
+import img_carrinho_medicacao_isfa from "../assets/carrinho-medicacao-isfa.webp";
 import imgKit from "../assets/kit-primeiros-socorros.webp";
 import imgCadeira from "../assets/cadeira-de-rodas.webp";
 import imgCirurgico from "../assets/kit-instrumentos-cirurgicos.webp";
@@ -129,6 +135,12 @@ export type Product = {
 export const LOW_STOCK = 5;
 
 const builtin: Record<string, string> = {
+  "agitador-orbital-kj201bs": img_agitador_kj201bs,
+  "cadeira-colheita-isfa": img_cadeira_colheita_isfa,
+  "microscopio-cx23-isfa": img_microscopio_cx23_isfa,
+  "monitor-multiparametrico-isfa": img_monitor_isfa,
+  "monitor-multiparametrico-acessorios": img_monitor_acessorios,
+  "carrinho-medicacao-isfa": img_carrinho_medicacao_isfa,
   "kit-primeiros-socorros": imgKit,
   "cadeira-de-rodas": imgCadeira,
   "kit-instrumentos-cirurgicos": imgCirurgico,

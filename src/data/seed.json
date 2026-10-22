@@ -474,13 +474,14 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "builtin:cadeira-colheita",
+    "mainImage": "builtin:cadeira-colheita-isfa",
     "images": [
+      "builtin:cadeira-colheita-isfa",
       "builtin:cadeira-colheita"
     ],
     "featured": false,
     "order": 22,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-22T14:30:00.000Z"
   },
   "cadeira-odontologica": {
     "name": "Cadeira odontológica",
@@ -567,13 +568,14 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "builtin:carrinho-medicacao",
+    "mainImage": "builtin:carrinho-medicacao-isfa",
     "images": [
+      "builtin:carrinho-medicacao-isfa",
       "builtin:carrinho-medicacao"
     ],
     "featured": false,
     "order": 26,
-    "updatedAt": "2026-10-15T22:25:51.000Z"
+    "updatedAt": "2026-10-22T14:30:00.000Z"
   },
   "carrinho-de-tratamento": {
     "name": "Carrinho de tratamento",
@@ -1018,13 +1020,14 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "builtin:olympus-cx23",
+    "mainImage": "builtin:microscopio-cx23-isfa",
     "images": [
+      "builtin:microscopio-cx23-isfa",
       "builtin:olympus-cx23"
     ],
     "featured": false,
     "order": 46,
-    "updatedAt": "2026-10-15T18:30:00.000Z"
+    "updatedAt": "2026-10-22T14:30:00.000Z"
   },
   "centrifuga-laboratorial-de-6-tubos": {
     "name": "Centrífuga de 6 saídas",
@@ -1947,14 +1950,16 @@
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "builtin:monitor",
+    "mainImage": "builtin:monitor-multiparametrico-isfa",
     "images": [
+      "builtin:monitor-multiparametrico-isfa",
+      "builtin:monitor-multiparametrico-acessorios",
       "builtin:monitor",
       "builtin:monitor-2"
     ],
     "featured": false,
     "order": 83,
-    "updatedAt": "2026-10-11T21:00:00.000Z",
+    "updatedAt": "2026-10-22T14:30:00.000Z",
     "inStock": false
   },
   "eletrocardiografo-ecg-de-1-canal": {
@@ -2333,5 +2338,44 @@
     "order": 97,
     "updatedAt": "2026-10-15T22:25:51.000Z",
     "inStock": false
+  },
+  "agitador-orbital-kj201bs": {
+    "name": "Agitador orbital KJ-201BS",
+    "reference": "",
+    "category": "Equipamentos laboratoriais",
+    "brand": "",
+    "model": "KJ-201BS",
+    "shortDescription": "Agitador orbital de bancada para misturar e agitar amostras em laboratório.",
+    "description": "Agitador orbital de bancada, modelo KJ-201BS, com plataforma plana de rebordo elevado, interruptor ON/OFF, regulação de velocidade e temporizador no painel frontal.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Modelo",
+        "value": "KJ-201BS"
+      },
+      {
+        "label": "Velocidade",
+        "value": "Regulável (escala de 20 a 200)"
+      },
+      {
+        "label": "Temporizador",
+        "value": "Regulável (escala de 3 a 12)"
+      },
+      {
+        "label": "Comandos",
+        "value": "Interruptor ON/OFF e dois botões rotativos"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:agitador-orbital-kj201bs",
+    "images": [
+      "builtin:agitador-orbital-kj201bs"
+    ],
+    "featured": false,
+    "order": 98,
+    "updatedAt": "2026-10-22T14:30:00.000Z"
   }
 }
