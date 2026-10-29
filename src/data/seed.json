@@ -1571,13 +1571,14 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "builtin:autoclave-50",
+    "mainImage": "builtin:autoclave-vertical-isfa",
     "images": [
+      "builtin:autoclave-vertical-isfa",
       "builtin:autoclave-50"
     ],
     "featured": false,
     "order": 68,
-    "updatedAt": "2026-10-15T14:00:00.000Z"
+    "updatedAt": "2026-10-29T19:30:00.000Z"
   },
   "laminas-cirurgicas": {
     "name": "Lâminas cirúrgicas",
@@ -2308,13 +2309,15 @@
     "showPrice": false,
     "stock": null,
     "showStock": false,
-    "mainImage": "builtin:ecografo-doppler",
+    "mainImage": "builtin:ecografo-doppler-isfa-1",
     "images": [
+      "builtin:ecografo-doppler-isfa-1",
+      "builtin:ecografo-doppler-isfa-acessorios",
       "builtin:ecografo-doppler"
     ],
     "featured": false,
     "order": 96,
-    "updatedAt": "2026-10-15T22:25:51.000Z",
+    "updatedAt": "2026-10-29T19:30:00.000Z",
     "inStock": false
   },
   "monitor-fetal-ctg": {
@@ -2377,5 +2380,235 @@
     "featured": false,
     "order": 98,
     "updatedAt": "2026-10-22T14:30:00.000Z"
+  },
+  "agitador-orbital-kj201bd": {
+    "name": "Agitador orbital KJ-201BD",
+    "reference": "",
+    "category": "Equipamentos laboratoriais",
+    "brand": "Kangyumed",
+    "model": "KJ-201BD",
+    "shortDescription": "Agitador orbital de bancada com velocidade regulável até 210 rpm.",
+    "description": "Agitador orbital de bancada, modelo KJ-201BD, com plataforma plana de rebordo elevado, interruptor ON/OFF, botão de velocidade e temporizador no painel lateral.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Modelo",
+        "value": "KJ-201BD"
+      },
+      {
+        "label": "Velocidade",
+        "value": "Regulável, escala de 0 a 210 rpm"
+      },
+      {
+        "label": "Comandos",
+        "value": "Interruptor ON/OFF, botão de velocidade e temporizador"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:agitador-orbital-kj201bd",
+    "images": [
+      "builtin:agitador-orbital-kj201bd"
+    ],
+    "featured": false,
+    "order": 99,
+    "updatedAt": "2026-10-29T19:30:00.000Z"
+  },
+  "analisador-bioquimico-semiautomatico": {
+    "name": "Analisador bioquímico semiautomático",
+    "reference": "",
+    "category": "Equipamentos laboratoriais",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Analisador para testes de bioquímica clínica, com visor e impressora integrada.",
+    "description": "Analisador bioquímico semiautomático de bancada, com visor LCD, teclado numérico, teclas BLANK, STANDARD, CLEAN, MENU e ENTER, e impressora térmica integrada. Disponível em modelos de marcas diferentes (Sinothinker e Kangyumed): confirme com a equipa da ISFA o modelo em stock.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Visor",
+        "value": "LCD"
+      },
+      {
+        "label": "Teclado",
+        "value": "Numérico, com teclas BLANK, STANDARD, CLEAN, MENU e ENTER"
+      },
+      {
+        "label": "Impressora",
+        "value": "Integrada"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:analisador-bioquimico-sinothinker",
+    "images": [
+      "builtin:analisador-bioquimico-sinothinker",
+      "builtin:analisador-bioquimico-kangyumed"
+    ],
+    "featured": false,
+    "order": 100,
+    "updatedAt": "2026-10-29T19:30:00.000Z"
+  },
+  "misturador-de-rolos": {
+    "name": "Misturador de rolos (Roll Mixer)",
+    "reference": "",
+    "category": "Equipamentos laboratoriais",
+    "brand": "Kangyumed",
+    "model": "",
+    "shortDescription": "Misturador de tubos de 7 rolos, com velocidade regulável.",
+    "description": "Misturador de rolos para homogeneizar amostras em tubos, com 7 rolos, botão de velocidade e interruptor ON/OFF.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Rolos",
+        "value": "7"
+      },
+      {
+        "label": "Comandos",
+        "value": "Botão de velocidade e interruptor ON/OFF"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:misturador-de-rolos",
+    "images": [
+      "builtin:misturador-de-rolos"
+    ],
+    "featured": false,
+    "order": 101,
+    "updatedAt": "2026-10-29T19:30:00.000Z"
+  },
+  "balanca-de-precisao": {
+    "name": "Balança de precisão",
+    "reference": "",
+    "category": "Equipamentos laboratoriais",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Balança digital de laboratório com prato em aço inoxidável e visor LCD.",
+    "description": "Balança digital de precisão para laboratório, com prato circular em aço inoxidável, visor LCD e teclas ON, OFF, INT, CAL, UNIT, COU, ASD, TAR e PRT.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Prato",
+        "value": "Aço inoxidável, circular"
+      },
+      {
+        "label": "Visor",
+        "value": "LCD"
+      },
+      {
+        "label": "Funções",
+        "value": "Tara, calibração, mudança de unidade e contagem"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:balanca-de-precisao",
+    "images": [
+      "builtin:balanca-de-precisao"
+    ],
+    "featured": false,
+    "order": 102,
+    "updatedAt": "2026-10-29T19:30:00.000Z"
+  },
+  "monitor-de-colheita-de-sangue": {
+    "name": "Monitor de colheita de sangue",
+    "reference": "",
+    "category": "Equipamentos laboratoriais",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Balança-monitor para controlar o volume de sangue colhido, em mL.",
+    "description": "Monitor de colheita de sangue (Blood Collection Monitor) com visor digital em mL, tabuleiro de apoio da bolsa e teclas de tara, calibração e configuração.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Visor",
+        "value": "Digital, em mL"
+      },
+      {
+        "label": "Teclas",
+        "value": "Sway, Cancel, Choose, Tare/Calibration, Set/Enter"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:monitor-de-colheita-de-sangue",
+    "images": [
+      "builtin:monitor-de-colheita-de-sangue"
+    ],
+    "featured": false,
+    "order": 103,
+    "updatedAt": "2026-10-29T19:30:00.000Z"
+  },
+  "monitor-de-paciente-teclas-de-atalho": {
+    "name": "Monitor de paciente com teclas de atalho",
+    "reference": "",
+    "category": "Equipamentos de diagnóstico e monitorização",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Monitor de paciente de corpo branco, com teclas de atalho e botão rotativo.",
+    "description": "Monitor de paciente com ecrã de grandes dimensões, corpo branco, alça de transporte, teclas de atalho (SILENCE, PAUSE, FREEZE, NIBP, PRINT e MAIN) e botão rotativo. Medidas e parâmetros monitorizados devem ser confirmados com a equipa da ISFA.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Corpo",
+        "value": "Branco, com alça de transporte"
+      },
+      {
+        "label": "Teclas",
+        "value": "SILENCE, PAUSE, FREEZE, NIBP, PRINT, MAIN"
+      },
+      {
+        "label": "Comandos",
+        "value": "Botão rotativo"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:monitor-paciente-teclas",
+    "images": [
+      "builtin:monitor-paciente-teclas"
+    ],
+    "featured": false,
+    "order": 104,
+    "updatedAt": "2026-10-29T19:30:00.000Z"
+  },
+  "papel-para-ecg": {
+    "name": "Papel térmico para ECG",
+    "reference": "",
+    "category": "Material de colheita, testes e consumíveis clínicos",
+    "brand": "",
+    "model": "",
+    "shortDescription": "Rolos de papel térmico para eletrocardiógrafos, em dois tamanhos.",
+    "description": "Rolos de papel térmico para eletrocardiógrafos (ECG), disponíveis nas medidas 80×20 e 215×20.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "specs": [
+      {
+        "label": "Medidas",
+        "value": "80×20 e 215×20"
+      }
+    ],
+    "price": null,
+    "showPrice": false,
+    "stock": null,
+    "showStock": false,
+    "inStock": true,
+    "mainImage": "builtin:papel-ecg",
+    "images": [
+      "builtin:papel-ecg"
+    ],
+    "featured": false,
+    "order": 105,
+    "updatedAt": "2026-10-29T19:30:00.000Z"
   }
 }

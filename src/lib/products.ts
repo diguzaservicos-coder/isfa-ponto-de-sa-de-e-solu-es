@@ -4,6 +4,17 @@ import img_microscopio_cx23_isfa from "../assets/microscopio-cx23-isfa.webp";
 import img_monitor_isfa from "../assets/monitor-multiparametrico-isfa.webp";
 import img_monitor_acessorios from "../assets/monitor-multiparametrico-acessorios.webp";
 import img_carrinho_medicacao_isfa from "../assets/carrinho-medicacao-isfa.webp";
+import img_agitador_orbital_kj201bd from "../assets/agitador-orbital-kj201bd.webp";
+import img_ecografo_doppler_isfa_1 from "../assets/ecografo-doppler-isfa-1.webp";
+import img_ecografo_doppler_isfa_acessorios from "../assets/ecografo-doppler-isfa-acessorios.webp";
+import img_monitor_paciente_teclas from "../assets/monitor-paciente-teclas.webp";
+import img_analisador_bioquimico_sinothinker from "../assets/analisador-bioquimico-sinothinker.webp";
+import img_misturador_de_rolos from "../assets/misturador-de-rolos.webp";
+import img_analisador_bioquimico_kangyumed from "../assets/analisador-bioquimico-kangyumed.webp";
+import img_papel_ecg from "../assets/papel-ecg.webp";
+import img_balanca_de_precisao from "../assets/balanca-de-precisao.webp";
+import img_monitor_colheita_sangue from "../assets/monitor-colheita-sangue.webp";
+import img_autoclave_vertical_isfa from "../assets/autoclave-vertical-isfa.webp";
 import imgKit from "../assets/kit-primeiros-socorros.webp";
 import imgCadeira from "../assets/cadeira-de-rodas.webp";
 import imgCirurgico from "../assets/kit-instrumentos-cirurgicos.webp";
@@ -135,6 +146,17 @@ export type Product = {
 export const LOW_STOCK = 5;
 
 const builtin: Record<string, string> = {
+  "agitador-orbital-kj201bd": img_agitador_orbital_kj201bd,
+  "ecografo-doppler-isfa-1": img_ecografo_doppler_isfa_1,
+  "ecografo-doppler-isfa-acessorios": img_ecografo_doppler_isfa_acessorios,
+  "monitor-paciente-teclas": img_monitor_paciente_teclas,
+  "analisador-bioquimico-sinothinker": img_analisador_bioquimico_sinothinker,
+  "misturador-de-rolos": img_misturador_de_rolos,
+  "analisador-bioquimico-kangyumed": img_analisador_bioquimico_kangyumed,
+  "papel-ecg": img_papel_ecg,
+  "balanca-de-precisao": img_balanca_de_precisao,
+  "monitor-colheita-sangue": img_monitor_colheita_sangue,
+  "autoclave-vertical-isfa": img_autoclave_vertical_isfa,
   "agitador-orbital-kj201bs": img_agitador_kj201bs,
   "cadeira-colheita-isfa": img_cadeira_colheita_isfa,
   "microscopio-cx23-isfa": img_microscopio_cx23_isfa,
