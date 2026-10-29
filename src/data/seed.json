@@ -2541,9 +2541,9 @@
     "stock": null,
     "showStock": false,
     "inStock": true,
-    "mainImage": "builtin:monitor-de-colheita-de-sangue",
+    "mainImage": "builtin:monitor-colheita-sangue",
     "images": [
-      "builtin:monitor-de-colheita-de-sangue"
+      "builtin:monitor-colheita-sangue"
     ],
     "featured": false,
     "order": 103,
@@ -2556,7 +2556,7 @@
     "brand": "",
     "model": "",
     "shortDescription": "Monitor de paciente de corpo branco, com teclas de atalho e botão rotativo.",
-    "description": "Monitor de paciente com ecrã de grandes dimensões, corpo branco, alça de transporte, teclas de atalho (SILENCE, PAUSE, FREEZE, NIBP, PRINT e MAIN) e botão rotativo. Medidas e parâmetros monitorizados devem ser confirmados com a equipa da ISFA.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
+    "description": "Monitor de paciente com ecrã de grandes dimensões, corpo branco, alça de transporte, teclas de atalho (SILENCE, PAUSE, FREEZE, NIBP, PRINT e MAIN) e botão rotativo.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
     "specs": [
       {
         "label": "Corpo",
