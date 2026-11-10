@@ -38,3 +38,8 @@ section[id] {
 .fade-up {
   animation: fade-up 0.6s ease-out both;
 }
+
+@media print {
+  .no-print { display: none !important; }
+  body { background: #fff; }
+}

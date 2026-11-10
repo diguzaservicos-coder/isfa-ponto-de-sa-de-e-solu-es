@@ -1,6 +1,6 @@
 import { use } from "../claude";
 import { byOrder, fromDoc, Product, slugify, toDoc } from "../products";
-import { Backend, blankVideo, FeaturedVideo, newProductId, prepareImage, StockMovement } from "./types";
+import { Backend, Order, OrderInput, blankVideo, FeaturedVideo, newProductId, prepareImage, StockMovement } from "./types";
 
 // Destino usado na pré-visualização publicada na plataforma Claude (base de dados + fotografias da página).
 // Coleções: products (publicados), productDrafts (rascunhos, só a gestão lê), stockMovements (só a gestão).
@@ -141,6 +141,47 @@ export const platform: Backend = {
   async importStock(rows, reason) {
     for (const r of rows) await platform.saveProduct({ ...r.product, stock: r.qty }, r.product, [], reason);
     return rows.length;
+  },
+
+  async loadOrders() {
+    const db = await use<any>("db");
+    if (!db) return [];
+    const snap = await db.collection("orders").get();
+    return snap.docs.map((d: any) => ({ id: d.id, ...d.data() }) as Order).sort((a: Order, b: Order) => b.createdAt.localeCompare(a.createdAt));
+  },
+
+  async saveOrder(o: OrderInput) {
+    const db = await use<any>("db");
+    if (!db) throw new Error("A base de dados não está disponível nesta visualização.");
+    const all: Order[] = await this.loadOrders();
+    const prev = o.id ? all.find((x) => x.id === o.id) : undefined;
+    const sub = o.items.reduce((t, i) => t + i.qty * i.unitPrice, 0);
+    const id = o.id ?? crypto.randomUUID();
+    const doc: Order = {
+      ...o,
+      id,
+      number: prev?.number ?? Math.max(0, ...all.map((x) => x.number)) + 1,
+      total: Math.max(sub - o.discount + o.deliveryFee, 0),
+      createdAt: prev?.createdAt ?? new Date().toISOString(),
+      deliveredAt: o.status === "entregue" ? (prev?.deliveredAt ?? new Date().toISOString()) : null,
+    };
+    await db.doc(`orders/${id}`).set(doc);
+    window.dispatchEvent(new Event("isfa:orders"));
+  },
+
+  async deleteOrder(id) {
+    const db = await use<any>("db");
+    if (db) await db.doc(`orders/${id}`).delete();
+    window.dispatchEvent(new Event("isfa:orders"));
+  },
+
+  async resetOrders() {
+    const db = await use<any>("db");
+    if (!db) return 0;
+    const snap = await db.collection("orders").get();
+    for (const d of snap.docs) await db.doc(`orders/${d.id}`).delete();
+    window.dispatchEvent(new Event("isfa:orders"));
+    return snap.docs.length;
   },
 
   async loadVideo() {

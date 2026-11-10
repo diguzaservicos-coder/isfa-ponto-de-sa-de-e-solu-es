@@ -1,6 +1,6 @@
 import { PHOTO_BUCKET, supabase, VIDEO_BUCKET } from "../supabaseClient";
 import { byOrder, Product, slugify } from "../products";
-import { AuthState, Backend, blankVideo, checkVideoFile, FeaturedVideo, newProductId, prepareImage, StockMovement } from "./types";
+import { AuthState, Backend, Order, OrderInput, blankVideo, checkVideoFile, FeaturedVideo, newProductId, prepareImage, StockMovement } from "./types";
 
 // Destino de produção: Supabase (Postgres + Auth + Storage). A segurança está nas políticas RLS de supabase/schema.sql.
 
@@ -259,6 +259,70 @@ export const supabaseBackend: Backend = {
     if (error) throw friendly(error, "Não foi possível importar as quantidades. Nada foi alterado.");
     notify();
     return Number(data);
+  },
+
+  async placeOrder(c) {
+    const { data, error } = await db().rpc("place_order", { p_name: c.name, p_phone: c.phone, p_address: c.address, p_notes: c.notes, p_items: c.items });
+    if (error) {
+      if (/place_order|function/i.test(error.message ?? "") && error.code !== "P0001") throw new Error("O registo de encomendas ainda não está ativo. Envie o pedido pelo WhatsApp.");
+      throw friendly(error, "Não foi possível registar a encomenda. Tente novamente ou fale connosco pelo WhatsApp.");
+    }
+    return Number(data) || null;
+  },
+
+  async loadOrders() {
+    const { data, error } = await db().from("orders").select("*").order("created_at", { ascending: false }).limit(5000);
+    if (error) throw friendly(error, "Não foi possível carregar as encomendas. Execute supabase/encomendas.sql no Supabase.");
+    return (data ?? []).map(
+      (r: any): Order => ({
+        id: r.id,
+        number: Number(r.number),
+        customerName: str(r.customer_name),
+        customerPhone: str(r.customer_phone),
+        customerAddress: str(r.customer_address),
+        status: r.status === "entregue" || r.status === "cancelado" ? r.status : "pendente",
+        items: Array.isArray(r.items)
+          ? r.items.map((i: any) => ({ productId: str(i.productId), name: str(i.name), qty: Number(i.qty) || 0, unitPrice: Number(i.unitPrice) || 0 }))
+          : [],
+        discount: Number(r.discount) || 0,
+        deliveryFee: Number(r.delivery_fee) || 0,
+        total: Number(r.total) || 0,
+        notes: str(r.notes),
+        createdAt: str(r.created_at),
+        deliveredAt: r.delivered_at ? str(r.delivered_at) : null,
+      }),
+    );
+  },
+
+  async saveOrder(o: OrderInput) {
+    const row = {
+      customer_name: o.customerName,
+      customer_phone: o.customerPhone,
+      customer_address: o.customerAddress,
+      status: o.status,
+      items: o.items,
+      discount: o.discount,
+      delivery_fee: o.deliveryFee,
+      notes: o.notes,
+    };
+    const { error } = o.id ? await db().from("orders").update(row).eq("id", o.id) : await db().from("orders").insert(row);
+    if (error) throw friendly(error, "Não foi possível guardar a encomenda. Tente novamente.");
+    window.dispatchEvent(new Event("isfa:orders"));
+    window.dispatchEvent(new Event("isfa:catalog"));
+  },
+
+  async deleteOrder(id) {
+    const { error } = await db().from("orders").delete().eq("id", id);
+    if (error) throw friendly(error, "Não foi possível eliminar a encomenda.");
+    window.dispatchEvent(new Event("isfa:orders"));
+    window.dispatchEvent(new Event("isfa:catalog"));
+  },
+
+  async resetOrders() {
+    const { data, error } = await db().rpc("reset_orders");
+    if (error) throw friendly(error, "Não foi possível zerar as operações.");
+    window.dispatchEvent(new Event("isfa:orders"));
+    return Number(data) || 0;
   },
 
   async loadVideo() {

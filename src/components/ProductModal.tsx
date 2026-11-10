@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { MessageCircle, X } from "lucide-react";
 import { availability, formatPrice, imageUrl, Product } from "../lib/products";
+import { AddToCart } from "./Cart";
 import { quoteLink } from "../lib/whatsapp";
 
 export default function ProductModal({ product, onClose }: { product: Product; onClose: () => void }) {
@@ -112,11 +113,12 @@ export default function ProductModal({ product, onClose }: { product: Product; o
               </dl>
             )}
 
+            <AddToCart product={product} className="mt-6 w-full py-3" />
             <a
               href={quoteLink(product)}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 flex items-center justify-center gap-2 rounded-full bg-isfa-green px-6 py-3 text-sm font-semibold text-white transition hover:bg-isfa-green-dark"
+              className="mt-3 flex items-center justify-center gap-2 rounded-full bg-isfa-green px-6 py-3 text-sm font-semibold text-white transition hover:bg-isfa-green-dark"
             >
               <MessageCircle size={18} /> Solicitar cotação pelo WhatsApp
             </a>

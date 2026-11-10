@@ -26,6 +26,25 @@ export type FeaturedVideo = {
 
 export const blankVideo: FeaturedVideo = { enabled: false, source: "link", url: "", path: "", title: "", description: "" };
 
+export type OrderStatus = "pendente" | "entregue" | "cancelado";
+export type OrderItem = { productId: string; name: string; qty: number; unitPrice: number };
+export type Order = {
+  id: string;
+  number: number;
+  customerName: string;
+  customerPhone: string;
+  customerAddress: string;
+  status: OrderStatus;
+  items: OrderItem[];
+  discount: number;
+  deliveryFee: number;
+  total: number;
+  notes: string;
+  createdAt: string;
+  deliveredAt: string | null;
+};
+export type OrderInput = Omit<Order, "id" | "number" | "total" | "createdAt" | "deliveredAt"> & { id?: string };
+
 export type StockKind = "entrada" | "saida" | "ajuste";
 
 export type AuthState = { loading: boolean; signedIn: boolean; isAdmin: boolean; email: string | null; error?: string };
@@ -43,6 +62,12 @@ export interface Backend {
   adjustStock(p: Product, kind: StockKind, qty: number, reason: string): Promise<number>;
   /** Define várias quantidades de uma vez (tudo ou nada). Devolve quantos produtos foram atualizados. */
   importStock(rows: { product: Product; qty: number }[], reason: string): Promise<number>;
+  /** Encomenda feita no site (sem login). Devolve o número da encomenda, ou null se este destino não guarda encomendas. */
+  placeOrder?(c: { name: string; phone: string; address: string; notes: string; items: { productId: string; qty: number }[] }): Promise<number | null>;
+  loadOrders(): Promise<Order[]>;
+  saveOrder(o: OrderInput): Promise<void>;
+  deleteOrder(id: string): Promise<void>;
+  resetOrders(): Promise<number>;
   loadVideo(): Promise<FeaturedVideo | null>;
   saveVideo(v: FeaturedVideo): Promise<FeaturedVideo>;
   /** Envia um ficheiro de vídeo (MP4/WebM, máx. 50 MB) e devolve o caminho guardado. */

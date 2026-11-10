@@ -4,6 +4,7 @@ import Nav from "../components/Nav";
 import Admin from "../components/Admin";
 import AdminLogin from "../components/AdminLogin";
 import FeaturedVideoSection from "../components/FeaturedVideo";
+import CartButton, { AddToCart } from "../components/Cart";
 import ProductModal from "../components/ProductModal";
 import logo from "../assets/logo-isfa.webp";
 import { availability, formatPrice, groupByCategory, imageUrl, Product } from "../lib/products";
@@ -305,6 +306,7 @@ export default function Home() {
                           <span className="text-sm font-semibold text-slate-700">{formatPrice(p)}</span>
                         </div>
                         <div className="mt-auto grid grid-cols-2 gap-2 pt-4">
+                          <AddToCart product={p} className="col-span-2" />
                           <button
                             type="button"
                             onClick={() => setOpen(p)}
@@ -433,6 +435,7 @@ export default function Home() {
       </a>
 
       {open && <ProductModal product={open} onClose={() => setOpen(null)} />}
+      <CartButton products={products} />
     </div>
   );
 }

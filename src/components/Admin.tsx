@@ -1,5 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowLeft, ImagePlus, Plus, Star, Trash2 } from "lucide-react";
+import DashboardPanel from "./DashboardPanel";
+import FinancePanel from "./FinancePanel";
+import OrdersPanel from "./OrdersPanel";
 import VideoPanel from "./VideoPanel";
 import StockPanel from "./StockPanel";
 import {
@@ -12,7 +15,7 @@ import {
   Product,
   Spec,
 } from "../lib/products";
-import { deleteProduct, loadMovements, resolveNames, saveProduct, StockMovement, uploadPhoto } from "../lib/store";
+import { deleteProduct, loadMovements, resolveNames, saveProduct, StockMovement, uploadPhoto, useOrders } from "../lib/store";
 
 const input =
   "w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-800 focus:border-isfa-blue focus:outline-none focus:ring-2 focus:ring-isfa-blue/20";
@@ -43,7 +46,8 @@ export default function Admin({
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [form, setForm] = useState<Product | null>(null);
   const [isNew, setIsNew] = useState(false);
-  const [tab, setTab] = useState<"produtos" | "stock" | "video">("produtos");
+  const orderData = useOrders();
+  const [tab, setTab] = useState<"dashboard" | "pedidos" | "financeiro" | "produtos" | "stock" | "video">("dashboard");
 
   const formRef = useRef<HTMLDivElement>(null);
   // Em ecrãs pequenos a lista fica por cima do formulário: ao escolher, desce até ele.
@@ -72,7 +76,7 @@ export default function Admin({
 
   return (
     <div className="min-h-screen bg-slate-50">
-      <header className="border-b border-slate-200 bg-white">
+      <header className="no-print border-b border-slate-200 bg-white">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
           <div>
             <h1 className="text-lg font-extrabold text-isfa-blue-dark">Gestão de produtos</h1>
@@ -100,6 +104,9 @@ export default function Admin({
         <div role="tablist" aria-label="Secções da gestão" className="mx-auto flex max-w-6xl gap-1 px-4 sm:px-6">
           {(
             [
+              ["dashboard", "Dashboard"],
+              ["pedidos", "Encomendas"],
+              ["financeiro", "Financeiro"],
               ["produtos", "Produtos"],
               ["stock", "Controlo de stock"],
               ["video", "Vídeo em destaque"],
@@ -121,7 +128,13 @@ export default function Admin({
         </div>
       </header>
 
-      {tab === "video" ? (
+      {tab === "dashboard" || tab === "pedidos" || tab === "financeiro" ? (
+        <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
+          {tab === "dashboard" && <DashboardPanel orders={orderData.orders} products={products} loaded={orderData.loaded} error={orderData.error} />}
+          {tab === "pedidos" && <OrdersPanel orders={orderData.orders} products={products} loaded={orderData.loaded} error={orderData.error} />}
+          {tab === "financeiro" && <FinancePanel orders={orderData.orders} loaded={orderData.loaded} error={orderData.error} />}
+        </div>
+      ) : tab === "video" ? (
         <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
           <VideoPanel />
         </div>

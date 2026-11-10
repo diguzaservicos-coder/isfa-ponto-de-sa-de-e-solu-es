@@ -3,7 +3,7 @@ import { hasPlatform } from "./claude";
 import { supabase } from "./supabaseClient";
 import { platform } from "./backends/platform";
 import { supabaseBackend } from "./backends/supabase";
-import type { AuthState, Backend, FeaturedVideo, StockKind, StockMovement } from "./backends/types";
+import type { AuthState, Backend, Order, OrderInput, FeaturedVideo, StockKind, StockMovement } from "./backends/types";
 import { Product, seedProducts } from "./products";
 
 export type { StockKind, StockMovement };
@@ -87,3 +87,45 @@ export function useFeaturedVideo(): { video: FeaturedVideo | null; loaded: boole
   }, []);
   return { video, loaded, reload: () => setTick((n) => n + 1) };
 }
+
+export const saveOrder = (o: OrderInput) => need().saveOrder(o);
+export const deleteOrder = (id: string) => need().deleteOrder(id);
+export const resetOrders = () => need().resetOrders();
+
+/** Encomendas registadas (só a gestão). Em modo de exemplo não há encomendas. */
+export function useOrders(): { orders: Order[]; loaded: boolean; error: string; reload: () => void } {
+  const [orders, setOrders] = useState<Order[]>([]);
+  const [loaded, setLoaded] = useState(false);
+  const [error, setError] = useState("");
+  const [tick, setTick] = useState(0);
+  useEffect(() => {
+    let alive = true;
+    if (!backend) {
+      setLoaded(true);
+      return;
+    }
+    backend
+      .loadOrders()
+      .then((o) => {
+        if (alive) {
+          setOrders(o);
+          setError("");
+        }
+      })
+      .catch((e) => alive && setError(e?.message ?? "Erro ao carregar encomendas."))
+      .finally(() => alive && setLoaded(true));
+    return () => {
+      alive = false;
+    };
+  }, [tick]);
+  useEffect(() => {
+    const on = () => setTick((n) => n + 1);
+    window.addEventListener("isfa:orders", on);
+    return () => window.removeEventListener("isfa:orders", on);
+  }, []);
+  return { orders, loaded, error, reload: () => setTick((n) => n + 1) };
+}
+
+/** Regista a encomenda feita no site. Devolve o número, ou null quando este modo não guarda encomendas (só WhatsApp). */
+export const placeOrder = (c: { name: string; phone: string; address: string; notes: string; items: { productId: string; qty: number }[] }) =>
+  backend?.placeOrder ? backend.placeOrder(c) : Promise.resolve(null);
