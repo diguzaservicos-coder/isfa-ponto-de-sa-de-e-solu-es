@@ -142,3 +142,5 @@ begin
 end; $$;
 revoke all on function public.place_order(text,text,text,text,jsonb) from public;
 grant execute on function public.place_order(text,text,text,text,jsonb) to anon, authenticated;
+
+revoke all on function public.orders_before_write() from public, anon, authenticated;
