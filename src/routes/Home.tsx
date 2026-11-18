@@ -124,7 +124,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen">
-      <Nav isAdmin={isAdmin} onAdmin={goAdmin} canLogin />
+      <Nav isAdmin={isAdmin} onAdmin={goAdmin} />
 
       <BannerStrip />
 
@@ -419,10 +419,14 @@ export default function Home() {
           </div>
           <p className="text-xs text-slate-500">
             © {new Date().getFullYear()} ISFA. Todos os direitos reservados.
-            {" · "}
-            <button type="button" onClick={goAdmin} className="underline hover:text-slate-700">
-              Área da equipa
-            </button>
+            {isAdmin && (
+              <>
+                {" · "}
+                <button type="button" onClick={goAdmin} className="underline hover:text-slate-700">
+                  Gestão
+                </button>
+              </>
+            )}
             <InstallApp />
           </p>
         </div>
