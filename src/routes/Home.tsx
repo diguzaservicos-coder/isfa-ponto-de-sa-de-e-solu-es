@@ -10,7 +10,7 @@ import ProductModal from "../components/ProductModal";
 import logo from "../assets/logo-isfa.webp";
 import { availability, formatPrice, groupByCategory, imageUrl, Product } from "../lib/products";
 import { signOut, useAuth, useCatalog, useFeaturedVideo } from "../lib/store";
-import { DEFAULT_POSTER, DEFAULT_VIDEO, toPlayable } from "../lib/video";
+import { toPlayable } from "../lib/video";
 import { generalLink, quoteLink, whatsappLink, WHATSAPP_DISPLAY } from "../lib/whatsapp";
 
 const areas = [
@@ -43,8 +43,8 @@ function Chip({ p }: { p: Product }) {
 export default function Home() {
   const { products, ready, available } = useCatalog();
   const auth = useAuth();
-  const { video, loaded } = useFeaturedVideo();
-  const shown = loaded ? (video ?? DEFAULT_VIDEO) : null;
+  const { video } = useFeaturedVideo();
+  const shown = video;
   const media = toPlayable(shown);
   const isAdmin = auth.isAdmin;
   const [view, setView] = useState<"site" | "admin">("site");
@@ -199,7 +199,7 @@ export default function Home() {
       </section>
 
       {media && shown && (
-        <FeaturedVideoSection media={media} title={shown.title} description={shown.description} poster={shown === DEFAULT_VIDEO ? DEFAULT_POSTER : undefined} />
+        <FeaturedVideoSection media={media} title={shown.title} description={shown.description} />
       )}
 
       {/* PRODUTOS */}
