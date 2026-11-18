@@ -1,6 +1,6 @@
-import { PHOTO_BUCKET, supabase, VIDEO_BUCKET } from "../supabaseClient";
+import { BANNER_BUCKET, PHOTO_BUCKET, supabase, VIDEO_BUCKET } from "../supabaseClient";
 import { byOrder, Product, slugify } from "../products";
-import { AuthState, Backend, Order, OrderInput, blankVideo, checkVideoFile, FeaturedVideo, newProductId, prepareImage, StockMovement } from "./types";
+import { AuthState, Backend, Banner,  Order, OrderInput, blankVideo, checkVideoFile, FeaturedVideo, newProductId, prepareImage, StockMovement } from "./types";
 
 // Destino de produção: Supabase (Postgres + Auth + Storage). A segurança está nas políticas RLS de supabase/schema.sql.
 
@@ -360,6 +360,38 @@ export const supabaseBackend: Backend = {
 
   async deleteVideoFile(path) {
     if (path) await db().storage.from(VIDEO_BUCKET).remove([path]);
+  },
+
+  async loadBanners() {
+    const { data, error } = await db().from("banners").select("*").order("position", { ascending: true }).order("created_at", { ascending: true });
+    if (error) return null;
+    return (data ?? []).map((r: any) => ({ id: r.id, image: str(r.image), title: str(r.title), link: str(r.link), enabled: r.enabled !== false, position: Number(r.position) || 0 }));
+  },
+
+  async saveBanner(b) {
+    const row = { image: b.image, title: b.title, link: b.link, enabled: b.enabled, position: b.position, updated_at: new Date().toISOString() };
+    const q = b.id ? db().from("banners").upsert({ id: b.id, ...row }, { onConflict: "id" }) : db().from("banners").insert(row);
+    const { data, error } = await q.select("id").single();
+    if (error) throw friendly(error, "Não foi possível guardar o banner. Confirme que o SQL dos banners foi executado no Supabase.");
+    window.dispatchEvent(new Event("isfa:banners"));
+    return { ...b, id: data.id };
+  },
+
+  async deleteBanner(b) {
+    const { error } = await db().from("banners").delete().eq("id", b.id);
+    if (error) throw friendly(error, "Não foi possível apagar o banner.");
+    if (b.image && !b.image.startsWith("builtin:")) await db().storage.from(BANNER_BUCKET).remove([b.image]);
+    window.dispatchEvent(new Event("isfa:banners"));
+  },
+
+  async uploadBanner(file) {
+    const blob = await prepareImage(file);
+    if (blob.size > 5 * 1024 * 1024) throw new Error(`"${file.name}" é demasiado grande (máx. 5 MB).`);
+    const ext = blob.type === "image/webp" ? "webp" : blob.type === "image/png" ? "png" : blob.type === "image/gif" ? "gif" : "jpg";
+    const path = `${crypto.randomUUID()}.${ext}`;
+    const { error } = await db().storage.from(BANNER_BUCKET).upload(path, blob, { contentType: blob.type, upsert: false });
+    if (error) throw friendly(error, "Não foi possível enviar a imagem. Tente novamente.");
+    return path;
   },
 
   async resolveNames(ids) {

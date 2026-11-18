@@ -3,6 +3,7 @@ import { MessageCircle, ArrowRight, Search, Stethoscope, FlaskConical, Package, 
 import Nav from "../components/Nav";
 import Admin from "../components/Admin";
 import AdminLogin from "../components/AdminLogin";
+import BannerStrip from "../components/BannerStrip";
 import FeaturedVideoSection from "../components/FeaturedVideo";
 import InstallApp from "../components/InstallApp";
 import CartButton, { AddToCart } from "../components/Cart";
@@ -124,6 +125,8 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <Nav isAdmin={isAdmin} onAdmin={goAdmin} canLogin />
+
+      <BannerStrip />
 
       {/* HERO */}
       <section id="inicio" className="relative overflow-hidden bg-gradient-to-br from-isfa-blue-soft via-white to-isfa-green-soft">

@@ -3,8 +3,9 @@ import { hasPlatform } from "./claude";
 import { supabase } from "./supabaseClient";
 import { platform } from "./backends/platform";
 import { supabaseBackend } from "./backends/supabase";
-import type { AuthState, Backend, Order, OrderInput, FeaturedVideo, StockKind, StockMovement } from "./backends/types";
+import type { AuthState, Backend, Banner, Order, OrderInput, FeaturedVideo, StockKind, StockMovement } from "./backends/types";
 import { Product, seedProducts } from "./products";
+import { defaultBanners } from "./banners";
 
 export type { StockKind, StockMovement };
 
@@ -129,3 +130,30 @@ export function useOrders(): { orders: Order[]; loaded: boolean; error: string; 
 /** Regista a encomenda feita no site. Devolve o número, ou null quando este modo não guarda encomendas (só WhatsApp). */
 export const placeOrder = (c: { name: string; phone: string; address: string; notes: string; items: { productId: string; qty: number }[] }) =>
   backend?.placeOrder ? backend.placeOrder(c) : Promise.resolve(null);
+
+export const saveBanner = (b: Banner) => need().saveBanner(b);
+export const deleteBanner = (b: Banner) => need().deleteBanner(b);
+export const uploadBanner = (f: File) => need().uploadBanner(f);
+
+/** Banners do topo da página. Sem ligação à base de dados (ou antes do SQL ser executado) usa os banners incluídos no site. */
+export function useBanners(): { banners: Banner[]; loaded: boolean; fromDb: boolean } {
+  const [state, setState] = useState<{ banners: Banner[]; loaded: boolean; fromDb: boolean }>({ banners: defaultBanners, loaded: !backend, fromDb: false });
+  const [tick, setTick] = useState(0);
+  useEffect(() => {
+    let alive = true;
+    if (!backend) return;
+    backend
+      .loadBanners()
+      .then((b) => alive && setState({ banners: b ?? defaultBanners, loaded: true, fromDb: b !== null }))
+      .catch(() => alive && setState({ banners: defaultBanners, loaded: true, fromDb: false }));
+    return () => {
+      alive = false;
+    };
+  }, [tick]);
+  useEffect(() => {
+    const on = () => setTick((n) => n + 1);
+    window.addEventListener("isfa:banners", on);
+    return () => window.removeEventListener("isfa:banners", on);
+  }, []);
+  return state;
+}

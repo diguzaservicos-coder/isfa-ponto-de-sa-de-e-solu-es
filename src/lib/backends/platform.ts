@@ -1,6 +1,6 @@
 import { use } from "../claude";
 import { byOrder, fromDoc, Product, slugify, toDoc } from "../products";
-import { Backend, Order, OrderInput, blankVideo, FeaturedVideo, newProductId, prepareImage, StockMovement } from "./types";
+import { Backend, Banner, Order, OrderInput, blankVideo, FeaturedVideo, newProductId, prepareImage, StockMovement } from "./types";
 
 // Destino usado na pré-visualização publicada na plataforma Claude (base de dados + fotografias da página).
 // Coleções: products (publicados), productDrafts (rascunhos, só a gestão lê), stockMovements (só a gestão).
@@ -206,6 +206,33 @@ export const platform: Backend = {
 
   async deleteVideoFile() {
     /* nada a apagar nesta pré-visualização */
+  },
+
+  async loadBanners() {
+    const db = await use<any>("db");
+    if (!db) return null;
+    const snap = await db.collection("banners").get();
+    return snap.docs.map((d: any) => ({ id: d.id, ...d.data() })).sort((a: Banner, b: Banner) => a.position - b.position) as Banner[];
+  },
+
+  async saveBanner(b) {
+    const db = await use<any>("db");
+    if (!db) throw new Error("A base de dados não está disponível nesta visualização.");
+    const id = b.id || crypto.randomUUID();
+    const { id: _i, ...rest } = b;
+    await db.doc(`banners/${id}`).set(rest);
+    window.dispatchEvent(new Event("isfa:banners"));
+    return { ...b, id };
+  },
+
+  async deleteBanner(b) {
+    const db = await use<any>("db");
+    if (db) await db.doc(`banners/${b.id}`).delete();
+    window.dispatchEvent(new Event("isfa:banners"));
+  },
+
+  async uploadBanner(file) {
+    return (this as any).uploadPhoto(file);
   },
 
   async resolveNames(ids) {

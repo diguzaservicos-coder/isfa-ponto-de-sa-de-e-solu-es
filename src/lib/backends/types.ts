@@ -26,6 +26,20 @@ export type FeaturedVideo = {
 
 export const blankVideo: FeaturedVideo = { enabled: false, source: "link", url: "", path: "", title: "", description: "" };
 
+/** Banner da faixa no topo da página principal. */
+export type Banner = {
+  id: string;
+  /** "builtin:<nome>" (imagem incluída no site) ou caminho no armazenamento. */
+  image: string;
+  title: string;
+  /** Endereço https:// ou secção da página (#produtos). Vazio = sem ligação. */
+  link: string;
+  enabled: boolean;
+  position: number;
+};
+export const BANNER_SECONDS = 10;
+export const validBannerLink = (l: string) => l === "" || /^https:\/\/\S+$/.test(l) || /^#[a-z0-9_-]+$/i.test(l);
+
 export type OrderStatus = "pendente" | "entregue" | "cancelado";
 export type OrderItem = { productId: string; name: string; qty: number; unitPrice: number };
 export type Order = {
@@ -73,6 +87,10 @@ export interface Backend {
   /** Envia um ficheiro de vídeo (MP4/WebM, máx. 50 MB) e devolve o caminho guardado. */
   uploadVideo(file: File): Promise<string>;
   deleteVideoFile(path: string): Promise<void>;
+  loadBanners(): Promise<Banner[] | null>;
+  saveBanner(b: Banner): Promise<Banner>;
+  deleteBanner(b: Banner): Promise<void>;
+  uploadBanner(file: File): Promise<string>;
   resolveNames(ids: string[]): Promise<Record<string, string>>;
   signIn?(email: string, password: string): Promise<void>;
   signOut?(): Promise<void>;

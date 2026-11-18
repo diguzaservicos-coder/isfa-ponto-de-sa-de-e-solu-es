@@ -4,6 +4,7 @@ import DashboardPanel from "./DashboardPanel";
 import FinancePanel from "./FinancePanel";
 import OrdersPanel from "./OrdersPanel";
 import VideoPanel from "./VideoPanel";
+import BannersPanel from "./BannersPanel";
 import StockPanel from "./StockPanel";
 import {
   availability,
@@ -47,7 +48,7 @@ export default function Admin({
   const [form, setForm] = useState<Product | null>(null);
   const [isNew, setIsNew] = useState(false);
   const orderData = useOrders();
-  const [tab, setTab] = useState<"dashboard" | "pedidos" | "financeiro" | "produtos" | "stock" | "video">("dashboard");
+  const [tab, setTab] = useState<"dashboard" | "pedidos" | "financeiro" | "produtos" | "stock" | "video" | "banners">("dashboard");
 
   const formRef = useRef<HTMLDivElement>(null);
   // Em ecrãs pequenos a lista fica por cima do formulário: ao escolher, desce até ele.
@@ -109,6 +110,7 @@ export default function Admin({
               ["financeiro", "Financeiro"],
               ["produtos", "Produtos"],
               ["stock", "Controlo de stock"],
+              ["banners", "Banners"],
               ["video", "Vídeo em destaque"],
             ] as const
           ).map(([k, t]) => (
@@ -133,6 +135,10 @@ export default function Admin({
           {tab === "dashboard" && <DashboardPanel orders={orderData.orders} products={products} loaded={orderData.loaded} error={orderData.error} />}
           {tab === "pedidos" && <OrdersPanel orders={orderData.orders} products={products} loaded={orderData.loaded} error={orderData.error} />}
           {tab === "financeiro" && <FinancePanel orders={orderData.orders} loaded={orderData.loaded} error={orderData.error} />}
+        </div>
+      ) : tab === "banners" ? (
+        <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
+          <BannersPanel />
         </div>
       ) : tab === "video" ? (
         <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
