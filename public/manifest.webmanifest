@@ -1,0 +1,24 @@
+{
+  "id": "/",
+  "name": "ISFA Equipamentos Hospitalares",
+  "short_name": "ISFA",
+  "description": "Catálogo de equipamentos hospitalares e material médico em Luanda. Encomende ou peça cotação pelo WhatsApp.",
+  "lang": "pt-AO",
+  "dir": "ltr",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#0b4f8a",
+  "categories": ["medical", "shopping", "business"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Produtos", "short_name": "Produtos", "url": "/?source=shortcut#produtos", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Área da equipa", "short_name": "Gestão", "url": "/?source=shortcut#gestao", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

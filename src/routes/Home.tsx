@@ -4,6 +4,7 @@ import Nav from "../components/Nav";
 import Admin from "../components/Admin";
 import AdminLogin from "../components/AdminLogin";
 import FeaturedVideoSection from "../components/FeaturedVideo";
+import InstallApp from "../components/InstallApp";
 import CartButton, { AddToCart } from "../components/Cart";
 import ProductModal from "../components/ProductModal";
 import logo from "../assets/logo-isfa.webp";
@@ -419,6 +420,7 @@ export default function Home() {
             <button type="button" onClick={goAdmin} className="underline hover:text-slate-700">
               Área da equipa
             </button>
+            <InstallApp />
           </p>
         </div>
       </footer>
