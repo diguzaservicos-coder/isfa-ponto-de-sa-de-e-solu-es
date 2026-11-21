@@ -2107,17 +2107,21 @@
     "inStock": false
   },
   "centrifuga-laboratorial-de-12-tubos": {
-    "name": "Centrífuga laboratorial de 12 tubos",
+    "name": "Centrífuga de 12 saídas",
     "reference": "",
     "category": "Equipamentos laboratoriais",
     "brand": "",
-    "model": "",
-    "shortDescription": "Centrífuga elétrica 800D, com corpo bege e cinzento e comandos de tempo e velocidade.",
-    "description": "Centrífuga elétrica 800D com tampa cónica bege, corpo cinzento e painel azul com dois comandos rotativos: um de tempo (ON/OFF) e outro de velocidade (SPEED).\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
+    "model": "80-2",
+    "shortDescription": "Centrífuga elétrica modelo 80-2, com capacidade de 12 posições e comandos de tempo e velocidade.",
+    "description": "Centrífuga elétrica modelo 80-2, de bancada, com corpo bege e painel azul. Tem comando de tempo, interruptor de ligar (POWER) e comando de velocidade (SPEED).\n\nMedidas, preço e disponibilidade devem ser confirmados com a equipa da ISFA.",
     "specs": [
       {
         "label": "Modelo",
-        "value": "800D"
+        "value": "80-2"
+      },
+      {
+        "label": "Capacidade",
+        "value": "12 posições"
       },
       {
         "label": "Comandos",
@@ -2128,9 +2132,9 @@
     "showPrice": true,
     "stock": null,
     "showStock": false,
-    "mainImage": "builtin:centrifuga-800d",
+    "mainImage": "builtin:centrifuga-80-2",
     "images": [
-      "builtin:centrifuga-800d"
+      "builtin:centrifuga-80-2"
     ],
     "featured": false,
     "order": 89,

@@ -85,6 +85,7 @@ import img_estufa_136_2 from "../assets/estufa-136-2.webp";
 import img_cadeira_odontologica from "../assets/cadeira-odontologica.webp";
 import img_monitor_2 from "../assets/monitor-2.webp";
 import img_centrifuga_24 from "../assets/centrifuga-24.webp";
+import img_centrifuga_80_2 from "../assets/centrifuga-80-2.webp";
 import img_oximetro_upalm from "../assets/oximetro-upalm.webp";
 import img_aspirador_manual from "../assets/aspirador-manual.webp";
 import img_avental_cirurgico from "../assets/avental-cirurgico.webp";
@@ -221,6 +222,7 @@ const builtin: Record<string, string> = {
   "cadeira-odontologica": img_cadeira_odontologica,
   "monitor-2": img_monitor_2,
   "centrifuga-24": img_centrifuga_24,
+  "centrifuga-80-2": img_centrifuga_80_2,
   "oximetro-upalm": img_oximetro_upalm,
   "cama-normal": img_cama_normal,
   "autoclave-35": img_autoclave_35,
