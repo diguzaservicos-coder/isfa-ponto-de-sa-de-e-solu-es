@@ -8,8 +8,8 @@
     "shortDescription": "Equipamento motorizado destinado a auxiliar a mobilidade de adultos com limitações de locomoção.",
     "description": "Equipamento motorizado destinado a auxiliar a mobilidade de adultos com limitações de locomoção. As especificações incluem autonomia da bateria, capacidade de carga, velocidade e tipo de comando.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
     "specs": [],
-    "price": null,
-    "showPrice": false,
+    "price": 600000,
+    "showPrice": true,
     "stock": null,
     "showStock": false,
     "inStock": true,
@@ -140,8 +140,8 @@
     "shortDescription": "Cadeira motorizada destinada à mobilidade infantil, com características de controlo e segurança próprias do modelo.",
     "description": "Cadeira motorizada destinada à mobilidade infantil, com características de controlo e segurança próprias do modelo.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
     "specs": [],
-    "price": null,
-    "showPrice": false,
+    "price": 550000,
+    "showPrice": true,
     "stock": null,
     "showStock": false,
     "inStock": true,
@@ -1015,8 +1015,8 @@
     "shortDescription": "Modelo específico de microscópio óptico binocular.",
     "description": "Modelo específico de microscópio óptico binocular. A configuração de objetivas, iluminação e acessórios deve ser confirmada na unidade comercializada.\n\nCaracterísticas técnicas, marca e preço devem ser confirmados com a equipa da ISFA.",
     "specs": [],
-    "price": null,
-    "showPrice": false,
+    "price": 1950000,
+    "showPrice": true,
     "stock": null,
     "showStock": false,
     "inStock": true,
@@ -1539,8 +1539,8 @@
         "value": "35 litros"
       }
     ],
-    "price": null,
-    "showPrice": false,
+    "price": 990000,
+    "showPrice": true,
     "stock": null,
     "showStock": false,
     "inStock": true,
@@ -1566,8 +1566,8 @@
         "value": "50 litros"
       }
     ],
-    "price": null,
-    "showPrice": false,
+    "price": 1100000,
+    "showPrice": true,
     "stock": null,
     "showStock": false,
     "inStock": true,
@@ -1947,8 +1947,8 @@
         "value": "Teclas de atalho e botão rotativo"
       }
     ],
-    "price": null,
-    "showPrice": false,
+    "price": 460000,
+    "showPrice": true,
     "stock": null,
     "showStock": false,
     "mainImage": "builtin:monitor-multiparametrico-isfa",
@@ -2124,8 +2124,8 @@
         "value": "Tempo e velocidade"
       }
     ],
-    "price": null,
-    "showPrice": false,
+    "price": 190000,
+    "showPrice": true,
     "stock": null,
     "showStock": false,
     "mainImage": "builtin:centrifuga-800d",
