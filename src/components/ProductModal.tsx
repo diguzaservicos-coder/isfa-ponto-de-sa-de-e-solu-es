@@ -92,7 +92,7 @@ export default function ProductModal({ product, onClose }: { product: Product; o
                 <span className="text-xs text-slate-500">{product.stock} unidades</span>
               )}
             </div>
-            <p className="mt-4 text-xl font-bold text-slate-800">{formatPrice(product)}</p>
+            <p className={`mt-4 font-extrabold ${product.showPrice && product.price != null ? "text-3xl text-isfa-blue-dark" : "text-xl text-slate-800"}`}>{formatPrice(product)}</p>
 
             {product.description && (
               <div className="mt-4 space-y-3 text-sm leading-relaxed text-slate-600">

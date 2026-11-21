@@ -283,7 +283,7 @@ export function availability(p: Pick<Product, "stock"> & { inStock?: boolean }):
 
 export function formatPrice(p: Pick<Product, "price" | "showPrice">): string {
   if (p.showPrice && p.price !== null && p.price !== undefined) {
-    return new Intl.NumberFormat("pt-PT", { maximumFractionDigits: 2 }).format(p.price) + " Kz";
+    return new Intl.NumberFormat("de-DE", { maximumFractionDigits: 2 }).format(p.price) + " Kz";
   }
   return "Sem preço";
 }

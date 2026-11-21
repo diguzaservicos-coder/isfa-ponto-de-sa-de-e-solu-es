@@ -305,9 +305,14 @@ export default function Home() {
                         <h4 className="text-lg font-bold text-isfa-blue-dark">{p.name}</h4>
                         {p.reference && <p className="text-sm text-slate-500">Ref.: {p.reference}</p>}
                         {p.shortDescription && <p className="text-sm text-slate-600">{p.shortDescription}</p>}
+                        {p.showPrice && p.price !== null && p.price !== undefined && (
+                          <p className="pt-1 text-2xl font-extrabold text-isfa-blue-dark">
+                            {formatPrice(p).replace(" Kz", "")} <span className="text-base font-bold text-isfa-green-dark">Kz</span>
+                          </p>
+                        )}
                         <div className="flex flex-wrap items-center justify-between gap-2 pt-1">
                           <Chip p={p} />
-                          <span className="text-sm font-semibold text-slate-700">{formatPrice(p)}</span>
+                          {!(p.showPrice && p.price !== null && p.price !== undefined) && <span className="text-sm font-semibold text-slate-700">{formatPrice(p)}</span>}
                         </div>
                         <div className="mt-auto grid grid-cols-2 gap-2 pt-4">
                           <AddToCart product={p} className="col-span-2" />
